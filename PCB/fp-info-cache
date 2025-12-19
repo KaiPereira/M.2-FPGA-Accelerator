@@ -1,4 +1,4 @@
-26305946416877413
+26313010857627474
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59630,8 +59630,8 @@ M.2 M-Key 2242
 
 
 0
-67
-67
+68
+68
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -68830,6 +68830,34 @@ Yellow 5381 Series LED
 0
 2
 2
+M.2 Library
+M.2-B+M-KEY
+
+
+0
+60
+60
+M.2 Library
+M.2-B-KEY
+
+
+0
+68
+68
+M.2 Library
+M.2-B-KEY-2280-ADAPTER
+
+
+0
+69
+69
+M.2 Library
+M.2-KEY-BLANK
+
+
+0
+76
+76
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
