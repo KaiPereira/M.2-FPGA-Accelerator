@@ -14,7 +14,7 @@ FPGA's are becoming much more mainstream for parallelization and computing so I 
 
 The thing about FPGA's, is while they're really useful, it's hard to make practical applications of them as a hobbyist, because it's not like you're going to innovate the next big chip or something, but that's where I want to leverage the fact that FPGA's aren't just useful for mainstream chips, but also more niche applications like very specific hardware acceleration, that consumers can actually make cool use of and practice.
 
-![[Pasted image 20251216201028.png]]
+![Pasted image 20251216201028.png](images/Pasted%20image%2020251216201028.png)
 
 So the idea is simple, I want a low-cost way, hobbyists can make practical applications of FPGA's in a bunch of different settings.
 
@@ -34,13 +34,13 @@ This project has already been similarly done by Phil's lab, but his project was 
 
 Now the first thing I have to decided, is what type of edge connector I want to use. Now NVMe SSD's are standard M.2 size, but have different type of "keys" which is essentially where the different holes are on it:
 
-![[Pasted image 20251219113929.png]]
+![Pasted image 20251219113929.png](images/Pasted%20image%2020251219113929.png)
 
 NVMe SSD's mostly just use M-Key edge connectors, so that's what I'm going to use.
 
 But now, there's also more than just one type of size, there's actually 5 of them (probably more than that, but the 5 most common)
 
-![[Pasted image 20251219114039.png]]
+![Pasted image 20251219114039.png](images/Pasted%20image%2020251219114039.png)
 
 Now 2280 is by far the most common, but I don't actually think I'll use all that space, so for now, I think I'm going to go with 2242 which is decently common still but for other applications most of the time.
 
@@ -52,13 +52,13 @@ Lucky for me, someone's already made some M.2 footprints and symbols, so I'm goi
 
 Now this person didn't actually make an M-Key, so I had to modify one of the existing ones to make it. M.2 footprints are really interesting, because they literally just remove the pins where the key is and don't really shift anything, so it's easy to make footprints for:
 
-![[Pasted image 20251219114720.png]]
+![Pasted image 20251219114720.png](images/Pasted%20image%2020251219114720.png)
 
 Now I was thinking I might be able to use a B+M-Key to be more compatible, but the ECP5 only has a soft SATA PHY or SERDES which would be really complicated and annoying to implement, so I'm just keeping it symbol.
 
 And then this library I downloaded included the symbols already, so I'm all set to get working:
 
-![[Pasted image 20251219115014.png]]
+![Pasted image 20251219115014.png](images/Pasted%20image%2020251219115014.png)
 
 ## Edge connector wiring
 
@@ -66,8 +66,8 @@ Now I want to get working on actually wiring the edge connector! The first thing
 
 I decided to use one 100nF cap per pin, and then one 1uF + 10uF per group of them like so:
 
-![[Pasted image 20251219121205.png]]
+![Pasted image 20251219121205.png](images/Pasted%20image%2020251219121205.png)
 
 I'm referencing the M.2 PCI express electromechanical datasheet for pins https://picture.iczhiku.com/resource/eetop/sHksKPigIJigRbbx.pdf
 
-![[Pasted image 20251219121236.png]]
+![Pasted image 20251219121236.png](images/Pasted%20image%2020251219121236.png)
