@@ -52,7 +52,7 @@
 		(symbol "M.2_M-Key_1_1"
 			(rectangle
 				(start -10.16 -6.35)
-				(end 10.16 -76.2)
+				(end 10.16 -106.68)
 				(stroke
 					(width 0)
 					(type solid)
@@ -232,7 +232,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -250,7 +250,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -269,7 +269,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -288,7 +288,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -307,7 +307,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -326,7 +326,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -345,7 +345,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -364,7 +364,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -383,7 +383,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -402,7 +402,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -421,7 +421,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -440,7 +440,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -459,7 +459,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -478,7 +478,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -78.74 90)
+				(at 0 -109.22 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -533,7 +533,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -20.32 180)
+				(at 12.7 -21.59 180)
 				(length 2.54)
 				(name "PETp0"
 					(effects
@@ -551,7 +551,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -22.86 180)
+				(at 12.7 -24.13 180)
 				(length 2.54)
 				(name "PETn0"
 					(effects
@@ -569,7 +569,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -26.67 180)
+				(at 12.7 -29.21 180)
 				(length 2.54)
 				(name "PERp0"
 					(effects
@@ -587,7 +587,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -29.21 180)
+				(at 12.7 -31.75 180)
 				(length 2.54)
 				(name "PERn0"
 					(effects
@@ -605,7 +605,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -33.02 180)
+				(at 12.7 -36.83 180)
 				(length 2.54)
 				(name "PETp1"
 					(effects
@@ -623,7 +623,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -35.56 180)
+				(at 12.7 -39.37 180)
 				(length 2.54)
 				(name "PETn1"
 					(effects
@@ -641,7 +641,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -39.37 180)
+				(at 12.7 -44.45 180)
 				(length 2.54)
 				(name "PERp1"
 					(effects
@@ -659,7 +659,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -41.91 180)
+				(at 12.7 -46.99 180)
 				(length 2.54)
 				(name "PERn1"
 					(effects
@@ -677,7 +677,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -45.72 180)
+				(at 12.7 -52.07 180)
 				(length 2.54)
 				(name "PETp2"
 					(effects
@@ -695,7 +695,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -48.26 180)
+				(at 12.7 -54.61 180)
 				(length 2.54)
 				(name "PETn2"
 					(effects
@@ -713,7 +713,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -52.07 180)
+				(at 12.7 -59.69 180)
 				(length 2.54)
 				(name "PERp2"
 					(effects
@@ -731,7 +731,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -54.61 180)
+				(at 12.7 -62.23 180)
 				(length 2.54)
 				(name "PERn2"
 					(effects
@@ -740,7 +740,205 @@
 						)
 					)
 				)
-				(number ""
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -67.31 180)
+				(length 2.54)
+				(name "PETp3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -69.85 180)
+				(length 2.54)
+				(name "PETn3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -74.93 180)
+				(length 2.54)
+				(name "PERp3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -77.47 180)
+				(length 2.54)
+				(name "PERn3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -83.82 180)
+				(length 2.54)
+				(name "PEDET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "69"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -86.36 180)
+				(length 2.54)
+				(name "SUSCLK_(32Khz)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -88.9 180)
+				(length 2.54)
+				(name "PEWake#"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -91.44 180)
+				(length 2.54)
+				(name "CLKREQ#"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -93.98 180)
+				(length 2.54)
+				(name "PERST#"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -96.52 180)
+				(length 2.54)
+				(name "DEVSLP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -99.06 180)
+				(length 2.54)
+				(name "DAS/DSS#"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
