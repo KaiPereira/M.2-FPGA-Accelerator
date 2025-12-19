@@ -4,7 +4,7 @@ author: Kai Pereira
 description: " A low-cost, PCIe FPGA accelerator M.2 M-Key form factor devboard for hobbyists"
 created_at: 2025-12-16
 ---
-## The idea
+## The idea - 2 Hours
 
 I've worked on a ton of different boards ranging from keyboards, to motherboards to hackathon badges to even carriers, but now I want to work on something next level.
 
@@ -29,3 +29,21 @@ There's a couple key goals I have for this project:
 - Focus on routing best practices, specifically minimizing loops
 
 This project has already been similarly done by Phil's lab, but his project was more-so focused on acceleration instead of as a hobbyist development board, but this video will still be really useful to reference during development of this project! https://www.youtube.com/watch?v=8bw80LiCl7g
+
+## Connectors!!
+
+Now the first thing I have to decided, is what type of edge connector I want to use. Now NVMe SSD's are standard M.2 size, but have different type of "keys" which is essentially where the different holes are on it:
+
+![[Pasted image 20251219113929.png]]
+
+NVMe SSD's mostly just use M-Key edge connectors, so that's what I'm going to use.
+
+But now, there's also more than just one type of size, there's actually 5 of them (probably more than that, but the 5 most common)
+
+![[Pasted image 20251219114039.png]]
+
+Now 2280 is by far the most common, but I don't actually think I'll use all that space, so for now, I think I'm going to go with 2242 which is decently common still but for other applications most of the time.
+
+The numbering system is really simple. 2242 means 22mm x 42mm, 2280 means 22mm x 80mm.
+
+So now i have to create my footprint and symbol for these edge connectors
