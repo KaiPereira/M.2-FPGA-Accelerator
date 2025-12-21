@@ -96,13 +96,13 @@ I think this is honestly the perfect option, and I know Phil's Lab uses the same
 
 Now that I know I want to use the Artix 7 FPGA, I need to add it into KiCad. I'm really lucky because KiCad actually has this symbol built in, but the footprint doesn't seem to come up, so I'll need to look into that:
 
-![[Pasted image 20251220104108.png]]
+![Pasted image 20251220104108.png](images/Pasted%20image%2020251220104108.png)
 
-![[Pasted image 20251220104157.png]]
+![Pasted image 20251220104157.png](images/Pasted%20image%2020251220104157.png)
 
 And lucky me, a footprint actually does exist!!
 
-![[Pasted image 20251220104406.png]]
+![Pasted image 20251220104406.png](images/Pasted%20image%2020251220104406.png)
 
 Next, I want to figure out what voltage lines I need for my project. Based off of the datasheet, I'll need:
 - VCCINT 1V, FPGA fabric logic, lowest voltage for CMOS is 1V
@@ -113,4 +113,4 @@ Next, I want to figure out what voltage lines I need for my project. Based off o
 - VMGTAVTT 1V2, very interesting termination voltage, it basically controls the impedance of the GTP transceiver/PCIe lines, and makes sure they don't see reflections and too much nosie!
 - DDR3 Voltage, 1V5 for DDR3 I/O bank pins which are 1V5 for standard DDR3 (1V35 for DDR3L)
 
-![[Pasted image 20251220165608.png]]
+![Pasted image 20251220165608.png](images/Pasted%20image%2020251220165608.png)
