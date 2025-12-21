@@ -617,6 +617,10 @@
     [
       "abfa3eef-7060-47ce-b174-8a558214cf5b",
       "M.2 M-Key Edge Connector"
+    ],
+    [
+      "cfb4b539-ed39-4f7b-9936-258f867c86b5",
+      "FPGA Power"
     ]
   ],
   "text_variables": {}

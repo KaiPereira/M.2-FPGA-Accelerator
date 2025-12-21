@@ -104,3 +104,13 @@ And lucky me, a footprint actually does exist!!
 
 ![[Pasted image 20251220104406.png]]
 
+Next, I want to figure out what voltage lines I need for my project. Based off of the datasheet, I'll need:
+- VCCINT 1V, FPGA fabric logic, lowest voltage for CMOS is 1V
+- VCCBRAM 1V. internal block RAM, needs to be really stable
+- VMGTAVCC 1V, analog GTP transceivers voltage, might need to be seperate from VCCINT
+- VCCAUX 1V8, powers configuration and clocking stuff, 1V8 for noise margin
+- VCCO 3V3, powers I/O banks 3V3 because connector is 3V3 and I use 3V3 logic
+- VMGTAVTT 1V2, very interesting termination voltage, it basically controls the impedance of the GTP transceiver/PCIe lines, and makes sure they don't see reflections and too much nosie!
+- DDR3 Voltage, 1V5 for DDR3 I/O bank pins which are 1V5 for standard DDR3 (1V35 for DDR3L)
+
+![[Pasted image 20251220165608.png]]
