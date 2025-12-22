@@ -2575,7 +2575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 191.008 39.878 0)
 			(effects
 				(font
@@ -2846,7 +2846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 137.668 39.878 0)
 			(effects
 				(font
@@ -2915,7 +2915,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 206.248 39.878 0)
 			(effects
 				(font
@@ -2984,7 +2984,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 130.048 39.878 0)
 			(effects
 				(font
@@ -3053,7 +3053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 168.148 39.878 0)
 			(effects
 				(font
@@ -3122,7 +3122,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 145.288 39.878 0)
 			(effects
 				(font
@@ -3191,7 +3191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 152.908 39.878 0)
 			(effects
 				(font
@@ -3260,7 +3260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 175.768 39.878 0)
 			(effects
 				(font
@@ -3329,7 +3329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 99.568 39.878 0)
 			(effects
 				(font
@@ -3402,7 +3402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 183.388 39.878 0)
 			(effects
 				(font
@@ -3471,7 +3471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 107.188 39.878 0)
 			(effects
 				(font
@@ -3805,7 +3805,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 114.808 39.878 0)
 			(effects
 				(font
@@ -3874,7 +3874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 160.528 39.878 0)
 			(effects
 				(font
@@ -3943,7 +3943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 122.428 39.878 0)
 			(effects
 				(font
@@ -4012,7 +4012,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 198.628 39.878 0)
 			(effects
 				(font
