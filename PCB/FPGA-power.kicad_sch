@@ -8986,6 +8986,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "FERRITE BEADS AND ANALOG RAILS"
+		(exclude_from_sim no)
+		(at 76.2 140.208 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "0cb77b05-7359-4e9a-9899-909ee75df2a6")
+	)
 	(text "VCCINT & VCCBRAM & VMGTAVCC = 1V\nVCCAUX = 1V8\nVCCO = 3V3\nVMGTAVTT = 1V2\nDDR3 Voltage = 1V5"
 		(exclude_from_sim no)
 		(at 15.24 -10.668 0)

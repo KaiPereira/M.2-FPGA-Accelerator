@@ -129,3 +129,15 @@ Decoupling is fairly simple with the Artix 7, the datasheets tell you almost exa
 So just like that, I organized everything and added in the decoupling: 
 
 ![[Pasted image 20251221082621.png]]
+
+And I'll also need ferrite beads on these lines, but before that, I want to figure out what PMIC I'm going to use. I have 4 rails, and I need 3V3, so a quad switching buck converter would be a really good option! 
+
+I want to do this, because the characteristics of the bucks will help me determine the values of the ferrite beads!
+
+I spent nearly 6 hours straight, fueled from Yerba and classical music trying to find the best buck, and I've found 2 possible options.
+
+The [MAX20029](https://www.analog.com/en/products/max20029.html) is the lower cost option, with up to 1.5A channels, and is fixed/adjustable, though I would only use the fixed part. It's high efficiency, but the efficiency kind of drops off at lower current, but it has a smaller package and is designed for automotive. You can use the same value inductor on all the rails and it has power sequencing. This is the same one that Phil's lab uses, and it's really good!
+
+The [LTC3370](https://www.digikey.ca/en/products/detail/analog-devices-inc/LTC3370IUH-TRPBF/5155587) is a bit more overkill, with strong 2A channels, and really good efficiency characteristics. It's a bit larger and a bit more expensive, and it's a bit overkill, but you can have the same value inductors, and is also a fantastic option! 
+
+I've legitimately looked at 100's of buck converters, and these are probably the 2 best options! 
