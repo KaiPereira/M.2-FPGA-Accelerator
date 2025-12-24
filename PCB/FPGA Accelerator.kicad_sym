@@ -1436,7 +1436,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -17.78 5.08 0)
+				(at -17.78 2.54 0)
 				(length 2.54)
 				(name "FB1"
 					(effects
@@ -1446,24 +1446,6 @@
 					)
 				)
 				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -17.78 2.54 0)
-				(length 2.54)
-				(name "EN1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1508,7 +1490,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -17.78 -17.78 0)
+				(at -17.78 -20.32 0)
 				(length 2.54)
 				(name "FB2"
 					(effects
@@ -1526,7 +1508,25 @@
 				)
 			)
 			(pin unspecified line
-				(at -17.78 -20.32 0)
+				(at -17.78 -29.21 0)
+				(length 2.54)
+				(name "EN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 -31.75 0)
 				(length 2.54)
 				(name "EN2"
 					(effects
@@ -1546,14 +1546,14 @@
 			(pin unspecified line
 				(at -17.78 -34.29 0)
 				(length 2.54)
-				(name "RT"
+				(name "EN3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "27"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1564,14 +1564,14 @@
 			(pin unspecified line
 				(at -17.78 -36.83 0)
 				(length 2.54)
-				(name "PLL/MODE"
+				(name "EN4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "28"
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1814,7 +1814,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 17.78 5.08 180)
+				(at 17.78 2.54 180)
 				(length 2.54)
 				(name "FB3"
 					(effects
@@ -1824,24 +1824,6 @@
 					)
 				)
 				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 17.78 2.54 180)
-				(length 2.54)
-				(name "EN3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1886,7 +1868,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 17.78 -17.78 180)
+				(at 17.78 -20.32 180)
 				(length 2.54)
 				(name "FB4"
 					(effects
@@ -1904,16 +1886,34 @@
 				)
 			)
 			(pin unspecified line
-				(at 17.78 -20.32 180)
+				(at 17.78 -29.21 180)
 				(length 2.54)
-				(name "EN4"
+				(name "RT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "26"
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 -31.75 180)
+				(length 2.54)
+				(name "PLL/MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
