@@ -1,0 +1,848 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "47cc638a-6164-4ecb-9ed3-6d7634f22358")
+	(paper "A3")
+	(lib_symbols
+		(symbol "FPGA Accelerator:LTC3370"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTC3370"
+				(at 0.254 45.466 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Pre-ordered-Products_Analog-Devices_LTC3370EUH-TRPBF_Analog-Devices-ADI-LINEAR-LTC3370EUH-TRPBF_C684500.html"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C684500"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTC3370_0_1"
+				(rectangle
+					(start -15.24 20.32)
+					(end 15.24 -45.72)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 12.7 0)
+					(length 2.54)
+					(name "SWA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 10.16 0)
+					(length 2.54)
+					(name "SWB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 5.08 0)
+					(length 2.54)
+					(name "FB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "EN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 -10.16 0)
+					(length 2.54)
+					(name "SWC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 -12.7 0)
+					(length 2.54)
+					(name "SWD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 -17.78 0)
+					(length 2.54)
+					(name "FB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 -20.32 0)
+					(length 2.54)
+					(name "EN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 -34.29 0)
+					(length 2.54)
+					(name "RT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 -36.83 0)
+					(length 2.54)
+					(name "PLL/MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 22.86 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -48.26 90)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 22.86 270)
+					(length 2.54)
+					(name "VINB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -48.26 90)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 22.86 270)
+					(length 2.54)
+					(name "VINC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -48.26 90)
+					(length 2.54)
+					(name "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 22.86 270)
+					(length 2.54)
+					(name "VIND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 22.86 270)
+					(length 2.54)
+					(name "VINE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 22.86 270)
+					(length 2.54)
+					(name "VINF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 22.86 270)
+					(length 2.54)
+					(name "VING"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 22.86 270)
+					(length 2.54)
+					(name "VINH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "SWE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 10.16 180)
+					(length 2.54)
+					(name "SWF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "FB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "EN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "SWG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "SWH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -17.78 180)
+					(length 2.54)
+					(name "FB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -20.32 180)
+					(length 2.54)
+					(name "EN4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -34.29 180)
+					(length 2.54)
+					(name "PGOODALL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -36.83 180)
+					(length 2.54)
+					(name "TEMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTC3370_1_1"
+				(pin unspecified line
+					(at -7.62 22.86 270)
+					(length 2.54)
+					(name "VINA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -48.26 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "FPGA Accelerator:LTC3370")
+		(at 176.53 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7b39ed5-1c2c-4840-ab28-64e96c134ff9")
+		(property "Reference" "U2"
+			(at 186.2933 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTC3370"
+			(at 186.2933 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias"
+			(at 176.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pre-ordered-Products_Analog-Devices_LTC3370EUH-TRPBF_Analog-Devices-ADI-LINEAR-LTC3370EUH-TRPBF_C684500.html"
+			(at 176.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C684500"
+			(at 176.53 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "21"
+			(uuid "479b8753-0b65-4321-aa54-37ea1cf551a8")
+		)
+		(pin "30"
+			(uuid "06a458ab-fc75-44b6-b5f1-fbbf9e76a268")
+		)
+		(pin "17"
+			(uuid "66e7e632-875a-40eb-8593-fca859ff42c3")
+		)
+		(pin "24"
+			(uuid "42c9a110-ff40-4488-9950-947cb3f64c26")
+		)
+		(pin "8"
+			(uuid "cd5e1d9b-0dbf-4573-81a9-c93f905c64a1")
+		)
+		(pin "32"
+			(uuid "3e6b63c8-e8f5-40b2-90ab-40f29258a5ca")
+		)
+		(pin "31"
+			(uuid "613a5c6b-96f6-4737-ac99-78d1ba2e0bee")
+		)
+		(pin "20"
+			(uuid "f0e7f7b2-ba45-49eb-b45a-fed96aa15f28")
+		)
+		(pin "2"
+			(uuid "a7fd1eea-cd39-4702-ab5a-758b9769e785")
+		)
+		(pin "3"
+			(uuid "6fca875a-96c1-44d1-84af-ccd0c89171c3")
+		)
+		(pin "6"
+			(uuid "76aee763-b263-44d9-9a2d-9e345023fea1")
+		)
+		(pin "7"
+			(uuid "237702fd-0b6d-4f4f-8101-c8090c013010")
+		)
+		(pin "9"
+			(uuid "77415190-feae-4cd8-9b0a-a74a0bba7c86")
+		)
+		(pin "14"
+			(uuid "2375c898-98dd-46ee-b338-3431d256e43e")
+		)
+		(pin "26"
+			(uuid "f7e25f80-b85b-472a-8bbd-11e10c8960c9")
+		)
+		(pin "19"
+			(uuid "a64f700a-ef8d-43dd-9c91-5009be3b9e4f")
+		)
+		(pin "10"
+			(uuid "d6c495a4-6502-47e8-bd13-2549dfb742f7")
+		)
+		(pin "11"
+			(uuid "9073241a-5027-42db-b1ad-f51551c73d79")
+		)
+		(pin "23"
+			(uuid "b9bb6e75-6f4f-4ebb-98d7-7e5600325a5d")
+		)
+		(pin "1"
+			(uuid "f3353a07-4a16-4695-ac49-92df16addbe5")
+		)
+		(pin "33"
+			(uuid "6f529f3b-deb0-4b3b-9500-052a74a74c56")
+		)
+		(pin "4"
+			(uuid "8e5b5c4f-a235-4484-985c-72acc13bc4f5")
+		)
+		(pin "22"
+			(uuid "f53dc143-596e-44d7-a1ec-79bbe66ed7d5")
+		)
+		(pin "5"
+			(uuid "3ab2cce9-0e79-4734-bbfe-c9ebcfae8ed3")
+		)
+		(pin "28"
+			(uuid "9fefb7d0-5e73-408d-8507-9fb406cb9312")
+		)
+		(pin "29"
+			(uuid "147687e9-13c6-4e6a-9015-045375bed718")
+		)
+		(pin "13"
+			(uuid "eb305a46-64d3-4218-9e5e-556479b7f828")
+		)
+		(pin "27"
+			(uuid "2efd87d0-868c-4abe-8215-c09fc0bc3f84")
+		)
+		(pin "25"
+			(uuid "ec0722ac-eb57-44a2-8de5-8b9d8a7c38fb")
+		)
+		(pin "15"
+			(uuid "426a2082-3270-4857-90d3-e19014e97cd1")
+		)
+		(pin "12"
+			(uuid "34991927-3a7b-4776-818e-a31ed5c54b11")
+		)
+		(pin "18"
+			(uuid "1e5da5b4-83b1-41b7-b44d-35950ada11db")
+		)
+		(pin "16"
+			(uuid "d91880e1-2548-48fa-9bf7-fad9a4447989")
+		)
+		(instances
+			(project ""
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -621,6 +621,10 @@
     [
       "cfb4b539-ed39-4f7b-9936-258f867c86b5",
       "FPGA Power"
+    ],
+    [
+      "82e75441-9b85-4304-afce-254bf3f07a53",
+      "Quad Buck Converter"
     ]
   ],
   "text_variables": {}

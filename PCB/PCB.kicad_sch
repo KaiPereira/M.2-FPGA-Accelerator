@@ -15294,6 +15294,48 @@
 		)
 	)
 	(sheet
+		(at 78.74 15.24)
+		(size 59.69 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82e75441-9b85-4304-afce-254bf3f07a53")
+		(property "Sheetname" "Quad Buck Converter"
+			(at 78.74 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 78.74 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 15.24 15.24)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
@@ -15336,7 +15378,7 @@
 		)
 	)
 	(sheet
-		(at 78.74 15.24)
+		(at 142.24 15.24)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15352,7 +15394,7 @@
 		)
 		(uuid "cfb4b539-ed39-4f7b-9936-258f867c86b5")
 		(property "Sheetname" "FPGA Power"
-			(at 78.74 14.5284 0)
+			(at 142.24 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15361,7 +15403,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA-power.kicad_sch"
-			(at 78.74 74.2446 0)
+			(at 142.24 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
