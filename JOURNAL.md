@@ -123,12 +123,12 @@ This was just a bunch of datasheet reading today and a couple video's, but I hav
 
 Decoupling is fairly simple with the Artix 7, the datasheets tell you almost exactly how to do it:
 
-![[Pasted image 20251221082541.png]]
-![[Pasted image 20251221082558.png]]
+![Pasted image 20251221082541.png](images/Pasted%20image%2020251221082541.png)
+![Pasted image 20251221082558.png](images/Pasted%20image%2020251221082558.png)
 
 So just like that, I organized everything and added in the decoupling: 
 
-![[Pasted image 20251221082621.png]]
+![Pasted image 20251221082621.png](images/Pasted%20image%2020251221082621.png)
 
 And I'll also need ferrite beads on these lines, but before that, I want to figure out what PMIC I'm going to use. I have 4 rails, and I need 3V3, so a quad switching buck converter would be a really good option! 
 
@@ -156,9 +156,9 @@ So let's add that in!
 
 The first thing I need to do is create the symbol for my buck converter. After referencing the datatsheet and tuning things up, I've come up with this pretty clean symbol that will probably change to my likings, but it's good as a template, and has all the necessary pins and footprint! 
 
-![[Pasted image 20251225000450.png]]
+![Pasted image 20251225000450.png](images/Pasted%20image%2020251225000450.png)
 
-![[Pasted image 20251225000521.png]]
+![Pasted image 20251225000521.png](images/Pasted%20image%2020251225000521.png)
 
 Next, I'm going to wire all the important stuff for the buck converter. Per the datasheet, each input should have a 22uF cap, VCC should have 10uF, and each 2A channel output should have 47uF! 
 
@@ -166,4 +166,4 @@ I calculated the voltage dividers using VOUT = VFB(1 + R2/R1), and used 100K as 
 
 I also used 2.2uH inductors which are recommended by the datasheet for 2A, and they have a really low ESR to minimize power loss:
 
-![[Pasted image 20251225000820.png]]
+![Pasted image 20251225000820.png](images/Pasted%20image%2020251225000820.png)
