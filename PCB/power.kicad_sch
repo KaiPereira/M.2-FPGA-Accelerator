@@ -5,6 +5,113 @@
 	(uuid "47cc638a-6164-4ecb-9ed3-6d7634f22358")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1824,6 +1931,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "VOUT = VFB(1 + R2/R1), VFB = 0.8V"
+		(exclude_from_sim no)
+		(at 73.914 65.278 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14c3196c-f8e3-4fcc-8808-fbc0787ada3f")
+	)
+	(text "One 22uF per 2A channel VIN, 10uF on VCC"
+		(exclude_from_sim no)
+		(at 159.512 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "166c173e-8fa2-406c-8c67-6a5890b197c0")
+	)
 	(text "VCCINT & VCCBRAM & VMGTAVCC = 1V\nVCCAUX = 1V8\nVCCO = 3V3\nVMGTAVTT = 1V2\nDDR3 Voltage = 1V5"
 		(exclude_from_sim no)
 		(at 13.716 -7.874 0)
@@ -2026,6 +2153,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6fbd8c1-5cc9-4ad8-b560-d63cbb3a9d1a")
+	)
+	(junction
+		(at 162.56 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8a9c27a-3826-40bb-a5f2-9f34d53e6620")
 	)
 	(junction
 		(at 93.98 109.22)
@@ -2290,6 +2423,16 @@
 			(type default)
 		)
 		(uuid "49bf2f22-5c87-4ebc-8de0-44ccb5356b13")
+	)
+	(wire
+		(pts
+			(xy 166.37 137.16) (xy 160.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4acd501f-616a-40d7-97c2-9113fa1f111f")
 	)
 	(wire
 		(pts
@@ -2743,6 +2886,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 132.08) (xy 162.56 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4fe6063-6e07-4fb4-9b7a-edb2d8c41714")
+	)
+	(wire
+		(pts
+			(xy 160.02 129.54) (xy 162.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9eeaa21-5a77-46f5-b907-fa3a9a58a2b5")
+	)
+	(wire
+		(pts
 			(xy 190.5 90.17) (xy 190.5 88.9)
 		)
 		(stroke
@@ -2760,6 +2923,16 @@
 			(type default)
 		)
 		(uuid "ae96c134-269c-43bd-abce-29a31c1e075f")
+	)
+	(wire
+		(pts
+			(xy 162.56 128.27) (xy 162.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b626fd79-d73c-427d-8cf9-346d3b3777b0")
 	)
 	(wire
 		(pts
@@ -2920,6 +3093,16 @@
 			(type default)
 		)
 		(uuid "de08e122-f677-4bc3-8eea-1920945180ba")
+	)
+	(wire
+		(pts
+			(xy 162.56 129.54) (xy 162.56 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2ec528-0d1e-4dba-add5-818341c90259")
 	)
 	(wire
 		(pts
@@ -3576,6 +3759,72 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 162.56 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39f31b08-00da-415b-a202-614a76aadcc3")
+		(property "Reference" "#PWR032"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 162.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 162.56 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3327006a-2f6c-458b-b003-d4bb35d899eb")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5172,6 +5421,72 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd3a0679-71bf-45d9-b4f9-0731168f2e56")
+		(property "Reference" "TP1"
+			(at 168.148 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test Temperature"
+			(at 168.148 135.1281 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37b2429c-e65a-4c0d-a3ec-fb0039ab147a")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
