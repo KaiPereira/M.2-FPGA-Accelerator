@@ -2067,7 +2067,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -31.75 50.8 0)
+				(at -16.51 53.34 0)
 				(length 2.54)
 				(name "EN1"
 					(effects
@@ -2085,7 +2085,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -31.75 48.26 0)
+				(at -16.51 50.8 0)
 				(length 2.54)
 				(name "PG1"
 					(effects
@@ -2103,7 +2103,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -31.75 41.91 0)
+				(at -16.51 33.02 0)
 				(length 2.54)
 				(name "EN2"
 					(effects
@@ -2121,7 +2121,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -31.75 39.37 0)
+				(at -16.51 30.48 0)
 				(length 2.54)
 				(name "PG2"
 					(effects
@@ -2139,7 +2139,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -31.75 31.75 0)
+				(at -16.51 12.7 0)
 				(length 2.54)
 				(name "EN3"
 					(effects
@@ -2157,7 +2157,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -31.75 29.21 0)
+				(at -16.51 10.16 0)
 				(length 2.54)
 				(name "PG3"
 					(effects
@@ -2175,7 +2175,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -31.75 21.59 0)
+				(at -16.51 -7.62 0)
 				(length 2.54)
 				(name "EN4"
 					(effects
@@ -2193,7 +2193,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -31.75 19.05 0)
+				(at -16.51 -10.16 0)
 				(length 2.54)
 				(name "PG4"
 					(effects
@@ -2211,7 +2211,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -6.35 0)
+				(at -16.51 -16.51 0)
 				(length 2.54)
 				(name "SYNC"
 					(effects

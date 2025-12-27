@@ -13972,7 +13972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 304.546 52.578 0)
 			(effects
 				(font
@@ -14107,7 +14107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 295.656 52.578 0)
 			(effects
 				(font
@@ -14245,7 +14245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 98.806 52.578 0)
 			(effects
 				(font
@@ -15791,7 +15791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 128.016 246.888 0)
 			(effects
 				(font
@@ -16203,7 +16203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 107.696 52.578 0)
 			(effects
 				(font
@@ -16545,7 +16545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 281.686 246.888 0)
 			(effects
 				(font
@@ -16887,7 +16887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 313.436 52.578 0)
 			(effects
 				(font
