@@ -8996,17 +8996,6 @@
 		)
 		(uuid "0cb77b05-7359-4e9a-9899-909ee75df2a6")
 	)
-	(text "VCCINT & VCCBRAM & VMGTAVCC = 1V\nVCCAUX = 1V8\nVCCO = 3V3\nVMGTAVTT = 1V2\nDDR3 Voltage = 1V5"
-		(exclude_from_sim no)
-		(at 15.24 -10.668 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "fbda7525-1008-46c0-9b4e-0367cd10a248")
-	)
 	(junction
 		(at 229.87 167.64)
 		(diameter 0)
