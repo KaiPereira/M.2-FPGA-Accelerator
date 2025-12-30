@@ -629,6 +629,10 @@
     [
       "eed1a5c9-5dce-4964-b7ee-57ee65be1a9d",
       "FPGA Configurations"
+    ],
+    [
+      "b2fdda25-525f-499f-b2e7-c3e0e6b79359",
+      "FPGA Banks"
     ]
   ],
   "text_variables": {}
