@@ -9260,12 +9260,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_USB:FT231XQ"
+		(symbol "Interface_USB:FT232H"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -13.97 20.32 0)
+				(at -19.05 35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9273,8 +9273,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FT231XQ"
-				(at 6.35 20.32 0)
+			(property "Value" "FT232H"
+				(at 12.7 35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9282,16 +9282,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
-				(at 34.29 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -9300,7 +9291,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Full Speed USB to Full Handshake UART, QFN-20"
+			(property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9309,7 +9300,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "FTDI USB UART interface converter"
+			(property "Description" "Hi Speed Single Channel USB UART/FIFO, LQFP/QFN-48"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9318,7 +9309,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "QFN*4x4mm*P0.5mm*"
+			(property "ki_keywords" "FTDI USB Single UART FIFO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9327,10 +9318,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "FT231XQ_0_1"
+			(property "ki_fp_filters" "QFN*1EP*8x8mm*P0.5mm* LQFP*7x7mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FT232H_0_1"
 				(rectangle
-					(start -13.97 19.05)
-					(end 13.97 -19.05)
+					(start -19.05 34.29)
+					(end 19.05 -34.29)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -9340,18 +9340,72 @@
 					)
 				)
 			)
-			(symbol "FT231XQ_1_1"
+			(symbol "FT232H_1_1"
+				(pin power_in line
+					(at -22.86 30.48 0)
+					(length 3.81)
+					(name "VREGIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 25.4 0)
+					(length 3.81)
+					(name "VCCD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
-					(at -17.78 15.24 0)
+					(at -22.86 22.86 0)
 					(length 3.81)
-					(name "3V3OUT"
+					(name "VCCCORE"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -22.86 20.32 0)
+					(length 3.81)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9360,207 +9414,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 7.62 0)
+					(at -22.86 15.24 0)
 					(length 3.81)
-					(name "USBDM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 5.08 0)
-					(length 3.81)
-					(name "USBDP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 3.81)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 22.86 270)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -22.86 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -22.86 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 22.86 270)
-					(length 3.81)
-					(name "VCCIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -22.86 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 15.24 180)
-					(length 3.81)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 12.7 180)
-					(length 3.81)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 10.16 180)
-					(length 3.81)
-					(name "~{RTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 7.62 180)
-					(length 3.81)
-					(name "~{CTS}"
+					(name "DM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9575,17 +9431,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 5.08 180)
+				(pin bidirectional line
+					(at -22.86 12.7 0)
 					(length 3.81)
-					(name "~{DTR}"
+					(name "DP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "18"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9594,16 +9450,16 @@
 					)
 				)
 				(pin input line
-					(at 17.78 2.54 180)
+					(at -22.86 7.62 0)
 					(length 3.81)
-					(name "~{DSR}"
+					(name "~{RESET}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9612,9 +9468,9 @@
 					)
 				)
 				(pin input line
-					(at 17.78 0 180)
+					(at -22.86 2.54 0)
 					(length 3.81)
-					(name "~{DCD}"
+					(name "REF"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9630,9 +9486,81 @@
 					)
 				)
 				(pin input line
-					(at 17.78 -2.54 180)
+					(at -22.86 -2.54 0)
 					(length 3.81)
-					(name "~{RI}"
+					(name "EECS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "EECLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "EEDATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -12.7 0)
+					(length 3.81)
+					(name "XCSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -22.86 -22.86 0)
+					(length 3.81)
+					(name "XCSO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9647,17 +9575,305 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 -7.62 180)
+				(pin input line
+					(at -22.86 -27.94 0)
 					(length 3.81)
-					(name "CBUS0"
+					(name "TEST"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -38.1 90)
+					(length 3.81)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -38.1 90)
+					(length 3.81)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 38.1 270)
+					(length 3.81)
+					(name "VPHY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -38.1 90)
+					(length 3.81)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 38.1 270)
+					(length 3.81)
+					(name "VPLL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -38.1 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 38.1 270)
+					(length 3.81)
+					(name "VCCIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -38.1 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 38.1 270)
+					(length 3.81)
+					(name "VCCIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -38.1 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 38.1 270)
+					(length 3.81)
+					(name "VCCIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -38.1 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -38.1 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -38.1 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -38.1 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -38.1 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9666,9 +9882,27 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -10.16 180)
+					(at 22.86 30.48 180)
 					(length 3.81)
-					(name "CBUS1"
+					(name "ADBUS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 27.94 180)
+					(length 3.81)
+					(name "ADBUS1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9684,16 +9918,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -12.7 180)
+					(at 22.86 25.4 180)
 					(length 3.81)
-					(name "CBUS2"
+					(name "ADBUS2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9702,9 +9936,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -15.24 180)
+					(at 22.86 22.86 180)
 					(length 3.81)
-					(name "CBUS3"
+					(name "ADBUS3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9712,6 +9946,258 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 20.32 180)
+					(length 3.81)
+					(name "ADBUS4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 17.78 180)
+					(length 3.81)
+					(name "ADBUS5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 15.24 180)
+					(length 3.81)
+					(name "ADBUS6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 12.7 180)
+					(length 3.81)
+					(name "ADBUS7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 7.62 180)
+					(length 3.81)
+					(name "ACBUS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 5.08 180)
+					(length 3.81)
+					(name "ACBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 2.54 180)
+					(length 3.81)
+					(name "ACBUS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 0 180)
+					(length 3.81)
+					(name "ACBUS3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -2.54 180)
+					(length 3.81)
+					(name "ACBUS4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -5.08 180)
+					(length 3.81)
+					(name "ACBUS5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -7.62 180)
+					(length 3.81)
+					(name "ACBUS6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -10.16 180)
+					(length 3.81)
+					(name "ACBUS7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -12.7 180)
+					(length 3.81)
+					(name "ACBUS8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -15.24 180)
+					(length 3.81)
+					(name "ACBUS9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10772,6 +11258,214 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_USB:FT232H")
+		(at 186.69 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30d167e0-104b-47ab-8dc5-d207dca26984")
+		(property "Reference" "U3"
+			(at 193.9133 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FT232H"
+			(at 193.9133 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_8x8mm_P0.5mm_EP6.2x6.2mm_ThermalVias"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hi Speed Single Channel USB UART/FIFO, LQFP/QFN-48"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e1d2954b-e98f-475c-8334-d33416b816f8")
+		)
+		(pin "15"
+			(uuid "b73a5e37-7dd3-4c06-a05a-32d84b9dfe70")
+		)
+		(pin "2"
+			(uuid "943c1924-1656-4a3c-8a7e-0ef1c78e4a2b")
+		)
+		(pin "19"
+			(uuid "b6fc8c97-e87b-4d36-94d9-3035cd8a1e0d")
+		)
+		(pin "35"
+			(uuid "6d6c380e-2c62-4333-9f85-f8a8902c9b7c")
+		)
+		(pin "14"
+			(uuid "c35f0ffe-a6d1-4ff2-b03a-092aec146ce9")
+		)
+		(pin "43"
+			(uuid "562eac33-0ff4-45d0-b033-1db39e852c75")
+		)
+		(pin "10"
+			(uuid "7a318e22-eee4-417c-b29b-f5a23eda0ebd")
+		)
+		(pin "13"
+			(uuid "205c2668-9168-40d6-b31a-933713cada19")
+		)
+		(pin "9"
+			(uuid "63ddbe98-5c67-4e26-8043-61e4a2979ac7")
+		)
+		(pin "44"
+			(uuid "db521680-6486-49b8-91d9-04e16025f142")
+		)
+		(pin "37"
+			(uuid "28105a60-8be9-4999-a075-b7820d4453d0")
+		)
+		(pin "41"
+			(uuid "2df35a13-0600-4be9-ae6b-6b568ea91db6")
+		)
+		(pin "6"
+			(uuid "b19f0e0e-dace-4497-9dcc-6f57869aa73c")
+		)
+		(pin "1"
+			(uuid "1c3c05b9-5da3-4072-8f43-c6235a5d6fb7")
+		)
+		(pin "45"
+			(uuid "853d244a-0c51-4401-a62f-463b6e2c469e")
+		)
+		(pin "47"
+			(uuid "26b7c845-fe70-4482-bc9d-cd65092eedca")
+		)
+		(pin "8"
+			(uuid "95190d09-c2d1-46f4-9db4-6a3c1e756041")
+		)
+		(pin "23"
+			(uuid "c695d1f3-5a07-4690-b4d2-9df1b3dc6723")
+		)
+		(pin "48"
+			(uuid "4fff263b-ee16-413f-83b3-8fd6d1b806ac")
+		)
+		(pin "24"
+			(uuid "3e8bed04-740a-4c1e-a701-d2c732f47e75")
+		)
+		(pin "17"
+			(uuid "a68594b8-1ed4-4e38-b4db-de6233c2ace3")
+		)
+		(pin "28"
+			(uuid "34c157f5-7633-4920-bdca-36771178d5b7")
+		)
+		(pin "12"
+			(uuid "9ff7f54d-c823-4ca0-a759-c02993c45a45")
+		)
+		(pin "22"
+			(uuid "0cf13ca3-f8b5-407c-abe8-d99fbee15911")
+		)
+		(pin "5"
+			(uuid "f20986b8-9ece-4748-ad17-07208faa39ae")
+		)
+		(pin "3"
+			(uuid "362d76a5-3794-44b9-af17-9d91c10bbc6b")
+		)
+		(pin "27"
+			(uuid "9838c8a2-3cf8-4831-b219-c104460c9fac")
+		)
+		(pin "21"
+			(uuid "1cb8d2c5-7b63-4db3-9493-4efeb68302e8")
+		)
+		(pin "29"
+			(uuid "40bc0786-ad4a-4b2c-b7f0-70cc978e24f0")
+		)
+		(pin "16"
+			(uuid "4f8e1e68-fb02-460b-b375-ecfa0710afdb")
+		)
+		(pin "20"
+			(uuid "7b90d42f-1ced-47bb-8bc2-b6954364c7d2")
+		)
+		(pin "11"
+			(uuid "111ad7e0-447e-45a7-9833-2bd7f846821b")
+		)
+		(pin "18"
+			(uuid "da6cf4a0-fc65-484e-b712-ee43ed471490")
+		)
+		(pin "26"
+			(uuid "4213c4fc-45cb-4268-9a3e-7832c0a6468c")
+		)
+		(pin "33"
+			(uuid "1fbb7e24-9e28-4943-884e-63fe3aa9ef83")
+		)
+		(pin "42"
+			(uuid "bc41db45-77eb-4871-a32f-753ce0e4b9a9")
+		)
+		(pin "40"
+			(uuid "93ed09a4-e9f7-43cc-b704-7951fe91799b")
+		)
+		(pin "30"
+			(uuid "d205f1a3-0dee-4c44-a158-c75b871f635e")
+		)
+		(pin "32"
+			(uuid "407ad793-99bf-49bd-91be-c88a1372d838")
+		)
+		(pin "31"
+			(uuid "4735a2b7-e417-43ec-b776-5aafa5f79885")
+		)
+		(pin "7"
+			(uuid "ec07dd08-98d4-40a4-a956-eb260daa541b")
+		)
+		(pin "34"
+			(uuid "4d415534-e987-4692-9c0a-7de399da0939")
+		)
+		(pin "25"
+			(uuid "e7177dfa-1ae0-48bc-9dca-3501b63e299c")
+		)
+		(pin "36"
+			(uuid "b50700f6-72ac-41f0-8e4f-1f17373420f9")
+		)
+		(pin "46"
+			(uuid "c5f6d366-9a80-40dd-a916-e48278ffe63a")
+		)
+		(pin "38"
+			(uuid "1bfbc977-b9be-414c-b85d-48fe034af7fc")
+		)
+		(pin "39"
+			(uuid "690aec7d-a63f-454a-809f-10723769c11a")
+		)
+		(instances
+			(project ""
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13061,133 +13755,6 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_USB:FT231XQ")
-		(at 163.83 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9f2e130-e4f6-4f32-9770-95e5b881fc21")
-		(property "Reference" "U3"
-			(at 168.5133 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FT231XQ"
-			(at 168.5133 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
-			(at 198.12 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf"
-			(at 163.83 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Full Speed USB to Full Handshake UART, QFN-20"
-			(at 163.83 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "20"
-			(uuid "b94aa32c-c49f-4cca-9cec-9581abfd0f26")
-		)
-		(pin "4"
-			(uuid "555963c5-e5bf-4003-8d24-53d4f8e8a1be")
-		)
-		(pin "6"
-			(uuid "1771c1db-9e5a-40fa-b518-113020f0d6d0")
-		)
-		(pin "8"
-			(uuid "685c5bc0-c51e-4f88-8f5f-a7e31d44955d")
-		)
-		(pin "3"
-			(uuid "60f14abf-4e68-4f8a-be9a-be1de72f6c00")
-		)
-		(pin "12"
-			(uuid "d4e98b2b-b071-44dd-b4d0-28ec2248539a")
-		)
-		(pin "15"
-			(uuid "a4a49e9e-12b5-4ea1-8cc3-fd691d49cc22")
-		)
-		(pin "2"
-			(uuid "373ef32f-27e9-43c6-85f1-742b9d46e57f")
-		)
-		(pin "11"
-			(uuid "24727a64-2888-4fcf-9527-049ef79c3cfe")
-		)
-		(pin "9"
-			(uuid "66d745e4-e1fd-40d7-8988-ed86c93bff00")
-		)
-		(pin "10"
-			(uuid "86ed4939-94b1-403a-baba-078400d8e128")
-		)
-		(pin "16"
-			(uuid "ea0d6af0-093d-4f59-91db-972f7f279320")
-		)
-		(pin "18"
-			(uuid "1e889128-2fc9-401d-bccb-2f67b6639478")
-		)
-		(pin "21"
-			(uuid "5ffa50da-d0fe-4e0b-bac1-a88deee01e0b")
-		)
-		(pin "14"
-			(uuid "1f78937b-f184-4aff-afaf-d7b40bf54ea9")
-		)
-		(pin "7"
-			(uuid "985c84ef-f9ef-4335-9c54-00fd89eb26da")
-		)
-		(pin "19"
-			(uuid "47533716-d0c1-493d-b835-71cea5f452ad")
-		)
-		(pin "1"
-			(uuid "b8bbd1e7-ede6-4b34-b926-88d409d226e4")
-		)
-		(pin "5"
-			(uuid "cc876a52-d1c9-4cfd-9c13-dd1d1970f1ae")
-		)
-		(pin "17"
-			(uuid "2fbc2d13-16a9-43dc-9eea-4b9185697134")
-		)
-		(pin "13"
-			(uuid "d2be0953-4b3d-4f7e-9b97-07b432047265")
-		)
-		(instances
-			(project ""
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
-					(reference "U3")
 					(unit 1)
 				)
 			)

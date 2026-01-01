@@ -1,4 +1,4 @@
-26314777386171668
+26316544171622607
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104299,6 +104299,13 @@ IND-SMD_L5.0-W5.0_FNR50XXS
 0
 2
 2
+easyeda2kicad
+QFN-28_L5.0-W5.0-P0.50-TL-EP3.2
+
+
+0
+29
+29
 easyeda2kicad
 QFN-32_L5.0-W5.0-P0.50-TL-EP3.5
 
