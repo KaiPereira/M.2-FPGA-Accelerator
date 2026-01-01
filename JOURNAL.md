@@ -191,3 +191,11 @@ This actually took me a really long time to figure out because I've never fully 
 ![[Pasted image 20251229001159.png]]
 
 I chose 600R@100MHz to filter out the high frequency noise moderately and it's low DCR so it has a minimal drop and is up to 2A. I made a little low pass filter LC filter by adding some shunts to ground, and added a bulk before the cap on MGTAVCC because it's higher current!
+
+I decided to also set up an LTSpice simulation for these ferrite beads, just to make sure everything will be fine, and I can use it in the future for more accurate testing and adjusting once I've finished routing the board!
+
+This took me a really long time to figure out, but I think it turned out really well! 
+
+![[Pasted image 20251231173655.png]]
+
+This isn't too relevant right now, but will be really useful once I've finished routing! 
