@@ -1793,6 +1793,16 @@
 		)
 		(uuid "7c334082-5d4f-4579-8e09-ec94e396dee8")
 	)
+	(text "STATUS LED?"
+		(exclude_from_sim no)
+		(at 71.882 241.554 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "837075f1-68f5-4f3d-a8b9-dc41784cc661")
+	)
 	(text "Frequency compensation: C1 = 15e-12(R2 / R1)"
 		(exclude_from_sim no)
 		(at 268.732 91.44 0)
@@ -3859,7 +3869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 165.1 109.2199 0)
 			(effects
 				(font
@@ -4350,7 +4360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 134.62 109.2199 0)
 			(effects
 				(font
@@ -5464,7 +5474,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 154.94 109.2199 0)
 			(effects
 				(font
@@ -5802,7 +5812,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 144.78 109.2199 0)
 			(effects
 				(font
