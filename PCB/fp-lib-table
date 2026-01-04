@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Hackclub Footprints")(type "KiCad")(uri "/home/kai/projects/pcbs/cloned/Hackclub-KiCad-Libraries/Hackclub Footprints.pretty")(options "")(descr ""))
+)

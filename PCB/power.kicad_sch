@@ -2580,6 +2580,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 140.97) (xy 97.79 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d29da1-c03a-4b72-8e47-9e2f1b69ab41")
+	)
+	(wire
+		(pts
 			(xy 321.31 207.01) (xy 321.31 208.28)
 		)
 		(stroke
@@ -3804,7 +3814,7 @@
 		(dnp no)
 		(uuid "0ac90e94-dacc-4a6b-a2d2-c5927abfc114")
 		(property "Reference" "L3"
-			(at 294.64 189.738 90)
+			(at 294.64 192.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3822,7 @@
 			)
 		)
 		(property "Value" "1.5u"
-			(at 294.64 192.278 90)
+			(at 294.64 195.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,6 +3862,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C42100"
@@ -4432,7 +4443,7 @@
 		(dnp no)
 		(uuid "46ab595f-455b-45f3-a1b2-d06bcb59fcc1")
 		(property "Reference" "L4"
-			(at 294.64 160.528 90)
+			(at 294.64 163.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4451,7 @@
 			)
 		)
 		(property "Value" "1.5u"
-			(at 294.64 163.068 90)
+			(at 294.64 166.116 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,6 +4491,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C42100"
@@ -5939,6 +5951,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 88.9 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4c0eb72-5b7b-4b59-bf2a-655f44ff159a")
+		(property "Reference" "#PWR058"
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VM2_3V3"
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa50e4e0-bffb-49c4-a168-bc4a9a160f40")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V2")
 		(at 350.52 139.7 0)
 		(unit 1)
@@ -6634,7 +6712,7 @@
 		(dnp no)
 		(uuid "de720b12-287c-4b04-88b6-92b93f8aceff")
 		(property "Reference" "L1"
-			(at 294.64 102.108 90)
+			(at 294.64 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6720,7 @@
 			)
 		)
 		(property "Value" "1.5u"
-			(at 294.64 104.648 90)
+			(at 294.64 107.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,6 +6760,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C42100"
@@ -6788,7 +6867,7 @@
 		(dnp no)
 		(uuid "f401e624-90d3-4ae9-a9a3-004c97a1f289")
 		(property "Reference" "L2"
-			(at 294.64 131.318 90)
+			(at 294.64 134.366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +6875,7 @@
 			)
 		)
 		(property "Value" "1.5u"
-			(at 294.64 133.858 90)
+			(at 294.64 136.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6836,6 +6915,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C42100"
