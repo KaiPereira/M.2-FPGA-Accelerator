@@ -17396,6 +17396,16 @@
 		)
 		(uuid "49b895df-a090-4635-b870-18d634516ab7")
 	)
+	(text "Simulate beads in LTSpice! "
+		(exclude_from_sim no)
+		(at 44.704 22.098 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "cbc88b06-a4cd-4ac2-afa1-b9d8475d66e2")
+	)
 	(junction
 		(at 228.6 180.34)
 		(diameter 0)

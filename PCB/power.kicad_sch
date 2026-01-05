@@ -2132,7 +2132,7 @@
 		)
 		(uuid "d5fba2b7-0c29-405a-941a-b87a26d78cef")
 	)
-	(text "+VM2_3V3 is the M.2 3.3V power source\n+VBUS_3V3 is the USB power source, bucked down\n\nThis circuit ensures that USB doesn't backfeed into the M.2 connector,\nfrying the motherboard, and also prioritizes reliable\nM.2 connector power if both are plugged in!\n\nSwitchover is at 3.18V using PR1 voltage divider which is really optimal with\n1% components because m.2 connector minimum voltage is 3.135V"
+	(text "+VM2_3V3 is the M.2 3.3V power source\n+VBUS_3V3 is the USB power source, bucked down\n\nThis circuit ensures that USB doesn't backfeed into the M.2 connector,\nfrying the motherboard, and also prioritizes reliable\nM.2 connector power if both are plugged in!\n\nSwitchover is at 3.18V using PR1 voltage divider which is really optimal with\n1% resistors because m.2 connector minimum voltage is 3.135V"
 		(exclude_from_sim no)
 		(at 59.182 95.25 0)
 		(effects
@@ -2153,7 +2153,7 @@
 		)
 		(uuid "e41cdc79-83d0-4bc2-bb6f-6d82f0de8dc0")
 	)
-	(text "3.18V switchover, optimal w/ +-1%R >"
+	(text "3.18V switchover, optimal w/ 1% R >"
 		(exclude_from_sim no)
 		(at 77.47 137.414 0)
 		(effects
