@@ -2887,7 +2887,7 @@
 		(symbol "TPS2121RUXR_1_1"
 			(rectangle
 				(start -10.16 12.7)
-				(end 10.16 -35.56)
+				(end 10.16 -36.83)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2951,7 +2951,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -21.59 0)
+				(at -12.7 -22.86 0)
 				(length 2.54)
 				(name "IN2"
 					(effects
@@ -2969,7 +2969,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -33.02 0)
+				(at -12.7 -34.29 0)
 				(length 2.54)
 				(name "OV2"
 					(effects
@@ -2987,7 +2987,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -38.1 90)
+				(at 0 -39.37 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3078,7 +3078,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -30.48 180)
+				(at 12.7 -31.75 180)
 				(length 2.54)
 				(name "SS"
 					(effects
@@ -3096,7 +3096,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -33.02 180)
+				(at 12.7 -34.29 180)
 				(length 2.54)
 				(name "ILIM"
 					(effects
