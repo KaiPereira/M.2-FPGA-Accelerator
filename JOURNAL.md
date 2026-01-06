@@ -216,3 +216,21 @@ A 0 means tie it low, and a 1 means tie it high. I also added this DNP resistor 
 ![[Pasted image 20260106131305.png]]
 
 I also learned how buses work, and created a JTAG bus which connects to a hierarchial label which will connect to my USB to JTAG/TC2030.
+
+The next thing I need to figure out is my JTAG. This is how the board will be programmed, the JTAG interface will feed into the artix 7, and the artix 7 will feed it into SPI.
+
+Now the first thing I want to do is add on a TC2030 interface which is a compact way of programming JTAG using this little debugger:
+
+![[Pasted image 20260106131603.png]]
+
+I also wanted to have USB to JTAG because it's way easier and actually cheaper to debug with it because you don't need an external probe. Now I probably spent over 10 hours thinking about how I should do my USB to JTAG, I put so much thought into this.
+
+But at the end of the day, Vivado, the tool I'm probably going to use to program my board, and all the other tools only really support FT2232H, and because I'm probably going to be debugging a bunch, I didn't want to bitbang, so I decided to go with the large and expensive IC for programming!
+
+The thing is, I don't have to place the FT2232H in my production runs, only in my prototypes runs so it's perfectly fine to have for prototyping, it'll just cost more for those boards though....
+
+I also wanted to have USB to power and program the board, so I came up with this monstrosity of a schematic:
+
+![[Pasted image 20260106131956.png]]
+
+USB-C comes in, get's bucked down and has some ESD protection. The data lines go into the FT2232H USB to JTAG, and then JTAG get's pulled up so nothing's floating, and goes into my bus for use in the configurations schematic. The TC2030 will go underneath the USB-C receptacle and if you DNP the USB to JTAG logic, it'll still be programmable via the probe. Pretty cool huh :D
