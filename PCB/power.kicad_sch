@@ -2079,27 +2079,6 @@
 		)
 		(uuid "6bda973a-16c4-4f4d-9ffb-56a678189c13")
 	)
-	(text "VCCINT & VCCBRAM & VMGTAVCC = 1V\nVCCAUX = 1V8\nVCCO = 3V3\nVMGTAVTT = 1V2\nDDR3 Voltage = 1V5"
-		(exclude_from_sim no)
-		(at 18.034 30.226 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "7c334082-5d4f-4579-8e09-ec94e396dee8")
-	)
-	(text "STATUS LED?"
-		(exclude_from_sim no)
-		(at 71.882 241.554 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "837075f1-68f5-4f3d-a8b9-dc41784cc661")
-	)
 	(text "Around 1ms ramp up - 47nF\nAround 3A min, 4A max current limiting\n"
 		(exclude_from_sim no)
 		(at 134.366 189.738 0)
@@ -3395,6 +3374,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 172.72) (xy 113.03 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d7fa72-de7c-4e91-b42b-ad02d8b8dfbd")
+	)
+	(wire
+		(pts
 			(xy 212.09 100.33) (xy 212.09 102.87)
 		)
 		(stroke
@@ -3992,16 +3981,6 @@
 			(type default)
 		)
 		(uuid "cdcb5f56-d501-41be-94ed-b481adbcf720")
-	)
-	(wire
-		(pts
-			(xy 113.03 171.45) (xy 113.03 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d02754c8-a7d7-4325-96f4-88a5e065ce7c")
 	)
 	(wire
 		(pts
@@ -5933,7 +5912,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 171.45 0)
+		(at 113.03 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5942,7 +5921,7 @@
 		(fields_autoplaced yes)
 		(uuid "5913ef7e-78cd-4efa-8673-84d7a6c40a5d")
 		(property "Reference" "#PWR067"
-			(at 113.03 177.8 0)
+			(at 113.03 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +5930,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 176.53 0)
+			(at 113.03 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +5938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 171.45 0)
+			(at 113.03 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +5947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 171.45 0)
+			(at 113.03 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +5956,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 171.45 0)
+			(at 113.03 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

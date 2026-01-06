@@ -12474,7 +12474,7 @@
 		)
 	)
 	(sheet
-		(at 128.27 16.51)
+		(at 78.74 15.24)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12489,8 +12489,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "82e75441-9b85-4304-afce-254bf3f07a53")
-		(property "Sheetname" "Quad Buck Converter"
-			(at 128.27 15.7984 0)
+		(property "Sheetname" "Power Input Regulation"
+			(at 78.74 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12499,7 +12499,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 128.27 75.5146 0)
+			(at 78.74 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12558,7 +12558,7 @@
 		)
 	)
 	(sheet
-		(at 191.77 114.3)
+		(at 78.74 114.3)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12574,7 +12574,7 @@
 		)
 		(uuid "b2fdda25-525f-499f-b2e7-c3e0e6b79359")
 		(property "Sheetname" "FPGA Banks"
-			(at 191.77 113.5884 0)
+			(at 78.74 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,7 +12583,7 @@
 			)
 		)
 		(property "Sheetfile" "banks.kicad_sch"
-			(at 191.77 173.3046 0)
+			(at 78.74 173.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12600,7 +12600,49 @@
 		)
 	)
 	(sheet
-		(at 191.77 16.51)
+		(at 205.74 15.24)
+		(size 59.69 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3feae67-f5ac-44a3-90a4-88fd0a4da47c")
+		(property "Sheetname" "USB-C and JTAG"
+			(at 205.74 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 205.74 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 114.3)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12615,8 +12657,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "cfb4b539-ed39-4f7b-9936-258f867c86b5")
-		(property "Sheetname" "FPGA Power"
-			(at 191.77 15.7984 0)
+		(property "Sheetname" "FPGA Power and Decoupling"
+			(at 15.24 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12625,7 +12667,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA-power.kicad_sch"
-			(at 191.77 75.5146 0)
+			(at 15.24 173.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12642,7 +12684,7 @@
 		)
 	)
 	(sheet
-		(at 128.27 114.3)
+		(at 142.24 15.24)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12658,7 +12700,7 @@
 		)
 		(uuid "eed1a5c9-5dce-4964-b7ee-57ee65be1a9d")
 		(property "Sheetname" "FPGA Configurations"
-			(at 128.27 113.5884 0)
+			(at 142.24 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12667,7 +12709,7 @@
 			)
 		)
 		(property "Sheetfile" "configurations.kicad_sch"
-			(at 128.27 173.3046 0)
+			(at 142.24 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
