@@ -8247,6 +8247,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 252.73 142.24) (xy 276.86 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145e913e-3f75-4564-b680-1f30fc503cfc")
+	)
 	(symbol
 		(lib_id "FPGA Accelerator:XC7A50T-FGG484")
 		(at 645.16 57.15 0)
@@ -12600,7 +12610,7 @@
 		)
 	)
 	(sheet
-		(at 205.74 15.24)
+		(at 193.04 114.3)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12616,7 +12626,7 @@
 		)
 		(uuid "b3feae67-f5ac-44a3-90a4-88fd0a4da47c")
 		(property "Sheetname" "USB-C and JTAG"
-			(at 205.74 14.5284 0)
+			(at 193.04 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12625,12 +12635,22 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 205.74 74.2446 0)
+			(at 193.04 173.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{JTAG}" output
+			(at 252.73 142.24 0)
+			(uuid "602a63a5-9ff6-48a4-bf5a-cf3d2eb779e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -12684,7 +12704,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 15.24)
+		(at 276.86 114.3)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12700,7 +12720,7 @@
 		)
 		(uuid "eed1a5c9-5dce-4964-b7ee-57ee65be1a9d")
 		(property "Sheetname" "FPGA Configurations"
-			(at 142.24 14.5284 0)
+			(at 276.86 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12709,12 +12729,22 @@
 			)
 		)
 		(property "Sheetfile" "configurations.kicad_sch"
-			(at 142.24 74.2446 0)
+			(at 276.86 173.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "JTAG" input
+			(at 276.86 142.24 180)
+			(uuid "9f8a7983-b7a3-4378-8011-5f1b064bd285")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
