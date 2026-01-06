@@ -182,7 +182,7 @@ And then it's really simple wiring, you just need pullups on PG to have a stable
 
 PG1 will go high when it's active, and the pullup just helps to ensure it gets there. There's no voltage divider on 1V0, because the VOUT is already 1V, and then the rest have voltage dividers to get there and frequency matching rounded down to the nearest E6 capacitor!
 
-## More decoupling and filtering
+## More decoupling and filtering - 4 Hours
 
 Now that I've finished with my power supply, I need to figure out how to properly filter it for my analog rails! 
 
@@ -199,3 +199,8 @@ This took me a really long time to figure out, but I think it turned out really 
 ![[Pasted image 20251231173655.png]]
 
 This isn't too relevant right now, but will be really useful once I've finished routing! 
+
+I also fixed up some of the decoupling on my m.2 edge connector because it wasn't using the standard values in my schematic.
+
+![[Pasted image 20260106130817.png]]
+It actually took me so long to figure out LTSpice, but that was essentially how my day went! 
