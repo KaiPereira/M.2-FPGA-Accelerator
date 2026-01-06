@@ -204,3 +204,15 @@ I also fixed up some of the decoupling on my m.2 edge connector because it wasn'
 
 ![[Pasted image 20260106130817.png]]
 It actually took me so long to figure out LTSpice, but that was essentially how my day went! 
+
+## Configurations and JTAG, oh no
+
+So now I have the majority of my fundamental power system in place, but I actually need a way to program this thing. The first thing I have to do is configure the artix 7 to work over master SPI. I referenced the datasheet for this part and it pretty much tells you what to do:
+
+![[Pasted image 20260106131135.png]]
+
+A 0 means tie it low, and a 1 means tie it high. I also added this DNP resistor in case you want to use the artix 7 built in flash for debugging, so it's just kind of handy:
+
+![[Pasted image 20260106131305.png]]
+
+I also learned how buses work, and created a JTAG bus which connects to a hierarchial label which will connect to my USB to JTAG/TC2030.

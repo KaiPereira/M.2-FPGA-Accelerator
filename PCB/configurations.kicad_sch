@@ -9169,6 +9169,16 @@
 		)
 		(uuid "6137138c-4d3f-4a8b-8258-b90804b4907c")
 	)
+	(label "< Decoupling"
+		(at 203.2 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6970a9c2-969b-4beb-a817-7f36404054a9")
+	)
 	(label "JTAG_TCK"
 		(at 209.55 128.27 0)
 		(effects
