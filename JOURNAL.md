@@ -146,7 +146,7 @@ In the end, I think I'm going to go with the MAX20029 because it has smaller ind
 
 I've done a lot of research today, so I think I'm going to hop off for now! 
 
-## Power management! - 6 Hours
+## Power management! - 8 Hours
 
 Now that I've found what PMIC I want to use, we need to add it into KiCad.
 
@@ -182,7 +182,7 @@ And then it's really simple wiring, you just need pullups on PG to have a stable
 
 PG1 will go high when it's active, and the pullup just helps to ensure it gets there. There's no voltage divider on 1V0, because the VOUT is already 1V, and then the rest have voltage dividers to get there and frequency matching rounded down to the nearest E6 capacitor!
 
-## More decoupling and filtering - 4 Hours
+## More decoupling and filtering - 5 Hours
 
 Now that I've finished with my power supply, I need to figure out how to properly filter it for my analog rails! 
 
@@ -205,7 +205,7 @@ I also fixed up some of the decoupling on my m.2 edge connector because it wasn'
 ![[Pasted image 20260106130817.png]]
 It actually took me so long to figure out LTSpice, but that was essentially how my day went! 
 
-## Configurations and JTAG, oh no
+## Configurations and JTAG, oh no - 15 hours
 
 So now I have the majority of my fundamental power system in place, but I actually need a way to program this thing. The first thing I have to do is configure the artix 7 to work over master SPI. I referenced the datasheet for this part and it pretty much tells you what to do:
 
@@ -234,3 +234,23 @@ I also wanted to have USB to power and program the board, so I came up with this
 ![[Pasted image 20260106131956.png]]
 
 USB-C comes in, get's bucked down and has some ESD protection. The data lines go into the FT2232H USB to JTAG, and then JTAG get's pulled up so nothing's floating, and goes into my bus for use in the configurations schematic. The TC2030 will go underneath the USB-C receptacle and if you DNP the USB to JTAG logic, it'll still be programmable via the probe. Pretty cool huh :D
+
+I did some really good work for these couple days, but I'm still missing some fundamental logic for this circuit that's really important, but we'll see this in the next section!
+
+## Power architecture - 6 Hours
+
+Now there's a bit of a problem that arises with having both USB-C and an m.2 edge connector supplying our board. What if the current just flows right onto the motherboard, completely frying and destroying it.
+
+This is why we need to implement a power mux on our board! I usually try to shy away from power mux's because there's usually a smarter way of solving power issues, but in this case, it was pretty much necessary, and the slight added cost is important so that our board functions smoothly.
+
+I found this nearly perfect IC, which let's met control the ramp up of the inrush, the max current, switchover and so much more, all in a small package! This is THE TPS2121RUXR.
+
+This beauty took me a whole to wrap my head around, but it does everything for me:
+
+![[Pasted image 20260106132555.png]]
+
+I prioritized the M.2 connector source because the motherboard is always going to supply smooth power because you need to be able to have a reliable computer right!
+
+And then of course I added some smooth decoupling, and we got that finished after some time! 
+
+I'm going to end off this section here, because now we're going to get into some really hard territory, figuring out the pinouts for my flash, ram, etc. It's going to be a wild ride! 
