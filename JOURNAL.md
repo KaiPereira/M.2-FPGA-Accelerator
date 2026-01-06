@@ -174,11 +174,11 @@ I realized that I would be saving over $7 with the MAX20029 and it has way simpl
 
 So let's make the symbol for the MAX20029! I came up with this tall little symbol, I might make it larger but it kind of fits my needs:
 
-![[Pasted image 20251227142741.png]]
+![Pasted image 20251227142741.png](images/Pasted%20image%2020251227142741.png)
 
 And then it's really simple wiring, you just need pullups on PG to have a stable state, and also calculate the voltage dividers and frequency matching capacitors:
 
-![[Pasted image 20251227142844.png]]
+![Pasted image 20251227142844.png](images/Pasted%20image%2020251227142844.png)
 
 PG1 will go high when it's active, and the pullup just helps to ensure it gets there. There's no voltage divider on 1V0, because the VOUT is already 1V, and then the rest have voltage dividers to get there and frequency matching rounded down to the nearest E6 capacitor!
 
@@ -188,7 +188,7 @@ Now that I've finished with my power supply, I need to figure out how to properl
 
 This actually took me a really long time to figure out because I've never fully understood ferrite beads, but after a bit of research and talking with the KiCad guys, I've done a simple but effective implementation in my opinion:
 
-![[Pasted image 20251229001159.png]]
+![Pasted image 20251229001159.png](images/Pasted%20image%2020251229001159.png)
 
 I chose 600R@100MHz to filter out the high frequency noise moderately and it's low DCR so it has a minimal drop and is up to 2A. I made a little low pass filter LC filter by adding some shunts to ground, and added a bulk before the cap on MGTAVCC because it's higher current!
 
@@ -196,24 +196,24 @@ I decided to also set up an LTSpice simulation for these ferrite beads, just to 
 
 This took me a really long time to figure out, but I think it turned out really well! 
 
-![[Pasted image 20251231173655.png]]
+![Pasted image 20251231173655.png](images/Pasted%20image%2020251231173655.png)
 
 This isn't too relevant right now, but will be really useful once I've finished routing! 
 
 I also fixed up some of the decoupling on my m.2 edge connector because it wasn't using the standard values in my schematic.
 
-![[Pasted image 20260106130817.png]]
+![Pasted image 20260106130817.png](images/Pasted%20image%2020260106130817.png)
 It actually took me so long to figure out LTSpice, but that was essentially how my day went! 
 
 ## Configurations and JTAG, oh no - 15 hours
 
 So now I have the majority of my fundamental power system in place, but I actually need a way to program this thing. The first thing I have to do is configure the artix 7 to work over master SPI. I referenced the datasheet for this part and it pretty much tells you what to do:
 
-![[Pasted image 20260106131135.png]]
+![Pasted image 20260106131135.png](images/Pasted%20image%2020260106131135.png)
 
 A 0 means tie it low, and a 1 means tie it high. I also added this DNP resistor in case you want to use the artix 7 built in flash for debugging, so it's just kind of handy:
 
-![[Pasted image 20260106131305.png]]
+![Pasted image 20260106131305.png](images/Pasted%20image%2020260106131305.png)
 
 I also learned how buses work, and created a JTAG bus which connects to a hierarchial label which will connect to my USB to JTAG/TC2030.
 
@@ -221,7 +221,7 @@ The next thing I need to figure out is my JTAG. This is how the board will be pr
 
 Now the first thing I want to do is add on a TC2030 interface which is a compact way of programming JTAG using this little debugger:
 
-![[Pasted image 20260106131603.png]]
+![Pasted image 20260106131603.png](images/Pasted%20image%2020260106131603.png)
 
 I also wanted to have USB to JTAG because it's way easier and actually cheaper to debug with it because you don't need an external probe. Now I probably spent over 10 hours thinking about how I should do my USB to JTAG, I put so much thought into this.
 
@@ -231,7 +231,7 @@ The thing is, I don't have to place the FT2232H in my production runs, only in m
 
 I also wanted to have USB to power and program the board, so I came up with this monstrosity of a schematic:
 
-![[Pasted image 20260106131956.png]]
+![Pasted image 20260106131956.png](images/Pasted%20image%2020260106131956.png)
 
 USB-C comes in, get's bucked down and has some ESD protection. The data lines go into the FT2232H USB to JTAG, and then JTAG get's pulled up so nothing's floating, and goes into my bus for use in the configurations schematic. The TC2030 will go underneath the USB-C receptacle and if you DNP the USB to JTAG logic, it'll still be programmable via the probe. Pretty cool huh :D
 
@@ -247,7 +247,7 @@ I found this nearly perfect IC, which let's met control the ramp up of the inrus
 
 This beauty took me a whole to wrap my head around, but it does everything for me:
 
-![[Pasted image 20260106132555.png]]
+![Pasted image 20260106132555.png](images/Pasted%20image%2020260106132555.png)
 
 I prioritized the M.2 connector source because the motherboard is always going to supply smooth power because you need to be able to have a reliable computer right!
 
