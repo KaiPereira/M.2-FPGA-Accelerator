@@ -8941,6 +8941,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 133.35) (xy 207.01 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2573c245-3e44-4697-8802-6672ffbb5020")
+	)
+	(wire
+		(pts
 			(xy 196.85 99.06) (xy 194.31 99.06)
 		)
 		(stroke
@@ -9188,6 +9198,16 @@
 			(justify left bottom)
 		)
 		(uuid "96250e15-fabe-4cfd-b046-af0c28ba0748")
+	)
+	(label "QSPI_CLK"
+		(at 218.44 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c82b3a95-dbca-43a8-9937-f4251744c737")
 	)
 	(label "JTAG_TMS"
 		(at 209.55 125.73 0)

@@ -8404,6 +8404,26 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 96.52) (xy 254 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe1df9a-1305-482d-8a46-9a14be984f9b")
+	)
+	(wire
+		(pts
+			(xy 267.97 99.06) (xy 254 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314b7768-473e-44db-855b-3f6d3b0e7f99")
+	)
+	(wire
+		(pts
 			(xy 243.84 72.39) (xy 243.84 73.66)
 		)
 		(stroke
@@ -8424,6 +8444,26 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 121.92) (xy 254 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584bb485-02d9-4f8c-843f-bbf96096e05c")
+	)
+	(wire
+		(pts
+			(xy 267.97 101.6) (xy 254 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8f40cd-4bba-4e37-94bc-33735d606b03")
+	)
+	(wire
+		(pts
 			(xy 241.3 72.39) (xy 243.84 72.39)
 		)
 		(stroke
@@ -8431,6 +8471,16 @@
 			(type default)
 		)
 		(uuid "5eca8e62-2d61-42b6-b61c-383947786d93")
+	)
+	(wire
+		(pts
+			(xy 267.97 104.14) (xy 254 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6558a131-3154-4ea1-a3dc-802550d1f3e3")
 	)
 	(wire
 		(pts
@@ -8521,6 +8571,56 @@
 			(type default)
 		)
 		(uuid "f7b6e4f8-2fb6-4d75-8b82-8c22fe3ba3db")
+	)
+	(label "QSPI_DQ3"
+		(at 267.97 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b16ad93-77bc-4781-a446-37ae494a7dbb")
+	)
+	(label "QSPI_DQ1"
+		(at 267.97 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87f8ab07-0c3f-44c3-be01-9bbe582f3350")
+	)
+	(label "QSPI_DQ2"
+		(at 267.97 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a70c0059-c2cc-4f34-befa-1d4f59d8f790")
+	)
+	(label "QSPI_DQ0"
+		(at 267.97 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4f48988-c5ff-40eb-97ca-36314a5184cb")
+	)
+	(label "QSPI_CS"
+		(at 267.97 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f97d9d25-b00f-403e-81ac-cadd37b883bc")
 	)
 	(symbol
 		(lib_id "FPGA Accelerator:XC7A50T-FGG484")

@@ -4195,6 +4195,16 @@
 		)
 		(uuid "4154ff58-2d73-4bc5-82dc-38a1241c33d6")
 	)
+	(text "UART and other pins on FT2232H"
+		(exclude_from_sim no)
+		(at 281.94 224.79 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b1161ba9-a95c-41bd-96b4-ad1d2acd6b59")
+	)
 	(text "LCFilter?, Pg.10 >"
 		(exclude_from_sim no)
 		(at 111.252 115.57 0)
