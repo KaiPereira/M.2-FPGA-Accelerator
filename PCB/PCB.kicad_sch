@@ -8247,6 +8247,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MT41J128M16JT-125:K\n16 Bit data width\n8 Bank machines\nNormal ordering"
+		(exclude_from_sim no)
+		(at 348.488 60.198 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "e51a45b3-62d2-410a-8128-61add382f10a")
+	)
 	(wire
 		(pts
 			(xy 252.73 142.24) (xy 276.86 142.24)
