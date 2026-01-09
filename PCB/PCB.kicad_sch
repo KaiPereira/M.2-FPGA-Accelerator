@@ -12559,6 +12559,46 @@
 				(justify left top)
 			)
 		)
+		(pin "{DDR_ADDRESS}" bidirectional
+			(at 194.31 72.39 180)
+			(uuid "f23a74d7-19cf-4183-b59f-97f3ed7bbd83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DDR_CLOCK}" input
+			(at 194.31 67.31 180)
+			(uuid "55f9cde9-62c7-4a8f-af2a-2b858f53df72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DDR_COMMAND}" input
+			(at 194.31 62.23 180)
+			(uuid "3497e339-b2d4-40aa-9049-f0b9ff1958fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DDR_DATA}" bidirectional
+			(at 194.31 57.15 180)
+			(uuid "0f7cff76-33b1-405d-8c10-b0c742276efd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a"
