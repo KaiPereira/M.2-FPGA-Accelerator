@@ -2395,7 +2395,9 @@
 		)
 	)
 	(bus_alias "DDR_DATA"
-		(members "DDR_DQ[0..15]" "DDR_DQS[0..1]+" "DDR_DQS[0..1]-" "DDR_DQM0" "DDR_DQM1")
+		(members "DDR_DQ[0..15]" "DDR_DQS0+" "DDR_DQS0-" "DDR_DQS1+" "DDR_DQS1-"
+			"DDR_DQM[0..1]"
+		)
 	)
 	(text "MT41J128M16JT-125:K\n16 Bit data width\n8 Bank machines\nNormal ordering"
 		(exclude_from_sim no)
