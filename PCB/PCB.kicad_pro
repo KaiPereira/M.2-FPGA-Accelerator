@@ -637,6 +637,10 @@
     [
       "b3feae67-f5ac-44a3-90a4-88fd0a4da47c",
       "USB-C and JTAG"
+    ],
+    [
+      "95cb9219-15bb-49aa-939c-f3c0ddd8f386",
+      "DDR3L"
     ]
   ],
   "text_variables": {}
