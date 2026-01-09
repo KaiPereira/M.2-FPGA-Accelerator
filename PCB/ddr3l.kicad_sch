@@ -2383,6 +2383,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "DDR_ADDRESS"
+		(members)
+	)
+	(bus_alias "DDR_CLOCK"
+		(members)
+	)
+	(bus_alias "DDR_COMMAND"
+		(members)
+	)
+	(bus_alias "DDR_DATA"
+		(members)
+	)
 	(text "MT41J128M16JT-125:K\n16 Bit data width\n8 Bank machines\nNormal ordering"
 		(exclude_from_sim no)
 		(at 53.848 54.864 0)
@@ -2392,6 +2404,16 @@
 			)
 		)
 		(uuid "5aac6b4c-aec2-4d1e-ad48-7ae40fa5d22a")
+	)
+	(text "DECOUPLING"
+		(exclude_from_sim no)
+		(at 169.418 44.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be4985da-8110-4bc1-a0de-63c23d5e0322")
 	)
 	(text "< Check phils lab for RC filter on Q pins? "
 		(exclude_from_sim no)
@@ -2626,6 +2648,15 @@
 		(uuid "4db3f68c-98bc-47db-a511-a8908d3a0044")
 	)
 	(bus_entry
+		(at 142.24 144.78)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532403b0-867f-4c65-8f8b-8386005b4d46")
+	)
+	(bus_entry
 		(at 199.39 104.14)
 		(size 2.54 -2.54)
 		(stroke
@@ -2797,15 +2828,6 @@
 		(uuid "bb76080b-c837-411d-86f6-fa5e9082277e")
 	)
 	(bus_entry
-		(at 139.7 144.78)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe4d9bd-89d3-4bfe-bfe3-a7901198e4d6")
-	)
-	(bus_entry
 		(at 199.39 106.68)
 		(size 2.54 -2.54)
 		(stroke
@@ -2898,7 +2920,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 142.24) (xy 137.16 44.45)
+			(xy 137.16 44.45) (xy 137.16 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3025,6 +3047,16 @@
 			(type default)
 		)
 		(uuid "1efbca1f-e012-4152-a8aa-d8a7d09c6324")
+	)
+	(bus
+		(pts
+			(xy 139.7 135.89) (xy 139.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23aaec15-0e38-4886-8f34-f7d5eb32ea08")
 	)
 	(wire
 		(pts
@@ -3858,16 +3890,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 144.78) (xy 156.21 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c23b906e-4209-4b75-be2b-d682032efd7f")
-	)
-	(wire
-		(pts
 			(xy 187.96 144.78) (xy 186.69 144.78)
 		)
 		(stroke
@@ -4048,16 +4070,6 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 147.32) (xy 137.16 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8f70109-3ae3-4d2f-9ed2-cce5a62a112e")
-	)
-	(bus
-		(pts
 			(xy 201.93 81.28) (xy 201.93 78.74)
 		)
 		(stroke
@@ -4075,6 +4087,16 @@
 			(type default)
 		)
 		(uuid "ec1a9f21-bd90-48ca-a497-3487ce6017d1")
+	)
+	(wire
+		(pts
+			(xy 142.24 144.78) (xy 156.21 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb92bf3-1dac-4d09-97ba-57deea6f625c")
 	)
 	(wire
 		(pts
