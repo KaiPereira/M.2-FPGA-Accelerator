@@ -8372,6 +8372,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "QSPI"
+		(members "QSPI_DQ[0..3]" "QSPI_CS" "QSPI_CLK")
+	)
 	(junction
 		(at 238.76 72.39)
 		(diameter 0)
@@ -8401,6 +8404,61 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed62e482-c800-48fc-a27b-666b885ffd70")
+	)
+	(bus_entry
+		(at 267.97 101.6)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08638cbb-710f-47bf-8c0e-2557cda09ee6")
+	)
+	(bus_entry
+		(at 267.97 104.14)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1771919f-e69d-4f94-a594-a011cedf5d37")
+	)
+	(bus_entry
+		(at 267.97 96.52)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b38b10a-1aa0-4e16-8d5f-2f987f125e3b")
+	)
+	(bus_entry
+		(at 267.97 121.92)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09a1d06-022d-45e7-95c8-bc646f693525")
+	)
+	(bus_entry
+		(at 267.97 99.06)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed6e7946-84f4-4440-a66c-711ef66148df")
+	)
+	(bus
+		(pts
+			(xy 270.51 101.6) (xy 270.51 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014c7eb8-cd9f-473c-971d-fd79c26a67a9")
 	)
 	(wire
 		(pts
@@ -8442,6 +8500,16 @@
 		)
 		(uuid "4a372027-a4a0-47ed-8077-d737cc12a467")
 	)
+	(bus
+		(pts
+			(xy 270.51 93.98) (xy 270.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bbc4287-6e28-4e42-bb2f-ffc93e521067")
+	)
 	(wire
 		(pts
 			(xy 267.97 121.92) (xy 254 121.92)
@@ -8472,6 +8540,16 @@
 		)
 		(uuid "5eca8e62-2d61-42b6-b61c-383947786d93")
 	)
+	(bus
+		(pts
+			(xy 270.51 96.52) (xy 270.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629401a6-6997-4023-9ad8-60bf696eb3f3")
+	)
 	(wire
 		(pts
 			(xy 267.97 104.14) (xy 254 104.14)
@@ -8501,6 +8579,36 @@
 			(type default)
 		)
 		(uuid "700028cd-203a-4d04-909e-578bea581be8")
+	)
+	(bus
+		(pts
+			(xy 270.51 99.06) (xy 270.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ed8b0b-db7c-4936-a841-3812fa7752bd")
+	)
+	(bus
+		(pts
+			(xy 270.51 119.38) (xy 270.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5d3c1f-0b95-443e-a1d4-ee45d1de1e6f")
+	)
+	(bus
+		(pts
+			(xy 270.51 88.9) (xy 276.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3ba425-3402-4ee6-973e-09b2a0f4c8f1")
 	)
 	(wire
 		(pts
@@ -8621,6 +8729,17 @@
 			(justify right bottom)
 		)
 		(uuid "f97d9d25-b00f-403e-81ac-cadd37b883bc")
+	)
+	(hierarchical_label "{QSPI}"
+		(shape bidirectional)
+		(at 276.86 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77ee0bcb-d5b6-424a-a11b-fca55a23500b")
 	)
 	(symbol
 		(lib_id "FPGA Accelerator:XC7A50T-FGG484")
