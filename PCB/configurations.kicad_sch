@@ -9000,6 +9000,16 @@
 		)
 		(uuid "ca36a537-4560-4407-8abd-93418ded6445")
 	)
+	(text "DOUBLE CHECK THIS, DONE ON LOW SLEEP"
+		(exclude_from_sim no)
+		(at 298.704 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f9977c7f-83e2-4d3c-baee-fa2b4e407c57")
+	)
 	(junction
 		(at 300.99 154.94)
 		(diameter 0)
@@ -9815,16 +9825,6 @@
 			(justify left bottom)
 		)
 		(uuid "6137138c-4d3f-4a8b-8258-b90804b4907c")
-	)
-	(label "< Decoupling"
-		(at 140.97 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6970a9c2-969b-4beb-a817-7f36404054a9")
 	)
 	(label "QSPI_CLK"
 		(at 278.13 147.32 0)
