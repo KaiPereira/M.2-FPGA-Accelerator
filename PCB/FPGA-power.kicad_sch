@@ -17158,91 +17158,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 106.68 237.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c9d7b47-305d-4682-95ab-2e72149d4fa6")
-		(property "Reference" "FB1"
-			(at 106.68 230.124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "600@100MHz"
-			(at 106.68 232.664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 239.268 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 106.68 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "74279220601"
-			(at 106.7308 232.664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2661425"
-			(at 106.68 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0cce0726-ed07-4873-a41c-4177c43688e8")
-		)
-		(pin "1"
-			(uuid "acf36429-52a1-457e-bf72-6cc205a327c1")
-		)
-		(instances
-			(project ""
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/cfb4b539-ed39-4f7b-9936-258f867c86b5"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 284.48 62.23 0)
 		(unit 1)
@@ -17306,6 +17221,91 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/cfb4b539-ed39-4f7b-9936-258f867c86b5"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 106.68 237.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82936bb9-5cf2-4c1c-96f9-2a9bb320cf9c")
+		(property "Reference" "FB1"
+			(at 106.68 230.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120@100MHz"
+			(at 106.68 232.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 239.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 106.68 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "742792023"
+			(at 106.7308 232.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5120901"
+			(at 106.68 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a403764-e9aa-4d42-a8a8-b05d1501e916")
+		)
+		(pin "1"
+			(uuid "37f109bf-b6fc-4d1d-afab-26646f1b5fcf")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/cfb4b539-ed39-4f7b-9936-258f867c86b5"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -19753,7 +19753,7 @@
 				)
 			)
 		)
-		(property "Value" "600@100MHz"
+		(property "Value" "120@100MHz"
 			(at 138.43 34.544 90)
 			(effects
 				(font
@@ -19788,7 +19788,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "74279220601"
+		(property "MPN" "742792023"
 			(at 138.4808 34.544 90)
 			(effects
 				(font
@@ -19797,7 +19797,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2661425"
+		(property "LCSC" "C5120901"
 			(at 138.43 39.37 90)
 			(effects
 				(font
