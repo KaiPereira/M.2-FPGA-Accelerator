@@ -8373,7 +8373,7 @@
 		)
 	)
 	(bus_alias "QSPI"
-		(members "QSPI_DQ[0..3]" "QSPI_CS" "QSPI_CLK")
+		(members "QSPI_DQ[0..3]" "QSPI_CS")
 	)
 	(junction
 		(at 238.76 72.39)
