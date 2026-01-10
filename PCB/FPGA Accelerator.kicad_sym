@@ -3030,16 +3030,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U11"
-			(at 4.6833 48.26 0)
+			(at 17.78 6.7467 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "MT41J128M16JT-125:K"
-			(at 4.6833 45.72 0)
+			(at -11.684 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,6 +3101,14 @@
 				(hide yes)
 			)
 		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "Micron MEMORY Double-Data-Rate-3 Low-Voltage-Synchronous-DRAM"
 			(at 0 0 0)
 			(effects
@@ -3119,7 +3127,27 @@
 				(hide yes)
 			)
 		)
-		(symbol "MT41J128M16JT-125{colon}K_0_1"
+		(symbol "MT41J128M16JT-125{colon}K_1_1"
+			(rectangle
+				(start -12.7 43.18)
+				(end 12.7 -45.72)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "DDR3L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.1336 2.1336)
+					)
+					(justify bottom)
+				)
+			)
 			(pin input line
 				(at -15.24 40.64 0)
 				(length 2.54)
@@ -3337,6 +3365,24 @@
 				)
 			)
 			(pin input line
+				(at -15.24 10.16 0)
+				(length 2.54)
+				(name "A12/~{BC}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -15.24 7.62 0)
 				(length 2.54)
 				(name "A13"
@@ -3427,6 +3473,78 @@
 				)
 			)
 			(pin input line
+				(at -15.24 -11.43 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -13.97 0)
+				(length 2.54)
+				(name "~{RAS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -16.51 0)
+				(length 2.54)
+				(name "~{CAS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -19.05 0)
+				(length 2.54)
+				(name "~{WE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -15.24 -24.13 0)
 				(length 2.54)
 				(name "ODT"
@@ -3437,6 +3555,24 @@
 					)
 				)
 				(number "K1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -29.21 0)
+				(length 2.54)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3480,664 +3616,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 45.72 270)
+			(pin input clock
+				(at -15.24 -43.18 0)
 				(length 2.54)
-				(hide yes)
-				(name "V_{DD}"
+				(name "~{CK}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DD}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DD}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DD}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DD}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DD}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DD}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DD}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "T1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "T9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DDQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DDQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DDQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DDQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DDQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DDQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DDQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 45.72 270)
-				(length 2.54)
-				(hide yes)
-				(name "V_{DDQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SSQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SSQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SSQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SSQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SSQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SSQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SSQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -48.26 90)
-				(length 2.54)
-				(hide yes)
-				(name "V_{SSQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G9"
+				(number "K7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4547,6 +4036,24 @@
 				)
 			)
 			(pin bidirectional line
+				(at 15.24 -6.35 180)
+				(length 2.54)
+				(name "~{LDQS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at 15.24 -11.43 180)
 				(length 2.54)
 				(name "UDQS"
@@ -4557,6 +4064,24 @@
 					)
 				)
 				(number "C7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -13.97 180)
+				(length 2.54)
+				(name "~{UDQS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4655,9 +4180,9 @@
 				)
 			)
 		)
-		(symbol "MT41J128M16JT-125{colon}K_1_1"
+		(symbol "MT41J128M16JT-125{colon}K_2_1"
 			(rectangle
-				(start -12.7 43.18)
+				(start -12.7 15.24)
 				(end 12.7 -45.72)
 				(stroke
 					(width 0.254)
@@ -4676,35 +4201,35 @@
 					(justify bottom)
 				)
 			)
-			(pin input line
+			(pin passive line
+				(at -15.24 12.7 0)
+				(length 2.54)
+				(name "V_{DD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -15.24 10.16 0)
 				(length 2.54)
-				(name "A12/~{BC}"
+				(name "V_{DD}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "N7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -11.43 0)
-				(length 2.54)
-				(name "~{CS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "L2"
+				(number "R1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4712,17 +4237,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -13.97 0)
+			(pin passive line
+				(at -15.24 7.62 0)
 				(length 2.54)
-				(name "~{RAS}"
+				(name "V_{DD}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J3"
+				(number "N9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4730,17 +4255,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -16.51 0)
+			(pin passive line
+				(at -15.24 5.08 0)
 				(length 2.54)
-				(name "~{CAS}"
+				(name "V_{DD}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "K3"
+				(number "K8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4748,17 +4273,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -19.05 0)
+			(pin passive line
+				(at -15.24 2.54 0)
 				(length 2.54)
-				(name "~{WE}"
+				(name "V_{DD}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L3"
+				(number "K2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4766,17 +4291,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -29.21 0)
+			(pin passive line
+				(at -15.24 0 0)
 				(length 2.54)
-				(name "~{RESET}"
+				(name "V_{DD}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "T2"
+				(number "G7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4784,17 +4309,35 @@
 					)
 				)
 			)
-			(pin input clock
-				(at -15.24 -43.18 0)
+			(pin passive line
+				(at -15.24 -2.54 0)
 				(length 2.54)
-				(name "~{CK}"
+				(name "V_{DD}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "K7"
+				(number "D9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -5.08 0)
+				(length 2.54)
+				(name "V_{DD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4803,7 +4346,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 45.72 270)
+				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "V_{DD}"
 					(effects
@@ -4821,7 +4364,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -48.26 90)
+				(at -15.24 -15.24 0)
 				(length 2.54)
 				(name "V_{SS}"
 					(effects
@@ -4838,8 +4381,350 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -15.24 -17.78 0)
+				(length 2.54)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -20.32 0)
+				(length 2.54)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -22.86 0)
+				(length 2.54)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -25.4 0)
+				(length 2.54)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -27.94 0)
+				(length 2.54)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -30.48 0)
+				(length 2.54)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -33.02 0)
+				(length 2.54)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -35.56 0)
+				(length 2.54)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -38.1 0)
+				(length 2.54)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -40.64 0)
+				(length 2.54)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -43.18 0)
+				(length 2.54)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 12.7 180)
+				(length 2.54)
+				(name "V_{DDQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 10.16 180)
+				(length 2.54)
+				(name "V_{DDQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 7.62 180)
+				(length 2.54)
+				(name "V_{DDQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 5.08 180)
+				(length 2.54)
+				(name "V_{DDQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 2.54 180)
+				(length 2.54)
+				(name "V_{DDQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "V_{DDQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "V_{DDQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -5.08 180)
+				(length 2.54)
+				(name "V_{DDQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 2.54 45.72 270)
+				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "V_{DDQ}"
 					(effects
@@ -4857,7 +4742,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -48.26 90)
+				(at 15.24 -22.86 180)
 				(length 2.54)
 				(name "V_{SSQ}"
 					(effects
@@ -4874,17 +4759,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 15.24 -6.35 180)
+			(pin passive line
+				(at 15.24 -25.4 180)
 				(length 2.54)
-				(name "~{LDQS}"
+				(name "V_{SSQ}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "G3"
+				(number "B9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4892,17 +4777,125 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 15.24 -13.97 180)
+			(pin passive line
+				(at 15.24 -27.94 180)
 				(length 2.54)
-				(name "~{UDQS}"
+				(name "V_{SSQ}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B7"
+				(number "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -30.48 180)
+				(length 2.54)
+				(name "V_{SSQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -33.02 180)
+				(length 2.54)
+				(name "V_{SSQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -35.56 180)
+				(length 2.54)
+				(name "V_{SSQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -38.1 180)
+				(length 2.54)
+				(name "V_{SSQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -40.64 180)
+				(length 2.54)
+				(name "V_{SSQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -43.18 180)
+				(length 2.54)
+				(name "V_{SSQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G9"
 					(effects
 						(font
 							(size 1.27 1.27)
