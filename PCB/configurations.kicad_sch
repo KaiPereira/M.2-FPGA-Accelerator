@@ -9376,7 +9376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bf98a3f-16d4-47a3-ba4c-2938244287c5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0122"
 			(at 196.85 100.33 0)
 			(effects
 				(font
@@ -9426,7 +9426,7 @@
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
-					(reference "#PWR?")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -9512,7 +9512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6166a634-9aec-48a3-864f-f33636fdbe4d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0124"
 			(at 243.84 157.48 0)
 			(effects
 				(font
@@ -9562,7 +9562,7 @@
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
-					(reference "#PWR?")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -9596,7 +9596,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 168.91 140.97 0)
 			(effects
 				(font
@@ -11033,6 +11033,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MT25QL128ABA1EW7-0SIT"
+			(at 342.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2887898"
+			(at 342.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e632ce5b-b238-4a60-89f4-574936f292e5")
 		)
@@ -11215,7 +11233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5b89049-20c9-41a5-8477-2d79905bfae7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0123"
 			(at 234.95 129.54 0)
 			(effects
 				(font
@@ -11265,7 +11283,7 @@
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
-					(reference "#PWR?")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)

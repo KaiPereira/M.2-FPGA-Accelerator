@@ -2403,6 +2403,16 @@
 		)
 		(uuid "5aac6b4c-aec2-4d1e-ad48-7ae40fa5d22a")
 	)
+	(text "PULLDOWNS???"
+		(exclude_from_sim no)
+		(at 44.958 222.25 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "814b2a86-7ea8-4415-a3d8-acf3df4041fc")
+	)
 	(text "DECOUPLING"
 		(exclude_from_sim no)
 		(at 90.678 92.964 0)

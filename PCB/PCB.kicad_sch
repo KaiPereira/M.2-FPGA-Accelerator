@@ -8283,7 +8283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 645.16 57.15 0)
 			(effects
 				(font
@@ -9691,7 +9691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 515.62 213.36 0)
 			(effects
 				(font
@@ -11101,7 +11101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 622.3 175.26 0)
 			(effects
 				(font

@@ -8650,7 +8650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 203.2 147.32 0)
 			(effects
 				(font
