@@ -2597,6 +2597,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 191.77 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07d6ce91-47ba-4b7e-aa78-7d9e577e0a20")
+		(property "Reference" "C9"
+			(at 192.278 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 192.278 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 192.7352 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c4d584e-8942-458d-a494-4072fbc75d43")
+		)
+		(pin "1"
+			(uuid "13ae712b-95bc-4ffd-af59-c530ef23050e")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 222.25 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2659,6 +2728,144 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "116d4d76-0042-4ab6-a9e3-c19ac0232a43")
+		(property "Reference" "C6"
+			(at 169.418 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 169.418 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 169.8752 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88461ef1-62a1-4005-8224-9c6ec9ed272f")
+		)
+		(pin "1"
+			(uuid "6162deef-b154-4377-aab6-d3623b6e04f6")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16f27dc2-0f2c-45f6-9d84-eabb89df031d")
+		(property "Reference" "C7"
+			(at 177.038 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 177.038 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 177.4952 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b777ea3-e4c1-4f64-87b0-2a8e36a9ebca")
+		)
+		(pin "1"
+			(uuid "d496bebd-a9bf-4ff4-a3ac-4014eb1c3273")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2736,15 +2943,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 50.8 0)
+		(at 146.05 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "33100376-8f8c-48bc-b380-509732ab58af")
-		(property "Reference" "C6"
-			(at 169.418 48.006 0)
+		(uuid "3c21cd0d-c820-4134-99fd-50f15f2c1c59")
+		(property "Reference" "C3"
+			(at 146.558 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,8 +2959,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
-			(at 169.418 53.848 0)
+		(property "Value" "100n"
+			(at 146.558 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2969,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 169.8752 54.61 0)
+			(at 147.0152 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2978,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 50.8 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +2987,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 168.91 50.8 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,15 +2996,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2960dd7d-bdac-454a-bd42-2ac96edb1375")
+			(uuid "ab20abab-d974-47d7-b588-2d54fb2f1771")
 		)
 		(pin "1"
-			(uuid "8e71d653-54ad-4c94-b8cf-93e05daa100b")
+			(uuid "6473fe55-c27a-403d-8555-22a633c1b397")
 		)
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2943,15 +3150,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 191.77 50.8 0)
+		(at 161.29 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "75d4a28f-2918-416e-9175-b42af62e12d1")
-		(property "Reference" "C9"
-			(at 192.278 48.006 0)
+		(uuid "85323a80-5521-4374-97e8-ea94c6054cef")
+		(property "Reference" "C5"
+			(at 161.798 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,8 +3166,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
-			(at 192.278 53.848 0)
+		(property "Value" "100n"
+			(at 161.798 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +3176,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 192.7352 54.61 0)
+			(at 162.2552 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +3185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 50.8 0)
+			(at 161.29 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +3194,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 191.77 50.8 0)
+			(at 161.29 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,15 +3203,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2b43b294-6661-438e-8642-1e24336d592a")
+			(uuid "bdf92f16-db82-4e20-ba1b-db96f614f577")
 		)
 		(pin "1"
-			(uuid "9f640dea-92de-405c-b24e-fa994d2dda80")
+			(uuid "769ae745-2ed3-4612-87b6-117b6f2cb156")
 		)
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3012,15 +3219,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 50.8 0)
+		(at 153.67 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "87e3996b-1380-401f-a7c3-408827b2f655")
-		(property "Reference" "C3"
-			(at 146.558 48.006 0)
+		(uuid "98924b56-c175-4015-8784-1a64a5369926")
+		(property "Reference" "C4"
+			(at 154.178 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,8 +3235,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
-			(at 146.558 53.848 0)
+		(property "Value" "100n"
+			(at 154.178 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3245,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 147.0152 54.61 0)
+			(at 154.6352 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3254,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 50.8 0)
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3263,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 50.8 0)
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,15 +3272,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c876747e-319e-4fac-8bc1-d80b3407bdd3")
+			(uuid "e02b13d6-3bd2-4298-baaf-8d1e21531082")
 		)
 		(pin "1"
-			(uuid "645a67a2-6c27-4d5b-80a3-7b6c71777b95")
+			(uuid "334dd9ef-871a-446b-ba9e-c23835bc70a6")
 		)
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3150,144 +3357,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a244b310-5108-4431-9076-b85676f9550c")
-		(property "Reference" "C2"
-			(at 138.938 48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470n"
-			(at 138.938 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 139.3952 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 138.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6b4bcf1a-0a5f-4aeb-9828-aeec4df786ab")
-		)
-		(pin "1"
-			(uuid "37dffc26-07cb-4c17-bf41-34550ffc1fde")
-		)
-		(instances
-			(project "PCB"
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 153.67 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6691b2e-0d65-4a8c-a4aa-ad4248d898aa")
-		(property "Reference" "C4"
-			(at 154.178 48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470n"
-			(at 154.178 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 154.6352 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b85cf759-3463-47ef-8184-61934b5ee5d3")
-		)
-		(pin "1"
-			(uuid "52427193-d9bc-4bf5-b45f-3c4c95625828")
-		)
-		(instances
-			(project "PCB"
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 214.63 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3357,15 +3426,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 50.8 0)
+		(at 138.43 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b124f006-f879-427a-9724-3c841f1012a4")
-		(property "Reference" "C7"
-			(at 177.038 48.006 0)
+		(uuid "c0347339-a046-4764-ad25-e32046fb6e4a")
+		(property "Reference" "C2"
+			(at 138.938 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,8 +3442,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
-			(at 177.038 53.848 0)
+		(property "Value" "100n"
+			(at 138.938 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3452,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 177.4952 54.61 0)
+			(at 139.3952 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 50.8 0)
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +3470,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 50.8 0)
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3410,15 +3479,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b46f6863-7de6-4928-a0ef-dc9441c1d2fa")
+			(uuid "91cb0f6d-d6f7-4cb0-9ad6-fbe93d97ed8f")
 		)
 		(pin "1"
-			(uuid "0a8be576-c551-421a-8c01-5bebcd437f24")
+			(uuid "275fd1b5-f7bf-4263-abf4-2eaf89d273a3")
 		)
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3697,7 +3766,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d3162d0f-7b22-46c3-9f8e-8b50864c607b")
+		(uuid "d96a38f6-d7b5-4021-a429-190410f6ddfc")
 		(property "Reference" "C8"
 			(at 184.658 48.006 0)
 			(effects
@@ -3707,7 +3776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "100n"
 			(at 184.658 53.848 0)
 			(effects
 				(font
@@ -3744,84 +3813,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9e154978-d617-4bb3-93d6-d361eb34887e")
+			(uuid "c36918f7-0647-41dc-b136-576f1806bc8f")
 		)
 		(pin "1"
-			(uuid "69c5ae40-0cbb-464f-9b61-555c99094fbe")
+			(uuid "64627df3-817f-4ea2-a873-0f7c5e175836")
 		)
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 161.29 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d68e1552-a010-4a58-9446-f9aa912c5e1a")
-		(property "Reference" "C5"
-			(at 161.798 48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470n"
-			(at 161.798 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 162.2552 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 161.29 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "248f5592-2ffb-47e3-8794-3dafc2e26960")
-		)
-		(pin "1"
-			(uuid "9454cd52-5842-4923-aac0-5197b358301f")
-		)
-		(instances
-			(project "PCB"
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3911,7 +3911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "100n"
 			(at 131.318 53.848 0)
 			(effects
 				(font
