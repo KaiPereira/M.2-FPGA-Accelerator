@@ -1981,9 +1981,9 @@
 			"PCIe_TX3+" "PCIe_TX3-"
 		)
 	)
-	(text "Transmiting (TX) TO the FPGA,\nReceiving (RX) FROM the FPGA > "
+	(text "Transmiting (TX) FROM the FPGA TO the host\nReceiving (RX) FROM the host TO the FPGA > "
 		(exclude_from_sim no)
-		(at 59.69 98.552 0)
+		(at 46.228 100.584 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3733,7 +3733,7 @@
 		(dnp no)
 		(uuid "747c0bf8-9b75-48f4-affa-7e2bdf3d1ab3")
 		(property "Reference" "C12"
-			(at 135.382 148.59 90)
+			(at 135.636 148.59 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4400,7 +4400,7 @@
 		(dnp no)
 		(uuid "d0b13ea8-4ed5-4de7-8f51-a19bfffad5c2")
 		(property "Reference" "C11"
-			(at 129.032 146.05 90)
+			(at 129.286 146.05 90)
 			(effects
 				(font
 					(size 1.016 1.016)
