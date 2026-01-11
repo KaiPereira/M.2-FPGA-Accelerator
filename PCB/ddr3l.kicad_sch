@@ -2403,9 +2403,9 @@
 		)
 		(uuid "5aac6b4c-aec2-4d1e-ad48-7ae40fa5d22a")
 	)
-	(text "PULLDOWNS???"
+	(text "PULLDOWNS on commands???"
 		(exclude_from_sim no)
-		(at 44.958 222.25 0)
+		(at 53.848 224.536 0)
 		(effects
 			(font
 				(size 2.54 2.54)

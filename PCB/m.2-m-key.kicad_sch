@@ -2012,6 +2012,16 @@
 		)
 		(uuid "98e66428-185b-4152-aaf3-0a32e413bd77")
 	)
+	(text "< Dampening for inrush for each group"
+		(exclude_from_sim no)
+		(at 211.582 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd478ab3-6636-4601-9e6a-f1287bb8c310")
+	)
 	(text "I inverted the bus symbol, to create an edge connector symbol\nDOUBLE CHECK the transmit/receive are the right orientation!!\nPg 150, https://picture.iczhiku.com/resource/eetop/sHksKPigIJigRbbx.pdf\n\nAll the NC's are SATA only features!\n\nAC Coupling should be near the edge connector to reduce \nimpedance discontinuities! 220nF for backwards compatibility!"
 		(exclude_from_sim no)
 		(at 69.342 45.212 0)

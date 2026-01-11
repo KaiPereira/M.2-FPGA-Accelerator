@@ -8247,6 +8247,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Double check clock pins >"
+		(exclude_from_sim no)
+		(at 131.318 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd84bb00-ca25-4d46-a5ff-7e595dbdc389")
+	)
 	(no_connect
 		(at 171.45 163.83)
 		(uuid "323dbf9c-aea0-4ef2-a1ce-3e259874122c")

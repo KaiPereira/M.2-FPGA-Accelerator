@@ -253,4 +253,20 @@ I prioritized the M.2 connector source because the motherboard is always going t
 
 And then of course I added some smooth decoupling, and we got that finished after some time! 
 
-I'm going to end off this section here, because now we're going to get into some really hard territory, figuring out the pinouts for my flash, ram, etc. It's going to be a wild ride! 
+I'm going to end off this section here, because now we're going to get into some really technical territory, figuring out the pinouts for my flash, ram, etc. It's going to be a wild ride! 
+
+## Flash storage and configurations
+
+Now that I've finished with the power architecture of my board, I need to implement all the configurations for my board and also add the flash storage.
+
+The flash storage is fairly simple, there's some fixed pins on the artix 7 for it, so I can just wire it to those with some pullups according to the artix datasheet. I then added some decoupling:
+
+![[Pasted image 20260111151005.png]]![[Pasted image 20260111151023.png]]
+
+Next, I added a basic configuration to the board to make it work according to UG470:
+
+![[Pasted image 20260111151114.png]]
+
+- DONE is wired so that the LED will turn OFF when the configuration is finished and ON when it's actively configuring. 
+- INIT is just a configuration pin that tells you if there's any configuration errors and needs to be pulled high <= 4k7R
+- PROGRAM
