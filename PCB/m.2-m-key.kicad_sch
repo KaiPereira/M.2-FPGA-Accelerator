@@ -1840,6 +1840,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Transmiting (TX) TO the FPGA,\nReceiving (RX) FROM the FPGA > "
+		(exclude_from_sim no)
+		(at 45.72 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19565260-add6-4e8e-96a1-08a982372551")
+	)
 	(text "I inverted the bus symbol, to create an edge connector symbol\nDOUBLE CHECK the transmit/receive are the right orientation!!\nPg 150, https://picture.iczhiku.com/resource/eetop/sHksKPigIJigRbbx.pdf"
 		(exclude_from_sim no)
 		(at 55.372 48.514 0)
@@ -1850,6 +1861,16 @@
 			(justify left)
 		)
 		(uuid "d1f95db2-a822-496d-8684-6b51388e2f50")
+	)
+	(text "RESEARCH MORE ON WHAT the AC CAPS are for!!"
+		(exclude_from_sim no)
+		(at 248.92 3.302 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "f19253ae-0b51-4349-aeb8-70c2924b7b83")
 	)
 	(junction
 		(at 148.59 40.64)
@@ -1945,6 +1966,15 @@
 		(uuid "7201f0fa-4cb2-402a-bb38-ccd18ed6dc89")
 	)
 	(bus_entry
+		(at 104.14 149.86)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1d42f8-1c12-4675-bd7c-04cea5fe7cc1")
+	)
+	(bus_entry
 		(at 106.68 99.06)
 		(size -2.54 -2.54)
 		(stroke
@@ -2024,6 +2054,15 @@
 			(type default)
 		)
 		(uuid "e80bad47-eec3-4579-b183-32a24fbd2051")
+	)
+	(bus_entry
+		(at 104.14 152.4)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cfbf4a-d600-419c-b258-9ca86f87f248")
 	)
 	(wire
 		(pts
@@ -2195,6 +2234,16 @@
 		)
 		(uuid "4ba6a21e-f588-4f32-9764-4bc0a7c27b9a")
 	)
+	(bus
+		(pts
+			(xy 97.79 142.24) (xy 101.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edbc49f-baa8-4950-bcfb-ef5446c37214")
+	)
 	(wire
 		(pts
 			(xy 86.36 102.87) (xy 110.49 102.87)
@@ -2254,6 +2303,16 @@
 			(type default)
 		)
 		(uuid "66d82b7a-0b52-41ea-918e-e2e4c5de3873")
+	)
+	(bus
+		(pts
+			(xy 101.6 149.86) (xy 101.6 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb093fc-5d23-4205-bfb8-b46b00b0456b")
 	)
 	(wire
 		(pts
@@ -2387,7 +2446,7 @@
 	)
 	(bus
 		(pts
-			(xy 81.28 76.2) (xy 104.14 76.2)
+			(xy 78.74 76.2) (xy 104.14 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2407,13 +2466,23 @@
 	)
 	(bus
 		(pts
-			(xy 81.28 78.74) (xy 83.82 78.74)
+			(xy 78.74 78.74) (xy 83.82 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a5c22b25-f4e0-4019-806b-6b586e4cc94e")
+	)
+	(wire
+		(pts
+			(xy 104.14 149.86) (xy 123.19 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6244213-117a-414b-a543-b59f8ab3ff11")
 	)
 	(wire
 		(pts
@@ -2507,6 +2576,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 152.4) (xy 123.19 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffe4208-8e48-4c3b-9f78-3f45558dc2ea")
+	)
+	(wire
+		(pts
 			(xy 115.57 90.17) (xy 123.19 90.17)
 		)
 		(stroke
@@ -2555,6 +2634,16 @@
 		)
 		(uuid "ef1f6756-b90d-495c-8c9d-b7b773c7fb7e")
 	)
+	(bus
+		(pts
+			(xy 101.6 147.32) (xy 101.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effb87ce-cb0a-4db6-8914-1b8faf1710cb")
+	)
 	(wire
 		(pts
 			(xy 165.1 40.64) (xy 165.1 43.18)
@@ -2594,6 +2683,16 @@
 			(type default)
 		)
 		(uuid "fea8d1ac-8b59-41a2-9b00-2c53c6cbe065")
+	)
+	(label "PCIe_REFCLK-"
+		(at 105.41 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1be80c9d-402e-48d8-a8fa-28d7eb54cde0")
 	)
 	(label "PCIe_TX3-"
 		(at 87.63 130.81 0)
@@ -2664,6 +2763,16 @@
 			(justify left bottom)
 		)
 		(uuid "9c1f138b-c201-4f57-82dc-168983146655")
+	)
+	(label "PCIe_REFCLK+"
+		(at 105.41 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7d875ae-82b8-4567-a7ae-52259f4323f5")
 	)
 	(label "PCIe_RX1+"
 		(at 107.95 96.52 0)
@@ -2757,7 +2866,7 @@
 	)
 	(hierarchical_label "{PCIe_TX}"
 		(shape output)
-		(at 81.28 78.74 180)
+		(at 78.74 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2768,7 +2877,7 @@
 	)
 	(hierarchical_label "{PCIe_RX}"
 		(shape input)
-		(at 81.28 76.2 180)
+		(at 78.74 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2776,6 +2885,17 @@
 			(justify right)
 		)
 		(uuid "5bc2fecb-e968-4176-9dd2-bcfe6f70ef91")
+	)
+	(hierarchical_label "{PCIe_CLK}"
+		(shape output)
+		(at 97.79 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d393b448-77f1-45af-955a-70c6950bd5e8")
 	)
 	(symbol
 		(lib_id "power:+3V3")
