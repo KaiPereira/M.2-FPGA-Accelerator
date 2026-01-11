@@ -183,6 +183,46 @@
 				(justify left top)
 			)
 		)
+		(pin "{PCIe_CLK}" output
+			(at 179.07 73.66 0)
+			(uuid "b8a1135a-e199-48d5-9927-e66cb607f537")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{PCIe_COMMAND}" bidirectional
+			(at 179.07 69.85 0)
+			(uuid "284def59-3437-43b9-9f69-a8c6088ffeae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{PCIe_RX}" input
+			(at 179.07 66.04 0)
+			(uuid "179f08ef-3d40-4ad4-932f-6e157e79f899")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{PCIe_TX}" output
+			(at 179.07 62.23 0)
+			(uuid "d35bb170-52a9-48ff-9205-aec27d88fe83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a"

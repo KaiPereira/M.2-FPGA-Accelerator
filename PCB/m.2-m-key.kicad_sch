@@ -1840,6 +1840,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "PCIe_CLK"
+		(members "PCIe_REFCLK+" "PCIe_REFCLK-")
+	)
+	(bus_alias "PCIe_COMMAND"
+		(members "~{PCIe_PERST}" "~{PCIe_CLKREQ}" "~{PCIe_PEWAKE}")
+	)
+	(bus_alias "PCIe_RX"
+		(members "PCIe_RX0+" "PCIe_RX0-" "PCIe_RX1+" "PCIe_RX1-" "PCIe_RX2+" "PCIe_RX2-"
+			"PCIe_RX3+" "PCIe_RX3-"
+		)
+	)
+	(bus_alias "PCIe_TX"
+		(members "PCIe_TX0+" "PCIe_TX0-" "PCIe_TX1+" "PCIe_TX1-" "PCIe_TX2+" "PCIe_TX2-"
+			"PCIe_TX3+" "PCIe_TX3-"
+		)
+	)
 	(text "Transmiting (TX) TO the FPGA,\nReceiving (RX) FROM the FPGA > "
 		(exclude_from_sim no)
 		(at 45.72 101.092 0)
@@ -1851,9 +1867,19 @@
 		)
 		(uuid "19565260-add6-4e8e-96a1-08a982372551")
 	)
-	(text "I inverted the bus symbol, to create an edge connector symbol\nDOUBLE CHECK the transmit/receive are the right orientation!!\nPg 150, https://picture.iczhiku.com/resource/eetop/sHksKPigIJigRbbx.pdf"
+	(text "< Don't need (PCIe)"
 		(exclude_from_sim no)
-		(at 55.372 48.514 0)
+		(at 188.214 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98e66428-185b-4152-aaf3-0a32e413bd77")
+	)
+	(text "I inverted the bus symbol, to create an edge connector symbol\nDOUBLE CHECK the transmit/receive are the right orientation!!\nPg 150, https://picture.iczhiku.com/resource/eetop/sHksKPigIJigRbbx.pdf\n\nAll the NC's are SATA only features!"
+		(exclude_from_sim no)
+		(at 55.372 47.752 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1901,6 +1927,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6378f10-58cb-49df-95d5-4082a1a3b48f")
+	)
+	(no_connect
+		(at 173.99 124.46)
+		(uuid "037f00b1-f6f3-49d1-802a-d2f11ec26c86")
+	)
+	(no_connect
+		(at 173.99 142.24)
+		(uuid "4a8c3abf-2f76-4fe8-b486-0ca3697b365d")
 	)
 	(no_connect
 		(at 173.99 134.62)

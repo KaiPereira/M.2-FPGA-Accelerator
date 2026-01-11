@@ -8389,7 +8389,7 @@
 	)
 	(text "Close to FPGA, not edge connector >"
 		(exclude_from_sim no)
-		(at 130.302 160.02 0)
+		(at 112.522 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8405,6 +8405,24 @@
 		(at 171.45 166.37)
 		(uuid "8946de00-b05e-467e-9356-bee2171c63ff")
 	)
+	(bus_entry
+		(at 134.62 158.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8708ecf2-9e22-4492-8f92-b56cc3b0e86a")
+	)
+	(bus_entry
+		(at 134.62 156.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bcb069-5086-4ecf-a277-9df17525d0cc")
+	)
 	(wire
 		(pts
 			(xy 162.56 158.75) (xy 171.45 158.75)
@@ -8414,6 +8432,26 @@
 			(type default)
 		)
 		(uuid "1bd8068f-8077-42fd-a327-c86aefe11e10")
+	)
+	(wire
+		(pts
+			(xy 137.16 161.29) (xy 163.83 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f32182b-ea51-4941-80ff-fcee81089ee6")
+	)
+	(bus
+		(pts
+			(xy 134.62 151.13) (xy 134.62 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48deb8e8-37d9-46f5-b0e6-4135f39d08eb")
 	)
 	(wire
 		(pts
@@ -8427,23 +8465,64 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 158.75) (xy 157.48 158.75)
+			(xy 137.16 158.75) (xy 157.48 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7928a326-f4b5-4817-8a68-d5a99761dd8f")
+		(uuid "59540210-2a06-4590-b68d-0e94d29ae912")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 152.4 161.29) (xy 163.83 161.29)
+			(xy 134.62 156.21) (xy 134.62 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6ca264e-2d0d-4b29-a524-2831eff28de6")
+		(uuid "8c4649f4-55e5-4590-942f-1889ba7e45ff")
+	)
+	(bus
+		(pts
+			(xy 129.54 151.13) (xy 134.62 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91ccfe6-97da-4c3c-8a1e-a420b3eb5f8d")
+	)
+	(label "PCIe_REFCLK+"
+		(at 138.43 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "500babe2-1b19-45ce-adeb-e65456799833")
+	)
+	(label "PCIe_REFCLK-"
+		(at 138.43 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e990eacd-1e30-4f5f-a1e7-397eed4a9494")
+	)
+	(hierarchical_label "{PCIe_CLK}"
+		(shape input)
+		(at 129.54 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f92fdabb-759c-4b15-ac2c-89ab5e227159")
 	)
 	(symbol
 		(lib_id "FPGA Accelerator:XC7A50T-FGG484")
