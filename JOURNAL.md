@@ -269,4 +269,9 @@ Next, I added a basic configuration to the board to make it work according to UG
 
 - DONE is wired so that the LED will turn OFF when the configuration is finished and ON when it's actively configuring. 
 - INIT is just a configuration pin that tells you if there's any configuration errors and needs to be pulled high <= 4k7R
-- PROGRAM
+- PROGRAM is another configuration pin that's used for configuration reset, and I just needed to pull this high. After reading this a second time, I decided to actually add a button to manually reset it if I wanted to, because this board is technically a devboard ya know (shown below)
+- CFGBVS is a bank voltage configuration, it's needed because there's configuration pins on multiple banks so to maintain a near the same voltage of all of the them, I pulled this high to tell the artix 7, they're all 3V3 essentially
+- And then, VP/VN, VREFP/VREFN and DXP_0/DXN_0 are essentially just part of the XADC to get internal reads of the FPGA and whatnot, and I just tied them low for now to disable all of that, but I want to revisit it, but not necessarily change any of it!
+
+
+![[Pasted image 20260111153814.png]]
