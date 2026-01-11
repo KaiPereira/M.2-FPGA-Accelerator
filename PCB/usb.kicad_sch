@@ -7476,7 +7476,7 @@
 		(uuid "f565ccc8-9292-4a8e-832e-84008d2951e4")
 	)
 	(hierarchical_label "{JTAG}"
-		(shape output)
+		(shape bidirectional)
 		(at 361.95 152.4 0)
 		(effects
 			(font

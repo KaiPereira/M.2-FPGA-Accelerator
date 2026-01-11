@@ -632,7 +632,7 @@
     ],
     [
       "b2fdda25-525f-499f-b2e7-c3e0e6b79359",
-      "FPGA Banks"
+      "Artix 7 Banks"
     ],
     [
       "b3feae67-f5ac-44a3-90a4-88fd0a4da47c",
@@ -641,6 +641,10 @@
     [
       "95cb9219-15bb-49aa-939c-f3c0ddd8f386",
       "DDR3L"
+    ],
+    [
+      "afe9695b-690d-4189-aece-4d8f452c930a",
+      "PCIe GTP Transceivers"
     ]
   ],
   "text_variables": {}
