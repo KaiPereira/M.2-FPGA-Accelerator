@@ -4126,6 +4126,42 @@
 				)
 			)
 			(pin passive line
+				(at 15.24 -35.56 180)
+				(length 2.54)
+				(name "V_{REFDQ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -38.1 180)
+				(length 2.54)
+				(name "V_{REFCA}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 15.24 -43.18 180)
 				(length 2.54)
 				(name "ZQ"
@@ -4698,42 +4734,6 @@
 					)
 				)
 				(number "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -15.24 180)
-				(length 2.54)
-				(name "V_{REFDQ}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -17.78 180)
-				(length 2.54)
-				(name "V_{REFCA}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M8"
 					(effects
 						(font
 							(size 1.27 1.27)
