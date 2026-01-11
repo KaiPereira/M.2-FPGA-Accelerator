@@ -15,7 +15,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bus_M.2_Socket_M"
+		(property "Value" "Bus_M.2_Edge_M"
 			(at 16.51 46.99 0)
 			(effects
 				(font
@@ -41,7 +41,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M.2 Socket 3 Mechanical Key M"
+		(property "Description" "M.2 Edge Connector 3 Mechanical Key M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137,9 +137,9 @@
 				)
 			)
 			(pin output line
-				(at -25.4 33.02 0)
+				(at -25.4 30.48 0)
 				(length 2.54)
-				(name "PETp0/SATA-A+"
+				(name "PERp0/SATA-A+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -155,9 +155,9 @@
 				)
 			)
 			(pin output line
-				(at -25.4 30.48 0)
+				(at -25.4 27.94 0)
 				(length 2.54)
-				(name "PETn0/SATA-A-"
+				(name "PERn0/SATA-A-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -173,9 +173,9 @@
 				)
 			)
 			(pin input line
-				(at -25.4 27.94 0)
+				(at -25.4 24.13 0)
 				(length 2.54)
-				(name "PERp0/SATA-B-"
+				(name "PETp0/SATA-B-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -191,9 +191,9 @@
 				)
 			)
 			(pin input line
-				(at -25.4 25.4 0)
+				(at -25.4 21.59 0)
 				(length 2.54)
-				(name "PERn0/SATA-B+"
+				(name "PETn0/SATA-B+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -209,9 +209,9 @@
 				)
 			)
 			(pin output line
-				(at -25.4 22.86 0)
+				(at -25.4 17.78 0)
 				(length 2.54)
-				(name "PETp1"
+				(name "PERp1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -227,9 +227,9 @@
 				)
 			)
 			(pin output line
-				(at -25.4 20.32 0)
+				(at -25.4 15.24 0)
 				(length 2.54)
-				(name "PETn1"
+				(name "PERn1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -245,9 +245,9 @@
 				)
 			)
 			(pin input line
-				(at -25.4 17.78 0)
+				(at -25.4 11.43 0)
 				(length 2.54)
-				(name "PERp1"
+				(name "PETp1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -263,9 +263,9 @@
 				)
 			)
 			(pin input line
-				(at -25.4 15.24 0)
+				(at -25.4 8.89 0)
 				(length 2.54)
-				(name "PERn1"
+				(name "PETn1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -281,9 +281,9 @@
 				)
 			)
 			(pin output line
-				(at -25.4 12.7 0)
+				(at -25.4 5.08 0)
 				(length 2.54)
-				(name "PETp2"
+				(name "PERp2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -299,9 +299,9 @@
 				)
 			)
 			(pin output line
-				(at -25.4 10.16 0)
+				(at -25.4 2.54 0)
 				(length 2.54)
-				(name "PETn2"
+				(name "PERn2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -317,9 +317,9 @@
 				)
 			)
 			(pin input line
-				(at -25.4 7.62 0)
+				(at -25.4 -1.27 0)
 				(length 2.54)
-				(name "PERp2"
+				(name "PETp2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -335,9 +335,9 @@
 				)
 			)
 			(pin input line
-				(at -25.4 5.08 0)
+				(at -25.4 -3.81 0)
 				(length 2.54)
-				(name "PERn2"
+				(name "PETn2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -353,9 +353,9 @@
 				)
 			)
 			(pin output line
-				(at -25.4 2.54 0)
+				(at -25.4 -7.62 0)
 				(length 2.54)
-				(name "PETp3"
+				(name "PERp3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -371,9 +371,9 @@
 				)
 			)
 			(pin output line
-				(at -25.4 0 0)
+				(at -25.4 -10.16 0)
 				(length 2.54)
-				(name "PETn3"
+				(name "PERn3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -389,9 +389,9 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -2.54 0)
+				(at -25.4 -13.97 0)
 				(length 2.54)
-				(name "PERp3"
+				(name "PETp3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -407,9 +407,9 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -5.08 0)
+				(at -25.4 -16.51 0)
 				(length 2.54)
-				(name "PERn3"
+				(name "PETn3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -425,7 +425,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -22.86 0)
+				(at -25.4 -27.94 0)
 				(length 2.54)
 				(name "DEVSLP"
 					(effects
