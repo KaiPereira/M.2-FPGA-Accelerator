@@ -296,13 +296,13 @@ You'll notice a perfect split voltage divider on Vref, which is essentially just
 
 And that's our DDR3 wired, it was a lot more complicated to do than I described, but that's the gist of it! 
 
-## PCIe and the GTP WHAA transceivers ;)
+## PCIe and the GTP WHAA transceivers ;) - 5 Hours
 
 Now that I've added DDR3 in, I can power on my board, fully program it and execute commands on it too! Now I need to wire the PCIe lanes to the GTP transceivers which lets me board connect to your computer via the m.2 connector! 
 
 Remember earlier how we added in the m.2 connector for power, well now I just have to wire all the lanes up and came up with this:
 
-![[Pasted image 20260111213647.png]]
+![Pasted image 20260111213647.png](images/Pasted%20image%2020260111213647.png)
 
 I changed up the decoupling to instead be a mid range cap per group of pins, because all I really care about is dampening the inrush when plugging the board in/out and powering it on. 
 
@@ -320,6 +320,6 @@ Next, you'll notice 22R dampening resistors on some of the command lines. These 
 
 Now we need to just wire these PCIe signals into our FPGA, and BOOM, we're done!
 
-![[Pasted image 20260111214553.png]]
+![Pasted image 20260111214553.png](images/Pasted%20image%2020260111214553.png)
 
 We don't use the other clock and it's probably reserved for some other uses, so I'm just going to no connect it for now! I want to double check I did this right later, but it should be fine! 
