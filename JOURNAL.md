@@ -261,11 +261,11 @@ Now that I've finished with the power architecture of my board, I need to implem
 
 The flash storage is fairly simple, there's some fixed pins on the artix 7 for it, so I can just wire it to those with some pullups according to the artix datasheet. I then added some decoupling:
 
-![[Pasted image 20260111151005.png]]![[Pasted image 20260111151023.png]]
+![Pasted image 20260111151005.png](images/Pasted%20image%2020260111151005.png)![Pasted image 20260111151023.png](images/Pasted%20image%2020260111151023.png)
 
 Next, I added a basic configuration to the board to make it work according to UG470:
 
-![[Pasted image 20260111151114.png]]
+![Pasted image 20260111151114.png](images/Pasted%20image%2020260111151114.png)
 
 - DONE is wired so that the LED will turn OFF when the configuration is finished and ON when it's actively configuring. 
 - INIT is just a configuration pin that tells you if there's any configuration errors and needs to be pulled high <= 4k7R
@@ -274,7 +274,7 @@ Next, I added a basic configuration to the board to make it work according to UG
 - And then, VP/VN, VREFP/VREFN and DXP_0/DXN_0 are essentially just part of the XADC to get internal reads of the FPGA and whatnot, and I just tied them low for now to disable all of that, but I want to revisit it, but not necessarily change any of it!
 
 
-![[Pasted image 20260111153814.png]]
+![Pasted image 20260111153814.png](images/Pasted%20image%2020260111153814.png)
 
 ## Fun DDR3 wiring time now :D
 
@@ -284,7 +284,7 @@ DDR3 works pretty fast, so you have to pay attention to how you wire it! I chose
 
 This is a 2 Gb (gigabit) memory with 16 bit data width which means it's 256 MB (2Gb / 8) of memory that can fit 128M words 16 bits wide, because 2Gb / 16 = 128! 
 
-![[Pasted image 20260111211326.png]]
+![Pasted image 20260111211326.png](images/Pasted%20image%2020260111211326.png)
 
 I created this custom DDR3 symbol because I like to have my decoupling pins visible so I don't make any dumb mistakes. I did a 100nF cap per VDD pin and then a bulk cap near both sides to keep it stable.
 
