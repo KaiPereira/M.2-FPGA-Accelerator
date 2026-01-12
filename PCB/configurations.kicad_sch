@@ -9478,6 +9478,16 @@
 		)
 		(uuid "75dc154d-67c9-4031-9d2b-bb3ff97944ef")
 	)
+	(text "REVISIT BUTTONS"
+		(exclude_from_sim no)
+		(at 56.134 90.17 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "997bea67-d8ca-4686-84cc-234f36314594")
+	)
 	(text "< Master SPI M[2:0] 001"
 		(exclude_from_sim no)
 		(at 213.36 165.354 0)

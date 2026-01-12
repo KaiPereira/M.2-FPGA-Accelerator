@@ -255,7 +255,7 @@ And then of course I added some smooth decoupling, and we got that finished afte
 
 I'm going to end off this section here, because now we're going to get into some really technical territory, figuring out the pinouts for my flash, ram, etc. It's going to be a wild ride! 
 
-## Flash storage and configurations
+## Flash storage and configurations - 4 Hours
 
 Now that I've finished with the power architecture of my board, I need to implement all the configurations for my board and also add the flash storage.
 
@@ -275,3 +275,5 @@ Next, I added a basic configuration to the board to make it work according to UG
 
 
 ![[Pasted image 20260111153814.png]]
+
+## Fun DDR3 wiring time now :D
