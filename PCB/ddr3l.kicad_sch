@@ -382,7 +382,7 @@
 						(type background)
 					)
 				)
-				(text "DDR3L"
+				(text "DDR3"
 					(at 0 0 0)
 					(effects
 						(font
@@ -1435,8 +1435,8 @@
 						(type background)
 					)
 				)
-				(text "DDR3L"
-					(at 0 0 0)
+				(text "DDR3"
+					(at 0.508 -14.478 0)
 					(effects
 						(font
 							(size 2.1336 2.1336)
@@ -2383,8 +2383,8 @@
 		(members "DDR_CLK+" "DDR_CLK-")
 	)
 	(bus_alias "DDR_COMMAND"
-		(members "~{DDR_CS}" "~{DDR_RAS}" "~{DDR_CAS}" "~{DDR_WE}" "~{DDR_ODT}"
-			"~{DDR_RESET}" "DDR_CKE"
+		(members "~{DDR_RAS}" "~{DDR_CAS}" "~{DDR_WE}" "~{DDR_ODT}" "~{DDR_RESET}"
+			"DDR_CKE"
 		)
 	)
 	(bus_alias "DDR_DATA"
@@ -5063,6 +5063,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 200.66) (xy 132.08 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85813b0c-1d38-4dfb-bbab-001ae172ea51")
+	)
+	(wire
+		(pts
 			(xy 101.6 134.62) (xy 67.31 134.62)
 		)
 		(stroke
@@ -5573,6 +5583,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 201.93) (xy 134.62 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b073f69f-c81a-4b87-aa16-a4ade88071fd")
+	)
+	(wire
+		(pts
 			(xy 146.05 176.53) (xy 132.08 176.53)
 		)
 		(stroke
@@ -5730,16 +5750,6 @@
 			(type default)
 		)
 		(uuid "c7c2f575-970b-44b8-8f9e-fc73ca9f53ec")
-	)
-	(wire
-		(pts
-			(xy 134.62 200.66) (xy 132.08 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c30a5b-24f0-46a5-8a8e-2902259eab9d")
 	)
 	(wire
 		(pts
@@ -5963,7 +5973,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 209.55) (xy 134.62 208.28)
+			(xy 134.62 210.82) (xy 134.62 209.55)
 		)
 		(stroke
 			(width 0)
@@ -7590,7 +7600,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 209.55 0)
+		(at 134.62 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7599,7 +7609,7 @@
 		(fields_autoplaced yes)
 		(uuid "27f12338-c2ba-47a2-b8c3-411395f66f03")
 		(property "Reference" "#PWR044"
-			(at 134.62 215.9 0)
+			(at 134.62 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +7618,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 214.63 0)
+			(at 134.62 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 209.55 0)
+			(at 134.62 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +7635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 209.55 0)
+			(at 134.62 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,7 +7644,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 209.55 0)
+			(at 134.62 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,7 +7666,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 204.47 0)
+		(at 134.62 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7665,7 +7675,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a7c451a-6ccc-4b09-bbdd-ed3b94b3425e")
 		(property "Reference" "R16"
-			(at 137.16 203.1999 0)
+			(at 137.16 204.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7684,7 @@
 			)
 		)
 		(property "Value" "240"
-			(at 137.16 205.7399 0)
+			(at 137.16 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.842 204.47 90)
+			(at 132.842 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +7702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 204.47 0)
+			(at 134.62 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +7711,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 204.47 0)
+			(at 134.62 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

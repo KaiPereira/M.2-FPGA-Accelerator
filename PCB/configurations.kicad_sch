@@ -9478,9 +9478,9 @@
 		)
 		(uuid "75dc154d-67c9-4031-9d2b-bb3ff97944ef")
 	)
-	(text "REVISIT BUTTONS"
+	(text "REVISIT BUTTON MPN'S"
 		(exclude_from_sim no)
-		(at 56.134 90.17 0)
+		(at 50.8 89.916 0)
 		(effects
 			(font
 				(size 1.905 1.905)

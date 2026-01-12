@@ -277,3 +277,13 @@ Next, I added a basic configuration to the board to make it work according to UG
 ![[Pasted image 20260111153814.png]]
 
 ## Fun DDR3 wiring time now :D
+
+Now that I've wired up the flash storage, I need to add in the DDR3 memory! Flash storage is non-volatile which means it stores information long term, retaining all of it without power, while RAM is volatile and is used for active tasks (but you probably knew that ;). 
+
+DDR3 works pretty fast, so you have to pay attention to how you wire it! I chose my RAM from an artix 7 datasheet which specifies the compatible ones you can use, and I chose MT41J128M16JT.
+
+This is a 2 Gb (gigabit) memory with 16 bit data width which means it's 256 MB (2Gb / 8) of memory that can fit 128M words 16 bits wide, because 2Gb / 16 = 128! 
+
+![[Pasted image 20260111211326.png]]
+
+I created this custom DDR3 symbol because I like to have my decoupling pins visible so I don't make any dumb mistakes. I did a 100nF cap per VDD pin and then a bulk cap near both sides to keep it stable.

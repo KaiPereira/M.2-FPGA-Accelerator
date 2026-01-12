@@ -183,8 +183,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "07227920f18e6336",
+  "active": "95eb27a9e72794cd",
   "lastOpenFiles": [
+    "PCB/PCB-backups/PCB-2026-01-11_212202.zip",
+    "images/Pasted image 20260111211326.png",
     "PCB/~PCB.kicad_sch.lck",
     "PCB/PCB-backups/PCB-2026-01-11_160221.zip",
     "PCB/~PCB.kicad_pro.lck",
@@ -202,10 +204,8 @@
     "images/Pasted image 20260106132555.png",
     "images/Pasted image 20260106131956.png",
     "images/Pasted image 20260106131603.png",
-    "PCB/PCB-backups/PCB-2026-01-06_131340.zip",
     "images/Pasted image 20260106131305.png",
     "images/Pasted image 20260106131135.png",
-    "images/Pasted image 20260106130817.png",
     "JOURNAL.md",
     "JOURNAL.md.md"
   ]

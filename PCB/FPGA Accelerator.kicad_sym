@@ -3139,7 +3139,7 @@
 					(type background)
 				)
 			)
-			(text "DDR3L"
+			(text "DDR3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4192,8 +4192,8 @@
 					(type background)
 				)
 			)
-			(text "DDR3L"
-				(at 0 0 0)
+			(text "DDR3"
+				(at 0.508 -14.478 0)
 				(effects
 					(font
 						(size 2.1336 2.1336)
