@@ -4543,7 +4543,7 @@
 		(dnp no)
 		(uuid "ef4a91a8-6c5b-4c72-ac7d-29ffab1a9b5c")
 		(property "Reference" "C10"
-			(at 135.382 127 90)
+			(at 135.636 127 90)
 			(effects
 				(font
 					(size 1.016 1.016)

@@ -276,7 +276,7 @@ Next, I added a basic configuration to the board to make it work according to UG
 
 ![Pasted image 20260111153814.png](images/Pasted%20image%2020260111153814.png)
 
-## Fun DDR3 wiring time now :D
+## Fun DDR3 wiring time now :D - 6 Hours
 
 Now that I've wired up the flash storage, I need to add in the DDR3 memory! Flash storage is non-volatile which means it stores information long term, retaining all of it without power, while RAM is volatile and is used for active tasks (but you probably knew that ;). 
 
@@ -295,3 +295,31 @@ CS# is then tied low, because I'm only using one memory IC, and I have pulldowns
 You'll notice a perfect split voltage divider on Vref, which is essentially just half of VCC, and it needs to be really precise to distinguish cleanly between high and low data signals for fast DDR3 signals. I put a bunch of decoupling on it to make sure it's really precise with very low noise! 
 
 And that's our DDR3 wired, it was a lot more complicated to do than I described, but that's the gist of it! 
+
+## PCIe and the GTP WHAA transceivers ;)
+
+Now that I've added DDR3 in, I can power on my board, fully program it and execute commands on it too! Now I need to wire the PCIe lanes to the GTP transceivers which lets me board connect to your computer via the m.2 connector! 
+
+Remember earlier how we added in the m.2 connector for power, well now I just have to wire all the lanes up and came up with this:
+
+![[Pasted image 20260111213647.png]]
+
+I changed up the decoupling to instead be a mid range cap per group of pins, because all I really care about is dampening the inrush when plugging the board in/out and powering it on. 
+
+Now let's list out what all of these signals are for! All except for SUSCLK are SATA only pins, and SUSCLK is just for low power states, when you sleep your computer and want to still maintain basic functions which I don't want.
+
+Next, I actually modified my old symbol to create this edge connector symbol which basically just inverses the PCIe text to be more accurate of what's happening on our board. So the pins that were originally receiving PCIe in the form of a bus, are SENDING them now on our board. So all of these transmits, are what's transmitting to our card.
+
+It's mutually known that the side receiving the signals should handle it's own AC coupling, so my FPGA TX lanes, which are sending from the edge connector, and receiving into my board, are going to be AC coupled! 
+
+Because PCIe is close to a fundamental square waveform, it's got sharp edges. So these capacitors in parallel filter out the DC noise, and only allow the switching waveform noise to pass through, pretty cool huh! I used 220nF because it's suggested for if you want multiple generation backwards compatibility because you can use like gen 3 in gen 2 systems, gen 4 in gen 2 and so on and so forth.
+
+CLK also has AC coupling because the direction isn't fixed so they should both be handling it regardless! 
+
+Next, you'll notice 22R dampening resistors on some of the command lines. These are the longer and slower command lines which just travel really far, so I just want to make sure nothing got messed up on the way. PERST is a bit faster so I don't want to cause anti-resonance by adding in dampening resistors on it.
+
+Now we need to just wire these PCIe signals into our FPGA, and BOOM, we're done!
+
+![[Pasted image 20260111214553.png]]
+
+We don't use the other clock and it's probably reserved for some other uses, so I'm just going to no connect it for now! I want to double check I did this right later, but it should be fine! 
