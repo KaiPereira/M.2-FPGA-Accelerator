@@ -287,3 +287,11 @@ This is a 2 Gb (gigabit) memory with 16 bit data width which means it's 256 MB (
 ![[Pasted image 20260111211326.png]]
 
 I created this custom DDR3 symbol because I like to have my decoupling pins visible so I don't make any dumb mistakes. I did a 100nF cap per VDD pin and then a bulk cap near both sides to keep it stable.
+
+Next, I wired all of the address, command, data and clock buses to hierarchical sheets to keep it clean.
+
+CS# is then tied low, because I'm only using one memory IC, and I have pulldowns on ODT, CKE and RESET as suggested from most reference boards. I put a 100R shunt resistor (an AC resistor) to match the differential impedance of 100R, and then ZQ is tied to 240R which is like a calibration pin and needs to be tied with this exact value! 
+
+You'll notice a perfect split voltage divider on Vref, which is essentially just half of VCC, and it needs to be really precise to distinguish cleanly between high and low data signals for fast DDR3 signals. I put a bunch of decoupling on it to make sure it's really precise with very low noise! 
+
+And that's our DDR3 wired, it was a lot more complicated to do than I described, but that's the gist of it! 

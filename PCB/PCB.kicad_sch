@@ -113,7 +113,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "95cb9219-15bb-49aa-939c-f3c0ddd8f386")
-		(property "Sheetname" "DDR3L"
+		(property "Sheetname" "DDR3"
 			(at 208.28 172.0084 0)
 			(effects
 				(font
@@ -122,7 +122,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ddr3l.kicad_sch"
+		(property "Sheetfile" "ddr3.kicad_sch"
 			(at 208.28 231.7246 0)
 			(effects
 				(font
