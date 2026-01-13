@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "ed0095eb-57a0-4856-9ac4-7b40bd214a3a")
 	(paper "A3")
+	(title_block
+		(title "M.2 FPGA Hardware Accelerator Devboard")
+		(rev "v1.0")
+		(company "Kai Pereira")
+		(comment 1 "https://github.com/KaiPereira/M.2-FPGA-Accelerator")
+	)
 	(lib_symbols)
 	(bus
 		(pts
