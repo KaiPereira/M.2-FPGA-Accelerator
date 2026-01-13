@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "47cc638a-6164-4ecb-9ed3-6d7634f22358")
-	(paper "A3")
+	(paper "A4")
 	(lib_symbols
 		(symbol "FPGA Accelerator:XC7A50T-FGG484"
 			(pin_names
@@ -8249,7 +8249,7 @@
 	)
 	(text "Double check clock pins >"
 		(exclude_from_sim no)
-		(at 131.318 159.004 0)
+		(at 84.328 118.364 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8258,15 +8258,15 @@
 		(uuid "fd84bb00-ca25-4d46-a5ff-7e595dbdc389")
 	)
 	(no_connect
-		(at 171.45 163.83)
+		(at 124.46 123.19)
 		(uuid "323dbf9c-aea0-4ef2-a1ce-3e259874122c")
 	)
 	(no_connect
-		(at 171.45 166.37)
+		(at 124.46 125.73)
 		(uuid "8946de00-b05e-467e-9356-bee2171c63ff")
 	)
 	(bus_entry
-		(at 152.4 123.19)
+		(at 105.41 82.55)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8275,7 +8275,7 @@
 		(uuid "161c9fd2-b1d5-41f2-9951-5324d46b625d")
 	)
 	(bus_entry
-		(at 149.86 140.97)
+		(at 102.87 100.33)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8284,7 +8284,7 @@
 		(uuid "17a86e75-239f-4780-9d33-2a163adf1614")
 	)
 	(bus_entry
-		(at 152.4 113.03)
+		(at 105.41 72.39)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8293,7 +8293,7 @@
 		(uuid "18fb8a41-692b-4c28-8a29-01efa318e6d4")
 	)
 	(bus_entry
-		(at 152.4 120.65)
+		(at 105.41 80.01)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8302,7 +8302,7 @@
 		(uuid "2fff296f-8360-41c0-a580-1fb09d31735c")
 	)
 	(bus_entry
-		(at 149.86 135.89)
+		(at 102.87 95.25)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8311,7 +8311,7 @@
 		(uuid "5066f910-90f1-449b-ada2-b1ec0e716902")
 	)
 	(bus_entry
-		(at 149.86 133.35)
+		(at 102.87 92.71)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8320,7 +8320,7 @@
 		(uuid "7b4b16c3-9dfb-4cc6-baef-8e116bcca5f8")
 	)
 	(bus_entry
-		(at 152.4 128.27)
+		(at 105.41 87.63)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8329,7 +8329,7 @@
 		(uuid "82ca53da-0a47-4bec-ae3f-0cddd8a82098")
 	)
 	(bus_entry
-		(at 147.32 158.75)
+		(at 100.33 118.11)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8338,7 +8338,7 @@
 		(uuid "8708ecf2-9e22-4492-8f92-b56cc3b0e86a")
 	)
 	(bus_entry
-		(at 149.86 151.13)
+		(at 102.87 110.49)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8347,7 +8347,7 @@
 		(uuid "97a15d89-d294-4e87-8d20-a9852df15dd8")
 	)
 	(bus_entry
-		(at 152.4 125.73)
+		(at 105.41 85.09)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8356,7 +8356,7 @@
 		(uuid "9c952fc4-5277-4d36-b60a-95e2f09b858d")
 	)
 	(bus_entry
-		(at 149.86 138.43)
+		(at 102.87 97.79)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8365,7 +8365,7 @@
 		(uuid "a146ed5b-f756-44fd-8708-0eaf2782c318")
 	)
 	(bus_entry
-		(at 149.86 143.51)
+		(at 102.87 102.87)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8374,7 +8374,7 @@
 		(uuid "a6fba049-9532-4afb-ac83-12e17ba76daa")
 	)
 	(bus_entry
-		(at 152.4 110.49)
+		(at 105.41 69.85)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8383,7 +8383,7 @@
 		(uuid "b401ce36-210c-499e-ad63-fd0574ba527b")
 	)
 	(bus_entry
-		(at 152.4 118.11)
+		(at 105.41 77.47)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8392,7 +8392,7 @@
 		(uuid "beb89a13-7f01-4758-b692-901b5c2b84f3")
 	)
 	(bus_entry
-		(at 147.32 156.21)
+		(at 100.33 115.57)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8401,7 +8401,7 @@
 		(uuid "c0bcb069-5086-4ecf-a277-9df17525d0cc")
 	)
 	(bus_entry
-		(at 149.86 146.05)
+		(at 102.87 105.41)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8410,7 +8410,7 @@
 		(uuid "d16a0f65-d7ff-46f8-8879-41c4c3ed6b17")
 	)
 	(bus_entry
-		(at 152.4 115.57)
+		(at 105.41 74.93)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8419,7 +8419,7 @@
 		(uuid "e88c8f34-5128-4b94-afe8-325988dc263f")
 	)
 	(bus_entry
-		(at 149.86 148.59)
+		(at 102.87 107.95)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8429,7 +8429,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 140.97) (xy 149.86 143.51)
+			(xy 102.87 100.33) (xy 102.87 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8439,7 +8439,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 140.97) (xy 171.45 140.97)
+			(xy 105.41 100.33) (xy 124.46 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8449,7 +8449,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 118.11) (xy 171.45 118.11)
+			(xy 107.95 77.47) (xy 124.46 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8459,7 +8459,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 151.13) (xy 171.45 151.13)
+			(xy 105.41 110.49) (xy 124.46 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8469,7 +8469,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 135.89) (xy 149.86 138.43)
+			(xy 102.87 95.25) (xy 102.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8479,7 +8479,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 161.29) (xy 171.45 161.29)
+			(xy 102.87 120.65) (xy 124.46 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8489,7 +8489,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 120.65) (xy 171.45 120.65)
+			(xy 107.95 80.01) (xy 124.46 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8499,7 +8499,7 @@
 	)
 	(bus
 		(pts
-			(xy 147.32 111.76) (xy 147.32 156.21)
+			(xy 100.33 71.12) (xy 100.33 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8509,7 +8509,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 130.81) (xy 171.45 130.81)
+			(xy 107.95 90.17) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8519,7 +8519,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 143.51) (xy 171.45 143.51)
+			(xy 105.41 102.87) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8529,7 +8529,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 146.05) (xy 149.86 148.59)
+			(xy 102.87 105.41) (xy 102.87 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8539,7 +8539,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 158.75) (xy 171.45 158.75)
+			(xy 102.87 118.11) (xy 124.46 118.11)
 		)
 		(stroke
 			(width 0)
@@ -8549,7 +8549,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 125.73) (xy 171.45 125.73)
+			(xy 107.95 85.09) (xy 124.46 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8559,7 +8559,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 123.19) (xy 171.45 123.19)
+			(xy 107.95 82.55) (xy 124.46 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8569,7 +8569,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 128.27) (xy 171.45 128.27)
+			(xy 107.95 87.63) (xy 124.46 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8579,7 +8579,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 148.59) (xy 149.86 151.13)
+			(xy 102.87 107.95) (xy 102.87 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8589,7 +8589,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 110.49) (xy 152.4 113.03)
+			(xy 105.41 69.85) (xy 105.41 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8599,7 +8599,7 @@
 	)
 	(bus
 		(pts
-			(xy 147.32 156.21) (xy 147.32 158.75)
+			(xy 100.33 115.57) (xy 100.33 118.11)
 		)
 		(stroke
 			(width 0)
@@ -8609,7 +8609,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 123.19) (xy 152.4 125.73)
+			(xy 105.41 82.55) (xy 105.41 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8619,7 +8619,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 115.57) (xy 152.4 118.11)
+			(xy 105.41 74.93) (xy 105.41 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8629,7 +8629,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 120.65) (xy 152.4 123.19)
+			(xy 105.41 80.01) (xy 105.41 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8639,7 +8639,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 148.59) (xy 171.45 148.59)
+			(xy 105.41 107.95) (xy 124.46 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8649,7 +8649,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 118.11) (xy 152.4 120.65)
+			(xy 105.41 77.47) (xy 105.41 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8659,7 +8659,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 143.51) (xy 149.86 146.05)
+			(xy 102.87 102.87) (xy 102.87 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8669,7 +8669,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 138.43) (xy 149.86 140.97)
+			(xy 102.87 97.79) (xy 102.87 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8679,7 +8679,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 113.03) (xy 171.45 113.03)
+			(xy 107.95 72.39) (xy 124.46 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8689,7 +8689,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 146.05) (xy 171.45 146.05)
+			(xy 105.41 105.41) (xy 124.46 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8699,7 +8699,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 113.03) (xy 152.4 115.57)
+			(xy 105.41 72.39) (xy 105.41 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8709,7 +8709,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 135.89) (xy 171.45 135.89)
+			(xy 105.41 95.25) (xy 124.46 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8719,7 +8719,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 106.68) (xy 152.4 110.49)
+			(xy 105.41 66.04) (xy 105.41 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8729,7 +8729,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 133.35) (xy 149.86 135.89)
+			(xy 102.87 92.71) (xy 102.87 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8739,7 +8739,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 125.73) (xy 152.4 128.27)
+			(xy 105.41 85.09) (xy 105.41 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8749,7 +8749,7 @@
 	)
 	(bus
 		(pts
-			(xy 144.78 109.22) (xy 149.86 109.22)
+			(xy 97.79 68.58) (xy 102.87 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8759,7 +8759,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 153.67) (xy 171.45 153.67)
+			(xy 105.41 113.03) (xy 124.46 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8769,7 +8769,7 @@
 	)
 	(bus
 		(pts
-			(xy 144.78 106.68) (xy 152.4 106.68)
+			(xy 97.79 66.04) (xy 105.41 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8779,7 +8779,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 115.57) (xy 171.45 115.57)
+			(xy 107.95 74.93) (xy 124.46 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8789,7 +8789,7 @@
 	)
 	(bus
 		(pts
-			(xy 144.78 111.76) (xy 147.32 111.76)
+			(xy 97.79 71.12) (xy 100.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8799,7 +8799,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 138.43) (xy 171.45 138.43)
+			(xy 105.41 97.79) (xy 124.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8809,7 +8809,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 109.22) (xy 149.86 133.35)
+			(xy 102.87 68.58) (xy 102.87 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8818,7 +8818,7 @@
 		(uuid "feada665-bc19-4470-b782-3fdb60ec937f")
 	)
 	(label "PCIe_TX2-"
-		(at 156.21 125.73 0)
+		(at 109.22 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8828,7 +8828,7 @@
 		(uuid "009334f5-057b-4968-8d87-58f188d415f5")
 	)
 	(label "PCIe_RX2-"
-		(at 156.21 148.59 0)
+		(at 109.22 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8838,7 +8838,7 @@
 		(uuid "0d3f7cc8-320d-4225-becb-93ced92cb5a5")
 	)
 	(label "PCIe_RX0+"
-		(at 156.21 135.89 0)
+		(at 109.22 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8848,7 +8848,7 @@
 		(uuid "0db2200a-9db7-4219-8cc7-4a1d2332a075")
 	)
 	(label "PCIe_TX3+"
-		(at 156.21 128.27 0)
+		(at 109.22 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8858,7 +8858,7 @@
 		(uuid "2b08c3fc-b65d-4f77-9dfb-8be6c4f7e65c")
 	)
 	(label "PCIe_TX2+"
-		(at 156.21 123.19 0)
+		(at 109.22 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8868,7 +8868,7 @@
 		(uuid "39c0f86e-98d5-4db0-b60d-cac09d7a2a06")
 	)
 	(label "PCIe_RX3-"
-		(at 156.21 153.67 0)
+		(at 109.22 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8878,7 +8878,7 @@
 		(uuid "4fd865c8-5dfa-4d4f-8f39-b032679420d9")
 	)
 	(label "PCIe_REFCLK+"
-		(at 156.21 158.75 0)
+		(at 109.22 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8888,7 +8888,7 @@
 		(uuid "500babe2-1b19-45ce-adeb-e65456799833")
 	)
 	(label "PCIe_RX2+"
-		(at 156.21 146.05 0)
+		(at 109.22 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8898,7 +8898,7 @@
 		(uuid "6578a3f1-d90e-4085-876a-1592c35cf1d2")
 	)
 	(label "PCIe_RX3+"
-		(at 156.21 151.13 0)
+		(at 109.22 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8908,7 +8908,7 @@
 		(uuid "72cde2ac-f684-4b73-8a52-86290bce47ef")
 	)
 	(label "PCIe_RX1-"
-		(at 156.21 143.51 0)
+		(at 109.22 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8918,7 +8918,7 @@
 		(uuid "9abb6f65-b881-470b-8b97-434d92abdac7")
 	)
 	(label "PCIe_TX1+"
-		(at 156.21 118.11 0)
+		(at 109.22 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8928,7 +8928,7 @@
 		(uuid "c4e7d974-2c21-4dd0-bcd7-b107f1636b22")
 	)
 	(label "PCIe_TX1-"
-		(at 156.21 120.65 0)
+		(at 109.22 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8938,7 +8938,7 @@
 		(uuid "d3c5db2e-250b-49a5-b3b6-f265272b2fe2")
 	)
 	(label "PCIe_RX0-"
-		(at 156.21 138.43 0)
+		(at 109.22 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8948,7 +8948,7 @@
 		(uuid "d72d139e-f33d-44b9-bf3c-ddeb306943bc")
 	)
 	(label "PCIe_TX3-"
-		(at 156.21 130.81 0)
+		(at 109.22 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8958,7 +8958,7 @@
 		(uuid "db2b6967-d64b-46cb-9ff5-335df76a4153")
 	)
 	(label "PCIe_RX1+"
-		(at 156.21 140.97 0)
+		(at 109.22 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8968,7 +8968,7 @@
 		(uuid "e15b02d3-35aa-49fe-83dc-51c8b0bfbe04")
 	)
 	(label "PCIe_REFCLK-"
-		(at 156.21 161.29 0)
+		(at 109.22 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8978,7 +8978,7 @@
 		(uuid "e990eacd-1e30-4f5f-a1e7-397eed4a9494")
 	)
 	(label "PCIe_TX0-"
-		(at 156.21 115.57 0)
+		(at 109.22 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8988,7 +8988,7 @@
 		(uuid "f48828d3-112b-44eb-b43b-1884608c331f")
 	)
 	(label "PCIe_TX0+"
-		(at 156.21 113.03 0)
+		(at 109.22 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8999,7 +8999,7 @@
 	)
 	(hierarchical_label "{PCIe_TX}"
 		(shape input)
-		(at 144.78 106.68 180)
+		(at 97.79 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9010,7 +9010,7 @@
 	)
 	(hierarchical_label "{PCIe_RX}"
 		(shape output)
-		(at 144.78 109.22 180)
+		(at 97.79 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9021,7 +9021,7 @@
 	)
 	(hierarchical_label "{PCIe_CLK}"
 		(shape input)
-		(at 144.78 111.76 180)
+		(at 97.79 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9032,7 +9032,7 @@
 	)
 	(symbol
 		(lib_id "FPGA Accelerator:XC7A50T-FGG484")
-		(at 209.55 140.97 0)
+		(at 162.56 100.33 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9041,7 +9041,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d30c7b4-f392-43a8-81ac-5006d2194d35")
 		(property "Reference" "U1"
-			(at 242.57 139.6999 0)
+			(at 195.58 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9050,7 +9050,7 @@
 			)
 		)
 		(property "Value" "XC7A50T-FGG484"
-			(at 242.57 142.2399 0)
+			(at 195.58 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,7 +9059,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:Xilinx_FGG484"
-			(at 209.55 140.97 0)
+			(at 162.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,7 +9068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 140.97 0)
+			(at 162.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,7 +9076,7 @@
 			)
 		)
 		(property "Description" "Artix 7 T 50 XC7A50T-FGG484"
-			(at 209.55 140.97 0)
+			(at 162.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
