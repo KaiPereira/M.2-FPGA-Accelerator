@@ -9479,6 +9479,17 @@
 		)
 		(uuid "1dd44b3c-037f-47a7-bddb-c2173622e9d7")
 	)
+	(hierarchical_label "{DDR_CLK}"
+		(shape output)
+		(at 400.05 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c076f66-928d-4de6-8cd7-13057da8b2fe")
+	)
 	(hierarchical_label "{QSPI}"
 		(shape bidirectional)
 		(at 153.67 80.01 0)
@@ -9489,6 +9500,39 @@
 			(justify left)
 		)
 		(uuid "77ee0bcb-d5b6-424a-a11b-fca55a23500b")
+	)
+	(hierarchical_label "{DDR_ADDRESS}"
+		(shape bidirectional)
+		(at 400.05 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "905866fb-6e87-41fb-ac1a-ea53b17271ed")
+	)
+	(hierarchical_label "{DDR_COMMAND}"
+		(shape output)
+		(at 400.05 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5e5cbd2-95c1-47c8-a702-305390289c01")
+	)
+	(hierarchical_label "{DDR_DATA}"
+		(shape bidirectional)
+		(at 400.05 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e41a5880-b49b-4f95-803c-bae31566e3ec")
 	)
 	(symbol
 		(lib_id "Device:R")

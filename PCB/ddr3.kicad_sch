@@ -2379,7 +2379,7 @@
 	(bus_alias "DDR_ADDRESS"
 		(members "DDR_A[0..14]" "DDR_BA[0..2]")
 	)
-	(bus_alias "DDR_CLOCK"
+	(bus_alias "DDR_CLK"
 		(members "DDR_CLK+" "DDR_CLK-")
 	)
 	(bus_alias "DDR_COMMAND"
@@ -6980,7 +6980,7 @@
 		)
 		(uuid "c21a66b5-85d6-45ba-b4f6-319361bcd25f")
 	)
-	(hierarchical_label "{DDR_CLOCK}"
+	(hierarchical_label "{DDR_CLK}"
 		(shape input)
 		(at 55.88 92.71 180)
 		(effects

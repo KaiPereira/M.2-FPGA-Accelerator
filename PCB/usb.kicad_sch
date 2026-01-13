@@ -4172,9 +4172,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "JTAG"
-		(members "JTAG_TCK" "JTAG_TDI" "JTAG_TDO" "JTAG_TMS")
-	)
 	(text "1.5uH & 47uF for BOM optimization"
 		(exclude_from_sim no)
 		(at 161.798 30.988 0)
@@ -11667,7 +11664,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "TYPE-C-31-M-12"
 			(at 35.56 22.86 0)
 			(effects
 				(font
@@ -11694,6 +11691,24 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TYPE-C-31-M-12"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C165948"
 			(at 35.56 43.18 0)
 			(effects
 				(font
