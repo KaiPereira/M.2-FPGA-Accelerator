@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "47cc638a-6164-4ecb-9ed3-6d7634f22358")
+	(paper "A3")
+	(lib_symbols)
+	(bus_alias "JTAG"
+		(members "JTAG_TCK" "JTAG_TDI" "JTAG_TDO" "JTAG_TMS")
+	)
+)

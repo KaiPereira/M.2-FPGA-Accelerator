@@ -13,7 +13,17 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 267.97 57.15) (xy 273.05 57.15)
+			(xy 261.62 82.55) (xy 274.32 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052f25eb-a53b-498c-ae61-acedc5da4562")
+	)
+	(bus
+		(pts
+			(xy 129.54 139.7) (xy 140.97 139.7)
 		)
 		(stroke
 			(width 0)
@@ -23,17 +33,7 @@
 	)
 	(bus
 		(pts
-			(xy 267.97 135.89) (xy 273.05 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4531e6-0c80-4056-8c51-3acffba88ae2")
-	)
-	(bus
-		(pts
-			(xy 303.53 166.37) (xy 303.53 172.72)
+			(xy 232.41 110.49) (xy 232.41 116.84)
 		)
 		(stroke
 			(width 0)
@@ -43,7 +43,7 @@
 	)
 	(bus
 		(pts
-			(xy 267.97 68.58) (xy 273.05 68.58)
+			(xy 129.54 151.13) (xy 140.97 151.13)
 		)
 		(stroke
 			(width 0)
@@ -53,7 +53,7 @@
 	)
 	(bus
 		(pts
-			(xy 267.97 60.96) (xy 273.05 60.96)
+			(xy 129.54 143.51) (xy 140.97 143.51)
 		)
 		(stroke
 			(width 0)
@@ -62,7 +62,49 @@
 		(uuid "9a92950f-bce8-4f53-9fb9-023f024dbc33")
 	)
 	(sheet
-		(at 20.32 20.32)
+		(at 140.97 189.23)
+		(size 59.69 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09aa8758-c80d-4d7c-89ed-08037b84af81")
+		(property "Sheetname" "Ethernet"
+			(at 140.97 188.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 140.97 248.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 52.07)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -78,7 +120,7 @@
 		)
 		(uuid "82e75441-9b85-4304-afce-254bf3f07a53")
 		(property "Sheetname" "Power Input Regulation"
-			(at 20.32 19.6084 0)
+			(at 69.85 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,7 +129,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 20.32 79.3246 0)
+			(at 69.85 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104,7 +146,7 @@
 		)
 	)
 	(sheet
-		(at 208.28 172.72)
+		(at 274.32 116.84)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -120,7 +162,7 @@
 		)
 		(uuid "95cb9219-15bb-49aa-939c-f3c0ddd8f386")
 		(property "Sheetname" "DDR3"
-			(at 208.28 172.0084 0)
+			(at 274.32 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "ddr3.kicad_sch"
-			(at 208.28 231.7246 0)
+			(at 274.32 175.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,43 +180,43 @@
 			)
 		)
 		(pin "{DDR_ADDRESS}" bidirectional
-			(at 267.97 194.31 0)
+			(at 274.32 153.67 180)
 			(uuid "bc4e4ed8-76a9-457b-8d7a-00e58341f0e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "{DDR_CLOCK}" input
-			(at 267.97 199.39 0)
+			(at 274.32 148.59 180)
 			(uuid "9afe90fa-ab2d-42e0-a11a-1b43146186ca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "{DDR_COMMAND}" input
-			(at 267.97 204.47 0)
+			(at 274.32 143.51 180)
 			(uuid "933322fc-5666-48c4-8885-181cc07ed0ca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "{DDR_DATA}" bidirectional
-			(at 267.97 209.55 0)
+			(at 274.32 138.43 180)
 			(uuid "ff5ae704-6557-43ba-bb97-8cc0b1f21ccb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -186,7 +228,7 @@
 		)
 	)
 	(sheet
-		(at 208.28 34.29)
+		(at 69.85 116.84)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -202,7 +244,7 @@
 		)
 		(uuid "abfa3eef-7060-47ce-b174-8a558214cf5b")
 		(property "Sheetname" "M.2 M-Key Edge Connector"
-			(at 208.28 33.5784 0)
+			(at 69.85 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +253,7 @@
 			)
 		)
 		(property "Sheetfile" "m.2-m-key.kicad_sch"
-			(at 208.28 93.2946 0)
+			(at 69.85 175.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,7 +262,7 @@
 			)
 		)
 		(pin "{PCIe_CLK}" output
-			(at 267.97 68.58 0)
+			(at 129.54 151.13 0)
 			(uuid "b8a1135a-e199-48d5-9927-e66cb607f537")
 			(effects
 				(font
@@ -230,7 +272,7 @@
 			)
 		)
 		(pin "{PCIe_COMMAND}" bidirectional
-			(at 267.97 64.77 0)
+			(at 129.54 147.32 0)
 			(uuid "284def59-3437-43b9-9f69-a8c6088ffeae")
 			(effects
 				(font
@@ -240,7 +282,7 @@
 			)
 		)
 		(pin "{PCIe_RX}" input
-			(at 267.97 60.96 0)
+			(at 129.54 143.51 0)
 			(uuid "179f08ef-3d40-4ad4-932f-6e157e79f899")
 			(effects
 				(font
@@ -250,7 +292,7 @@
 			)
 		)
 		(pin "{PCIe_TX}" output
-			(at 267.97 57.15 0)
+			(at 129.54 139.7 0)
 			(uuid "d35bb170-52a9-48ff-9205-aec27d88fe83")
 			(effects
 				(font
@@ -268,7 +310,7 @@
 		)
 	)
 	(sheet
-		(at 273.05 34.29)
+		(at 140.97 116.84)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -283,8 +325,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "afe9695b-690d-4189-aece-4d8f452c930a")
-		(property "Sheetname" "PCIe GTP Transceivers"
-			(at 273.05 33.5784 0)
+		(property "Sheetname" "Artix 7 PCIe GTP Transceivers"
+			(at 140.97 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -293,7 +335,7 @@
 			)
 		)
 		(property "Sheetfile" "PCIe GTP Transceivers.kicad_sch"
-			(at 273.05 93.2946 0)
+			(at 140.97 175.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -302,7 +344,7 @@
 			)
 		)
 		(pin "{PCIe_CLK}" input
-			(at 273.05 68.58 180)
+			(at 140.97 151.13 180)
 			(uuid "05cc5ce1-a9a7-4d72-a40d-a4f335f6fcb5")
 			(effects
 				(font
@@ -312,7 +354,7 @@
 			)
 		)
 		(pin "{PCIe_RX}" output
-			(at 273.05 60.96 180)
+			(at 140.97 143.51 180)
 			(uuid "e20d16ac-2d5c-48e5-b9be-b99c75febe64")
 			(effects
 				(font
@@ -322,7 +364,7 @@
 			)
 		)
 		(pin "{PCIe_TX}" input
-			(at 273.05 57.15 180)
+			(at 140.97 139.7 180)
 			(uuid "32ea75a7-5abe-4a22-b0c5-0b1b905fa189")
 			(effects
 				(font
@@ -340,7 +382,7 @@
 		)
 	)
 	(sheet
-		(at 273.05 172.72)
+		(at 201.93 116.84)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -356,7 +398,7 @@
 		)
 		(uuid "b2fdda25-525f-499f-b2e7-c3e0e6b79359")
 		(property "Sheetname" "Artix 7 Banks"
-			(at 273.05 172.0084 0)
+			(at 201.93 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,7 +407,7 @@
 			)
 		)
 		(property "Sheetfile" "banks.kicad_sch"
-			(at 273.05 231.7246 0)
+			(at 201.93 175.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -374,7 +416,7 @@
 			)
 		)
 		(pin "{QSPI}" bidirectional
-			(at 303.53 172.72 90)
+			(at 232.41 116.84 90)
 			(uuid "d04d6b9c-b4b6-4415-b082-42470bbf70cc")
 			(effects
 				(font
@@ -392,7 +434,7 @@
 		)
 	)
 	(sheet
-		(at 208.28 107.95)
+		(at 274.32 52.07)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -408,7 +450,7 @@
 		)
 		(uuid "b3feae67-f5ac-44a3-90a4-88fd0a4da47c")
 		(property "Sheetname" "USB-C and JTAG"
-			(at 208.28 107.2384 0)
+			(at 274.32 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +459,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 208.28 166.9546 0)
+			(at 274.32 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,13 +468,13 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 267.97 135.89 0)
+			(at 274.32 82.55 180)
 			(uuid "d33df47c-f2a1-4d69-88f2-d89129d9c2ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -444,7 +486,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 20.32)
+		(at 140.97 52.07)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -459,8 +501,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "cfb4b539-ed39-4f7b-9936-258f867c86b5")
-		(property "Sheetname" "FPGA Power and Decoupling"
-			(at 85.09 19.6084 0)
+		(property "Sheetname" "Artix 7 Power and Decoupling"
+			(at 140.97 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +511,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA-power.kicad_sch"
-			(at 85.09 79.3246 0)
+			(at 140.97 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +528,49 @@
 		)
 	)
 	(sheet
-		(at 273.05 107.95)
+		(at 201.93 189.23)
+		(size 59.69 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0bb63a6-1743-4d45-83e3-83dd5e1cd35c")
+		(property "Sheetname" "HDMI"
+			(at 201.93 188.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi.kicad_sch"
+			(at 201.93 248.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 52.07)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -501,8 +585,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "eed1a5c9-5dce-4964-b7ee-57ee65be1a9d")
-		(property "Sheetname" "FPGA Configurations"
-			(at 273.05 107.2384 0)
+		(property "Sheetname" "Artix 7 Configurations and Flash"
+			(at 201.93 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -511,7 +595,7 @@
 			)
 		)
 		(property "Sheetfile" "configurations.kicad_sch"
-			(at 273.05 166.9546 0)
+			(at 201.93 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -520,7 +604,7 @@
 			)
 		)
 		(pin "{QSPI}" bidirectional
-			(at 303.53 166.37 270)
+			(at 232.41 110.49 270)
 			(uuid "d1875022-d684-4e75-b175-9512aa1ecb90")
 			(effects
 				(font
@@ -530,13 +614,13 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 273.05 135.89 180)
-			(uuid "d2784ac0-067c-47b8-82a2-c345cc668bb3")
+			(at 261.62 82.55 0)
+			(uuid "11c50021-04f9-4770-86c2-6e4469508ce7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances

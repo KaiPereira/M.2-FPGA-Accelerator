@@ -620,7 +620,7 @@
     ],
     [
       "cfb4b539-ed39-4f7b-9936-258f867c86b5",
-      "FPGA Power and Decoupling"
+      "Artix 7 Power and Decoupling"
     ],
     [
       "82e75441-9b85-4304-afce-254bf3f07a53",
@@ -628,7 +628,7 @@
     ],
     [
       "eed1a5c9-5dce-4964-b7ee-57ee65be1a9d",
-      "FPGA Configurations"
+      "Artix 7 Configurations and Flash"
     ],
     [
       "b2fdda25-525f-499f-b2e7-c3e0e6b79359",
@@ -644,7 +644,15 @@
     ],
     [
       "afe9695b-690d-4189-aece-4d8f452c930a",
-      "PCIe GTP Transceivers"
+      "Artix 7 PCIe GTP Transceivers"
+    ],
+    [
+      "e0bb63a6-1743-4d45-83e3-83dd5e1cd35c",
+      "HDMI"
+    ],
+    [
+      "09aa8758-c80d-4d7c-89ed-08037b84af81",
+      "Ethernet"
     ]
   ],
   "text_variables": {}

@@ -8600,15 +8600,16 @@
 	(bus_alias "QSPI"
 		(members "QSPI_DQ[0..3]" "QSPI_CS")
 	)
-	(text "No weak pullup on PERST for BOM optimizing! (very low leakage)"
+	(text "Most of the NC's are usable as I/O's too,\neven if they're configurations ;) "
 		(exclude_from_sim no)
-		(at 161.544 172.72 0)
+		(at 23.368 23.876 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "2123690c-4ede-46b2-a4fd-bcfe6d7090ed")
+		(uuid "1db0fa66-d248-4b72-8970-c9f2abf71d25")
 	)
 	(text "Pull HIGH = disable internal I/O pullups\nPull LOW = enable internal I/O pullups"
 		(exclude_from_sim no)
