@@ -8600,9 +8600,9 @@
 	(bus_alias "QSPI"
 		(members "QSPI_DQ[0..3]" "QSPI_CS")
 	)
-	(text "No pullup on PERST for BOM optimizing! (very low leakage)"
+	(text "No weak pullup on PERST for BOM optimizing! (very low leakage)"
 		(exclude_from_sim no)
-		(at 160.274 172.72 0)
+		(at 161.544 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8638,7 +8638,7 @@
 		(uuid "0968c322-4bc2-4b00-b897-8d8756131749")
 	)
 	(junction
-		(at 463.55 68.58)
+		(at 294.64 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15b4f24d-d628-4df8-b56a-c64df765ef60")
@@ -8656,13 +8656,13 @@
 		(uuid "41e23f82-75b6-4993-933d-ec11920b043e")
 	)
 	(junction
-		(at 455.93 68.58)
+		(at 287.02 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "646f0d89-394f-4be2-a953-67bff8a45aef")
 	)
 	(junction
-		(at 453.39 68.58)
+		(at 284.48 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7297ee2c-9b7b-43b4-879a-7fad8952f87d")
@@ -8704,24 +8704,44 @@
 		(uuid "ed62e482-c800-48fc-a27b-666b885ffd70")
 	)
 	(junction
-		(at 458.47 68.58)
+		(at 289.56 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f17a3825-2eb3-4d03-b31c-1bfdc9d82520")
 	)
 	(junction
-		(at 461.01 68.58)
+		(at 292.1 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcb0783a-6223-45d1-a9c7-29715a10d6e5")
+	)
+	(no_connect
+		(at 271.78 166.37)
+		(uuid "0f004d5c-15f8-4907-b0f9-861dadfac48e")
+	)
+	(no_connect
+		(at 271.78 204.47)
+		(uuid "1cc14376-bfb1-42d3-ae93-3bc00c4f5ed8")
+	)
+	(no_connect
+		(at 271.78 209.55)
+		(uuid "84edecb5-b08b-45c6-aa67-6a1fe7b011cb")
 	)
 	(no_connect
 		(at 127 115.57)
 		(uuid "9fcf478c-c6a3-4875-9a99-c4f3557b8598")
 	)
 	(no_connect
+		(at 271.78 212.09)
+		(uuid "a61a4af3-4807-4233-8e88-3a1bf29c1502")
+	)
+	(no_connect
 		(at 127 105.41)
 		(uuid "d3b02cdc-5f2a-47ae-81d7-49f61db9a841")
+	)
+	(no_connect
+		(at 271.78 207.01)
+		(uuid "e42518b4-3d4f-4dea-a81f-fbb37cc4798e")
 	)
 	(no_connect
 		(at 127 107.95)
@@ -8829,7 +8849,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 68.58) (xy 453.39 69.85)
+			(xy 284.48 68.58) (xy 284.48 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8909,7 +8929,7 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 66.04) (xy 463.55 68.58)
+			(xy 294.64 66.04) (xy 294.64 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8969,7 +8989,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 68.58) (xy 463.55 68.58)
+			(xy 292.1 68.58) (xy 294.64 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9019,7 +9039,7 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 68.58) (xy 458.47 69.85)
+			(xy 289.56 68.58) (xy 289.56 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9069,7 +9089,7 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 68.58) (xy 463.55 69.85)
+			(xy 294.64 68.58) (xy 294.64 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9109,7 +9129,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 68.58) (xy 455.93 69.85)
+			(xy 287.02 68.58) (xy 287.02 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9139,7 +9159,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 68.58) (xy 450.85 69.85)
+			(xy 281.94 68.58) (xy 281.94 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9169,7 +9189,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 68.58) (xy 458.47 68.58)
+			(xy 287.02 68.58) (xy 289.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9209,7 +9229,7 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 68.58) (xy 461.01 68.58)
+			(xy 289.56 68.58) (xy 292.1 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9259,7 +9279,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 68.58) (xy 461.01 69.85)
+			(xy 292.1 68.58) (xy 292.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9299,7 +9319,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 68.58) (xy 453.39 68.58)
+			(xy 281.94 68.58) (xy 284.48 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9359,7 +9379,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 68.58) (xy 455.93 68.58)
+			(xy 284.48 68.58) (xy 287.02 68.58)
 		)
 		(stroke
 			(width 0)
@@ -11284,7 +11304,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 463.55 66.04 0)
+		(at 294.64 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11293,7 +11313,7 @@
 		(fields_autoplaced yes)
 		(uuid "cea9ba98-e6d6-4b0c-9efa-ff9eac61b1a7")
 		(property "Reference" "#PWR063"
-			(at 463.55 69.85 0)
+			(at 294.64 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11302,7 +11322,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 463.55 60.96 0)
+			(at 294.64 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11310,7 +11330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 463.55 66.04 0)
+			(at 294.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11319,7 +11339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 463.55 66.04 0)
+			(at 294.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11328,7 +11348,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 463.55 66.04 0)
+			(at 294.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11420,7 +11440,7 @@
 	)
 	(symbol
 		(lib_id "FPGA Accelerator:XC7A50T-FGG484")
-		(at 491.49 143.51 0)
+		(at 322.58 143.51 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11429,7 +11449,7 @@
 		(fields_autoplaced yes)
 		(uuid "eff68ca4-acbd-4709-8b63-3e7cbaa1229b")
 		(property "Reference" "U1"
-			(at 491.49 219.71 0)
+			(at 322.58 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11437,7 +11457,7 @@
 			)
 		)
 		(property "Value" "XC7A50T-FGG484"
-			(at 491.49 222.25 0)
+			(at 322.58 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11445,7 +11465,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:Xilinx_FGG484"
-			(at 491.49 143.51 0)
+			(at 322.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11454,7 +11474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 491.49 143.51 0)
+			(at 322.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11462,7 +11482,7 @@
 			)
 		)
 		(property "Description" "Artix 7 T 50 XC7A50T-FGG484"
-			(at 491.49 143.51 0)
+			(at 322.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12828,7 +12848,7 @@
 	)
 	(symbol
 		(lib_id "FPGA Accelerator:XC7A50T-FGG484")
-		(at 297.18 143.51 0)
+		(at 499.11 143.51 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12837,7 +12857,7 @@
 		(fields_autoplaced yes)
 		(uuid "f26c8576-be93-4825-8c38-4015e7ccc4b8")
 		(property "Reference" "U1"
-			(at 297.18 219.71 0)
+			(at 499.11 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12845,7 +12865,7 @@
 			)
 		)
 		(property "Value" "XC7A50T-FGG484"
-			(at 297.18 222.25 0)
+			(at 499.11 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12853,7 +12873,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:Xilinx_FGG484"
-			(at 297.18 143.51 0)
+			(at 499.11 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12862,7 +12882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 143.51 0)
+			(at 499.11 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12870,7 +12890,7 @@
 			)
 		)
 		(property "Description" "Artix 7 T 50 XC7A50T-FGG484"
-			(at 297.18 143.51 0)
+			(at 499.11 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
