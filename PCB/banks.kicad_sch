@@ -9479,6 +9479,17 @@
 		)
 		(uuid "1dd44b3c-037f-47a7-bddb-c2173622e9d7")
 	)
+	(hierarchical_label "{HDMI}"
+		(shape bidirectional)
+		(at 400.05 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e761009-da01-4596-8489-3dfb62526f61")
+	)
 	(hierarchical_label "{DDR_CLK}"
 		(shape output)
 		(at 400.05 54.61 0)

@@ -33,6 +33,16 @@
 	)
 	(bus
 		(pts
+			(xy 236.22 175.26) (xy 236.22 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3708e525-650f-4a41-872f-f8df6d61bcd8")
+	)
+	(bus
+		(pts
 			(xy 129.54 139.7) (xy 140.97 139.7)
 		)
 		(stroke
@@ -525,6 +535,16 @@
 				(justify right)
 			)
 		)
+		(pin "{HDMI}" bidirectional
+			(at 236.22 175.26 270)
+			(uuid "a53a7439-e1d3-49a3-92a4-16baa0d04dba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a"
@@ -659,6 +679,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{HDMI}" bidirectional
+			(at 236.22 189.23 90)
+			(uuid "35e7833f-87d8-40d8-84fb-1e6725b50fcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
