@@ -2500,7 +2500,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 35.56 270)
+				(at -7.62 35.56 270)
 				(length 2.54)
 				(name "VDDIO"
 					(effects
@@ -2572,7 +2572,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 35.56 270)
+				(at 5.08 35.56 270)
 				(length 2.54)
 				(name "VDDCR"
 					(effects
