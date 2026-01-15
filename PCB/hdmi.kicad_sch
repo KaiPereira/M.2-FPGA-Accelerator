@@ -1681,16 +1681,6 @@
 		)
 		(uuid "6fdecd52-97a0-4f32-8957-40176b57a115")
 	)
-	(text "Add SCHOTTKY and HDMI part"
-		(exclude_from_sim no)
-		(at 172.466 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ff40fa00-939e-41ec-96a2-7a7f1808f316")
-	)
 	(junction
 		(at 110.49 134.62)
 		(diameter 0)
