@@ -53,6 +53,16 @@
 	)
 	(bus
 		(pts
+			(xy 231.14 182.88) (xy 231.14 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf3e72e-ee72-4944-be1f-ad66a4b8943a")
+	)
+	(bus
+		(pts
 			(xy 231.14 110.49) (xy 231.14 116.84)
 		)
 		(stroke
@@ -60,6 +70,16 @@
 			(type default)
 		)
 		(uuid "53fa52c8-e7f2-402b-8644-781dd54d88f3")
+	)
+	(bus
+		(pts
+			(xy 173.99 189.23) (xy 173.99 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8a77c3-dd4c-4e02-93e5-6674c889c20f")
 	)
 	(bus
 		(pts
@@ -100,6 +120,16 @@
 			(type default)
 		)
 		(uuid "9b98353c-c785-4661-b546-949d0ecb5ee7")
+	)
+	(bus
+		(pts
+			(xy 173.99 182.88) (xy 231.14 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ace7c0-2d72-45b5-abc2-efa3909dba69")
 	)
 	(bus
 		(pts
@@ -153,6 +183,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{EPHY}" bidirectional
+			(at 173.99 189.23 90)
+			(uuid "c6ce5fe1-5d31-4399-b434-a29e1c9c8a51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -538,6 +578,16 @@
 		(pin "{HDMI}" bidirectional
 			(at 236.22 175.26 270)
 			(uuid "a53a7439-e1d3-49a3-92a4-16baa0d04dba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{EPHY}" bidirectional
+			(at 231.14 175.26 270)
+			(uuid "c91680fa-8906-4578-8936-0d9b53c7af32")
 			(effects
 				(font
 					(size 1.27 1.27)
