@@ -3262,7 +3262,7 @@
 	)
 	(text "< Internal pullup!"
 		(exclude_from_sim no)
-		(at 195.58 149.86 0)
+		(at 198.12 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3297,7 +3297,7 @@
 		(uuid "0b69a3ad-7f25-4d8d-ad43-653759765060")
 	)
 	(junction
-		(at 170.18 147.32)
+		(at 171.45 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d08d5f1-45f8-495f-b6c6-d2395a00320e")
@@ -3812,7 +3812,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 144.78) (xy 170.18 147.32)
+			(xy 171.45 144.78) (xy 171.45 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3862,7 +3862,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 135.89) (xy 170.18 137.16)
+			(xy 171.45 135.89) (xy 171.45 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4772,7 +4772,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 147.32) (xy 165.1 147.32)
+			(xy 171.45 147.32) (xy 165.1 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4832,7 +4832,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 147.32) (xy 184.15 147.32)
+			(xy 171.45 147.32) (xy 186.69 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4962,7 +4962,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 149.86) (xy 184.15 149.86)
+			(xy 165.1 149.86) (xy 186.69 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5331,7 +5331,7 @@
 		(uuid "6eaab3c2-b5b5-400b-80ab-8636d46f5720")
 	)
 	(label "PHY_LED1"
-		(at 184.15 147.32 180)
+		(at 186.69 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5461,7 +5461,7 @@
 		(uuid "d53b27c2-dce5-4c3a-bdcc-8eaa6421635f")
 	)
 	(label "PHY_LED2"
-		(at 184.15 149.86 180)
+		(at 186.69 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5777,7 +5777,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 140.97 0)
+		(at 171.45 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5786,7 +5786,7 @@
 		(fields_autoplaced yes)
 		(uuid "285c1e1b-7181-4e32-87bf-4acb409daf90")
 		(property "Reference" "R65"
-			(at 172.72 139.6999 0)
+			(at 173.99 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,7 +5795,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 172.72 142.2399 0)
+			(at 173.99 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +5804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.402 140.97 90)
+			(at 169.672 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +5813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 140.97 0)
+			(at 171.45 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +5822,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 140.97 0)
+			(at 171.45 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8910,7 +8910,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 170.18 135.89 0)
+		(at 171.45 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8919,7 +8919,7 @@
 		(fields_autoplaced yes)
 		(uuid "edc0dd45-3c6e-4c75-8747-05c0c41d7f78")
 		(property "Reference" "#PWR0132"
-			(at 170.18 139.7 0)
+			(at 171.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +8928,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 170.18 130.81 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +8936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 135.89 0)
+			(at 171.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +8945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 135.89 0)
+			(at 171.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +8954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 170.18 135.89 0)
+			(at 171.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)

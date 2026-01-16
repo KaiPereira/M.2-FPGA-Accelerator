@@ -33,7 +33,7 @@
 	)
 	(bus
 		(pts
-			(xy 236.22 175.26) (xy 236.22 189.23)
+			(xy 233.68 175.26) (xy 233.68 189.23)
 		)
 		(stroke
 			(width 0)
@@ -53,7 +53,7 @@
 	)
 	(bus
 		(pts
-			(xy 231.14 182.88) (xy 231.14 175.26)
+			(xy 228.6 182.88) (xy 228.6 175.26)
 		)
 		(stroke
 			(width 0)
@@ -73,7 +73,7 @@
 	)
 	(bus
 		(pts
-			(xy 173.99 189.23) (xy 173.99 182.88)
+			(xy 172.72 189.23) (xy 172.72 182.88)
 		)
 		(stroke
 			(width 0)
@@ -123,7 +123,7 @@
 	)
 	(bus
 		(pts
-			(xy 173.99 182.88) (xy 231.14 182.88)
+			(xy 172.72 182.88) (xy 228.6 182.88)
 		)
 		(stroke
 			(width 0)
@@ -186,8 +186,8 @@
 			)
 		)
 		(pin "{EPHY}" bidirectional
-			(at 173.99 189.23 90)
-			(uuid "c6ce5fe1-5d31-4399-b434-a29e1c9c8a51")
+			(at 172.72 189.23 90)
+			(uuid "9681f780-c45a-4f8d-8d8b-5b98caa1d03e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -575,9 +575,9 @@
 				(justify right)
 			)
 		)
-		(pin "{HDMI}" bidirectional
-			(at 236.22 175.26 270)
-			(uuid "a53a7439-e1d3-49a3-92a4-16baa0d04dba")
+		(pin "{EPHY}" bidirectional
+			(at 228.6 175.26 270)
+			(uuid "9def3446-b867-473a-8ccb-ef2f4ce67a6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -585,9 +585,9 @@
 				(justify left)
 			)
 		)
-		(pin "{EPHY}" bidirectional
-			(at 231.14 175.26 270)
-			(uuid "c91680fa-8906-4578-8936-0d9b53c7af32")
+		(pin "{HDMI}" bidirectional
+			(at 233.68 175.26 270)
+			(uuid "3a56707c-0dab-4921-adf8-27aa3e41af62")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,8 +732,8 @@
 			)
 		)
 		(pin "{HDMI}" bidirectional
-			(at 236.22 189.23 90)
-			(uuid "35e7833f-87d8-40d8-84fb-1e6725b50fcf")
+			(at 233.68 189.23 90)
+			(uuid "ca826e30-3f1e-4aa3-b406-3b0fb2daa4ee")
 			(effects
 				(font
 					(size 1.27 1.27)
