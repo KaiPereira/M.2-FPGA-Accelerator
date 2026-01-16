@@ -4222,6 +4222,16 @@
 		)
 		(uuid "eb41300b-2ce4-403d-8ed0-51693837d044")
 	)
+	(text "USB + UART??"
+		(exclude_from_sim no)
+		(at 276.86 55.118 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f2b025c8-b9b9-4180-8bbc-f467f1bb1fa9")
+	)
 	(junction
 		(at 184.15 38.1)
 		(diameter 0)

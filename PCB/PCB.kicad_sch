@@ -31,6 +31,16 @@
 		)
 		(uuid "052f25eb-a53b-498c-ae61-acedc5da4562")
 	)
+	(wire
+		(pts
+			(xy 129.54 82.55) (xy 245.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2ba895-d740-4cf9-8836-44b95a84245e")
+	)
 	(bus
 		(pts
 			(xy 233.68 175.26) (xy 233.68 189.23)
@@ -120,6 +130,16 @@
 			(type default)
 		)
 		(uuid "9b98353c-c785-4661-b546-949d0ecb5ee7")
+	)
+	(wire
+		(pts
+			(xy 245.11 82.55) (xy 245.11 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5feab8a-df3a-4587-9a2f-6b8a3d1151a7")
 	)
 	(bus
 		(pts
@@ -235,6 +255,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BUCK_PG4" output
+			(at 129.54 82.55 0)
+			(uuid "4dd60339-f0f7-46bd-91c3-6ba94d04963b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -593,6 +623,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "BUCK_PG4" input
+			(at 245.11 116.84 90)
+			(uuid "08659d4a-7e91-4ec5-a20e-8436a295e514")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

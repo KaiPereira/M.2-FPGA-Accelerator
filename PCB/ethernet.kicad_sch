@@ -3226,6 +3226,11 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "EPHY"
+		(members "PHY_MDIO" "PHY_MDC" "PHY_TXD0" "PHY_TXD1" "PHY_TXEN" "PHY_RXD0"
+			"PHY_RXD1" "PHY_RXER" "PHY_CRS-DV" "PHY_nRST"
+		)
+	)
 	(bus_alias "JTAG"
 		(members "JTAG_TCK" "JTAG_TDI" "JTAG_TDO" "JTAG_TMS")
 	)
