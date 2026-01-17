@@ -21,16 +21,6 @@
 		)
 		(uuid "007fd859-beed-43b6-b2a3-a2aefb9f2bba")
 	)
-	(bus
-		(pts
-			(xy 261.62 81.28) (xy 274.32 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "052f25eb-a53b-498c-ae61-acedc5da4562")
-	)
 	(wire
 		(pts
 			(xy 134.62 81.28) (xy 134.62 128.27)
@@ -63,6 +53,26 @@
 	)
 	(bus
 		(pts
+			(xy 261.62 78.74) (xy 274.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459d18ac-dfb1-4dbe-b755-a5cc3c75515d")
+	)
+	(bus
+		(pts
+			(xy 233.68 83.82) (xy 274.32 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aae1249-95d6-4f1d-a3e4-86903fcd0091")
+	)
+	(bus
+		(pts
 			(xy 228.6 182.88) (xy 228.6 175.26)
 		)
 		(stroke
@@ -73,13 +83,13 @@
 	)
 	(bus
 		(pts
-			(xy 231.14 110.49) (xy 231.14 116.84)
+			(xy 228.6 110.49) (xy 228.6 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53fa52c8-e7f2-402b-8644-781dd54d88f3")
+		(uuid "5116d412-2258-4b94-9201-499f4afc6140")
 	)
 	(bus
 		(pts
@@ -110,6 +120,16 @@
 			(type default)
 		)
 		(uuid "69781f4a-03b2-46f8-b038-60979b98c2db")
+	)
+	(bus
+		(pts
+			(xy 233.68 116.84) (xy 233.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95619d3d-f2fd-4b24-af38-12024cfd76a1")
 	)
 	(bus
 		(pts
@@ -605,16 +625,6 @@
 				(justify right)
 			)
 		)
-		(pin "{QSPI}" bidirectional
-			(at 231.14 116.84 90)
-			(uuid "53516b9e-005d-44a4-ab31-4d28cf747df8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "{EPHY}" bidirectional
 			(at 228.6 175.26 270)
 			(uuid "9def3446-b867-473a-8ccb-ef2f4ce67a6d")
@@ -643,6 +653,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "{QSPI}" bidirectional
+			(at 228.6 116.84 90)
+			(uuid "de148ebe-fc14-4a9e-8a51-75b7b8ff8efd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{UART}" bidirectional
+			(at 233.68 116.84 90)
+			(uuid "bdab4980-6453-4d8c-ab67-034459cae79d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -688,8 +718,18 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 274.32 81.28 180)
-			(uuid "906bc053-9dfd-4b4d-a928-e3882290f55a")
+			(at 274.32 78.74 180)
+			(uuid "96c5b488-ee44-4bdc-ad0f-27635ae533d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{UART}" bidirectional
+			(at 274.32 83.82 180)
+			(uuid "e2ab9921-1a3e-49e9-9d08-317b402012ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,24 +873,24 @@
 				(justify left top)
 			)
 		)
-		(pin "{QSPI}" bidirectional
-			(at 231.14 110.49 270)
-			(uuid "58e0d84f-a440-434e-9b29-6aa2a5aee209")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{JTAG}" bidirectional
-			(at 261.62 81.28 0)
+			(at 261.62 78.74 0)
 			(uuid "cd6405ba-a204-4647-8c31-0dcad9dc4352")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{QSPI}" bidirectional
+			(at 228.6 110.49 270)
+			(uuid "1f85674d-1a8c-4123-8612-e91633214f89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

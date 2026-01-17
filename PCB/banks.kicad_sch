@@ -10116,6 +10116,17 @@
 		)
 		(uuid "a80a8dc1-1982-4346-82f7-947abdace85d")
 	)
+	(hierarchical_label "{UART}"
+		(shape bidirectional)
+		(at 400.05 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4a15635-f1ad-4dfc-b1cc-53a41d2dd426")
+	)
 	(hierarchical_label "BUCK_PG4"
 		(shape input)
 		(at 87.63 262.89 180)
