@@ -4375,35 +4375,16 @@
 		)
 		(uuid "4154ff58-2d73-4bc5-82dc-38a1241c33d6")
 	)
-	(text "< SELF POWERED?? Page 52 "
+	(text "Only have one plugged in at once!"
 		(exclude_from_sim no)
-		(at 219.964 246.888 0)
+		(at 244.094 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(italic yes)
 			)
 		)
-		(uuid "92216b5a-16d9-4150-bc24-d1b4c8ee829d")
-	)
-	(text "UART and other pins on FT2232H"
-		(exclude_from_sim no)
-		(at 516.636 170.18 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "b1161ba9-a95c-41bd-96b4-ad1d2acd6b59")
-	)
-	(text "LCFilter?, Pg.10 >"
-		(exclude_from_sim no)
-		(at 111.252 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b28154e0-a4bf-420e-b539-f647fa57b272")
+		(uuid "52d5e54c-16b1-4b80-a22f-c1ea3e98b0ae")
 	)
 	(text "^ VCORE ^"
 		(exclude_from_sim no)
@@ -4414,16 +4395,6 @@
 			)
 		)
 		(uuid "eb41300b-2ce4-403d-8ed0-51693837d044")
-	)
-	(text "USB + UART??"
-		(exclude_from_sim no)
-		(at 276.86 55.118 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "f2b025c8-b9b9-4180-8bbc-f467f1bb1fa9")
 	)
 	(junction
 		(at 184.15 38.1)
@@ -4942,6 +4913,10 @@
 		(uuid "37cce27d-8bf5-4bff-bd3e-ea4749fa2777")
 	)
 	(no_connect
+		(at 199.39 254)
+		(uuid "3810086c-69e3-4907-b35b-aebe713bf8ba")
+	)
+	(no_connect
 		(at 199.39 190.5)
 		(uuid "3abc4881-dbcb-4629-b840-e9e96d00b91b")
 	)
@@ -4988,6 +4963,14 @@
 	(no_connect
 		(at 199.39 213.36)
 		(uuid "b6bb27b8-d6c9-4132-ade9-b1b34e154a48")
+	)
+	(no_connect
+		(at 199.39 177.8)
+		(uuid "bb01541a-fbc1-492b-939a-cdd368589256")
+	)
+	(no_connect
+		(at 199.39 251.46)
+		(uuid "cbf05d90-017e-4e78-be4d-4ee48ef2fe4e")
 	)
 	(no_connect
 		(at 199.39 228.6)
