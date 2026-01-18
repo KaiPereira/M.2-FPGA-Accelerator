@@ -8277,7 +8277,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 125.73 243.84 0)
 			(effects
 				(font
@@ -8368,7 +8368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 293.37 166.878 90)
 			(effects
 				(font
@@ -11539,7 +11539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 293.37 169.418 90)
 			(effects
 				(font
@@ -12510,7 +12510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 293.37 161.798 90)
 			(effects
 				(font
@@ -12577,7 +12577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 293.37 164.338 90)
 			(effects
 				(font
