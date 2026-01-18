@@ -11,6 +11,17 @@
 		(comment 1 "https://github.com/KaiPereira/M.2-FPGA-Accelerator")
 	)
 	(lib_symbols)
+	(text "For a production board: \n- make R8, R6, R35 and R33, 0402 and exact!\n- make 47nF caps 0402"
+		(exclude_from_sim no)
+		(at 16.256 18.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61dd12d7-37f8-44ad-bf34-0e3d2dab678f")
+	)
 	(bus
 		(pts
 			(xy 261.62 139.7) (xy 274.32 139.7)
