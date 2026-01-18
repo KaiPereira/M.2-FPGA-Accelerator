@@ -3833,7 +3833,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 72.39) (xy 237.49 72.39)
+			(xy 243.84 72.39) (xy 237.49 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4063,7 +4063,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 72.39) (xy 214.63 72.39)
+			(xy 218.44 72.39) (xy 212.09 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5101,15 +5101,15 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 294.64 139.7 90)
+		(at 294.64 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "15512166-4fe4-4167-9b9b-fa77f6179352")
-		(property "Reference" "L2"
-			(at 294.64 134.366 90)
+		(uuid "156e3986-84b3-4d52-b962-775f5b6bbfb5")
+		(property "Reference" "L3"
+			(at 294.64 163.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,15 +5117,15 @@
 			)
 		)
 		(property "Value" "1u5"
-			(at 294.64 136.906 90)
+			(at 294.64 166.116 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 294.64 139.7 0)
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
+			(at 294.64 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 139.7 0)
+			(at 294.64 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5143,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 294.64 139.7 0)
+			(at 294.64 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5152,7 @@
 			)
 		)
 		(property "MPN" "SWPA4030S1R5NT"
-			(at 294.64 136.398 90)
+			(at 294.64 165.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,7 +5161,7 @@
 			)
 		)
 		(property "LCSC" "C42100"
-			(at 294.64 139.7 90)
+			(at 294.64 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,15 +5170,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "51c592ca-8a44-43b3-817d-19e8f5b1d7f3")
+			(uuid "fc70bdfb-5dfb-407a-af1d-77acb5f067c3")
 		)
 		(pin "1"
-			(uuid "4482842e-1e6b-421d-92e5-c209ce862080")
+			(uuid "d117f223-2190-44bc-a997-088f8507cc91")
 		)
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -5464,7 +5464,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 72.39 0)
+		(at 243.84 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5473,7 +5473,7 @@
 		(fields_autoplaced yes)
 		(uuid "312e04f5-32e6-4fdf-a5a3-95ebb2444cdd")
 		(property "Reference" "#PWR0152"
-			(at 241.3 78.74 0)
+			(at 243.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 77.47 0)
+			(at 243.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,7 +5490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 72.39 0)
+			(at 243.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 72.39 0)
+			(at 243.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +5508,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 72.39 0)
+			(at 243.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,6 +5934,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 294.64 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fb0f763-1894-4a50-957b-513a9ad5851c")
+		(property "Reference" "L2"
+			(at 294.64 134.366 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u5"
+			(at 294.64 136.906 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
+			(at 294.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 294.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SWPA4030S1R5NT"
+			(at 294.64 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42100"
+			(at 294.64 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdde08ef-61aa-4c23-9f96-919edb764c07")
+		)
+		(pin "1"
+			(uuid "61e7175c-5b5c-4ef3-98ff-348a912df552")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 97.79 166.37 0)
 		(unit 1)
@@ -6335,7 +6420,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 214.63 72.39 0)
+		(at 212.09 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6344,7 +6429,7 @@
 		(fields_autoplaced yes)
 		(uuid "65afd4f7-81f2-4b14-9695-31c81dad974c")
 		(property "Reference" "#PWR0151"
-			(at 214.63 76.2 0)
+			(at 212.09 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6438,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 214.63 67.31 0)
+			(at 212.09 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,7 +6446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 72.39 0)
+			(at 212.09 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 72.39 0)
+			(at 212.09 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 214.63 72.39 0)
+			(at 212.09 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,6 +6547,101 @@
 			(project ""
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
 					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 222.25 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d23306e-f420-476f-9fc7-f0313a47d0db")
+		(property "Reference" "D4"
+			(at 222.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805G"
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 222.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 222.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 222.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 222.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5e17d77-bfae-42f3-a018-3e339e18a254")
+		)
+		(pin "1"
+			(uuid "d3df7c2d-5381-4ace-98df-76b0e448f2e8")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7164,91 +7344,6 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
 					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 294.64 198.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "844d7f0a-56a6-43cc-93a4-1654f91630da")
-		(property "Reference" "L4"
-			(at 294.64 192.786 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u5"
-			(at 294.64 195.326 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 294.64 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 294.64 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SWPA4030S1R5NT"
-			(at 294.64 194.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C42100"
-			(at 294.64 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4bd920d4-26cd-4042-b9b7-6c29735a0c90")
-		)
-		(pin "1"
-			(uuid "15cd9179-8026-4da3-8c0a-eceb5da1963e")
-		)
-		(instances
-			(project "PCB"
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
-					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -8666,15 +8761,15 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 294.64 168.91 90)
+		(at 294.64 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ba5dd771-ab1c-4114-9bb3-4a2be1fe2fdf")
-		(property "Reference" "L3"
-			(at 294.64 163.576 90)
+		(uuid "b29544a1-7355-4918-91ad-6ef96bd73d35")
+		(property "Reference" "L4"
+			(at 294.64 192.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,15 +8777,15 @@
 			)
 		)
 		(property "Value" "1u5"
-			(at 294.64 166.116 90)
+			(at 294.64 195.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 294.64 168.91 0)
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
+			(at 294.64 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,7 +8794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 168.91 0)
+			(at 294.64 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8708,7 +8803,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 294.64 168.91 0)
+			(at 294.64 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8717,7 +8812,7 @@
 			)
 		)
 		(property "MPN" "SWPA4030S1R5NT"
-			(at 294.64 165.608 90)
+			(at 294.64 194.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,7 +8821,7 @@
 			)
 		)
 		(property "LCSC" "C42100"
-			(at 294.64 168.91 90)
+			(at 294.64 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,91 +8830,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9af9d301-8d77-46b1-a7e1-456c25935780")
+			(uuid "748b843a-db2e-4fda-a47a-82434adbc6da")
 		)
 		(pin "1"
-			(uuid "bc10c1e8-297b-4cfd-ab76-0314773fac82")
+			(uuid "eec048fd-46d9-42ab-8687-4bc03a853fd2")
 		)
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 222.25 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c345c569-4bee-4d27-8234-cd68752ed193")
-		(property "Reference" "D4"
-			(at 222.25 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 222.25 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 222.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 222.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd9247df-5532-4805-9dc3-24ebdb59bc13")
-		)
-		(pin "1"
-			(uuid "23591230-344d-41ca-92b8-4550d85353b4")
-		)
-		(instances
-			(project ""
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/82e75441-9b85-4304-afce-254bf3f07a53"
-					(reference "D4")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -9198,7 +9217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
 			(at 294.64 110.49 0)
 			(effects
 				(font

@@ -6376,7 +6376,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 238.76) (xy 220.98 238.76)
+			(xy 231.14 238.76) (xy 224.79 238.76)
 		)
 		(stroke
 			(width 0)
@@ -6516,7 +6516,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 238.76) (xy 210.82 238.76)
+			(xy 217.17 238.76) (xy 213.36 238.76)
 		)
 		(stroke
 			(width 0)
@@ -6716,7 +6716,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 238.76) (xy 200.66 238.76)
+			(xy 205.74 238.76) (xy 200.66 238.76)
 		)
 		(stroke
 			(width 0)
@@ -9606,7 +9606,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 238.76 90)
+		(at 209.55 238.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9615,7 +9615,7 @@
 		(fields_autoplaced yes)
 		(uuid "42905125-b5d9-4882-bc8f-54376aed489e")
 		(property "Reference" "R76"
-			(at 207.01 232.41 90)
+			(at 209.55 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +9623,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 207.01 234.95 90)
+			(at 209.55 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9631,7 +9631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 240.538 90)
+			(at 209.55 240.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +9640,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 238.76 0)
+			(at 209.55 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,7 +9649,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 238.76 0)
+			(at 209.55 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,91 +10058,6 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 142.24 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cf94fbc-df59-4a71-9a40-2f7724d2c8d9")
-		(property "Reference" "L6"
-			(at 142.24 32.766 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5u"
-			(at 142.24 35.306 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 142.24 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SWPA4030S1R5NT"
-			(at 142.24 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C42100"
-			(at 142.24 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e357ce2e-4438-4546-be77-d0cacdc2d71e")
-		)
-		(pin "1"
-			(uuid "7996e004-60e9-4602-8e25-53de1859c738")
-		)
-		(instances
-			(project "PCB"
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
-					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -11238,6 +11153,91 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 142.24 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b1fcabe-9814-45d3-8bb7-02b7d4312f46")
+		(property "Reference" "L5"
+			(at 142.24 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u5"
+			(at 142.24 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
+			(at 142.24 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 142.24 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SWPA4030S1R5NT"
+			(at 142.24 34.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42100"
+			(at 142.24 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e06ae1cf-f47c-4c4b-b941-db627bc066e0")
+		)
+		(pin "1"
+			(uuid "0bb3f118-1685-456a-9ae7-a7933e5d0623")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -12621,7 +12621,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 223.52 238.76 0)
+		(at 231.14 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12630,7 +12630,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2c468e5-3036-4fd4-a322-f11ce344e156")
 		(property "Reference" "#PWR0149"
-			(at 223.52 242.57 0)
+			(at 231.14 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,7 +12639,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 223.52 233.68 0)
+			(at 231.14 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +12647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 238.76 0)
+			(at 231.14 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12656,7 +12656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 238.76 0)
+			(at 231.14 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12665,7 +12665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 223.52 238.76 0)
+			(at 231.14 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13974,6 +13974,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 220.98 238.76 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f55db0ce-1cac-43c2-a947-eff8158c7c75")
+		(property "Reference" "D2"
+			(at 220.98 234.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805Y"
+			(at 220.98 232.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 220.98 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 220.98 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 220.98 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KT-0805Y"
+			(at 220.98 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2296"
+			(at 220.98 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "afcd5be6-ca44-4997-90a6-258901e68e48")
+		)
+		(pin "1"
+			(uuid "b8a6b98f-9959-4243-8edd-2500ee6649f0")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 215.9 128.27 0)
 		(unit 1)
@@ -14172,83 +14267,6 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
 					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fad32a1f-2e4a-4193-ad00-ac708c05d306")
-		(property "Reference" "D2"
-			(at 215.5825 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 215.5825 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e90cf66-5797-4d85-bae6-61175022686f")
-		)
-		(pin "2"
-			(uuid "3e5ec814-6e74-466a-8e13-83f01a0a48a2")
-		)
-		(instances
-			(project ""
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
-					(reference "D2")
 					(unit 1)
 				)
 			)
