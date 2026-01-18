@@ -8210,7 +8210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 94.742 217.17 90)
 			(effects
 				(font
@@ -8652,6 +8652,74 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 35.56 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "143777c8-da91-4b90-87b6-04e3d1cc0536")
+		(property "Reference" "R49"
+			(at 64.77 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 54.356 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "029084a8-4ae0-45f8-a653-0e1bcb34145c")
+		)
+		(pin "1"
+			(uuid "ae0e2a7b-597e-4cb6-9e25-5eb7a4196389")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -9362,7 +9430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 304.292 151.13 90)
 			(effects
 				(font
@@ -10123,73 +10191,6 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53e3f4ca-f6ed-449d-acf9-0ee71693720c")
-		(property "Reference" "R49"
-			(at 64.77 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 54.356 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 37.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "512dc85b-3603-4f98-af8c-a1b429ca2e8a")
-		)
-		(pin "1"
-			(uuid "ebd39415-ac23-4f2e-b403-02301fd2b5d2")
-		)
-		(instances
-			(project "PCB"
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
-					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -11116,7 +11117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 330.962 151.13 90)
 			(effects
 				(font
@@ -11678,7 +11679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.962 217.17 90)
 			(effects
 				(font
@@ -12443,7 +12444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 322.072 151.13 90)
 			(effects
 				(font
@@ -12834,15 +12835,15 @@
 		(dnp no)
 		(uuid "dc860600-2a36-42b3-ab2b-3812cf065b1d")
 		(property "Reference" "R48"
-			(at 64.77 31.496 90)
+			(at 64.77 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 54.356 31.496 90)
+		(property "Value" "5k1"
+			(at 54.356 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13184,7 +13185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.852 217.17 90)
 			(effects
 				(font
@@ -13319,7 +13320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 313.182 151.13 90)
 			(effects
 				(font
