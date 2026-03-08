@@ -15322,7 +15322,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 741.68 55.88 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15332,7 +15331,7 @@
 		(dnp no)
 		(uuid "06e8eab2-6204-4605-961f-7fc2b41b2c15")
 		(property "Reference" "C154"
-			(at 740.664 52.832 0)
+			(at 742.696 52.832 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15343,7 +15342,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 740.664 58.928 0)
+			(at 742.696 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15354,7 +15353,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 740.7148 59.69 0)
+			(at 742.6452 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

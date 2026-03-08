@@ -9662,7 +9662,7 @@
 		(uuid "0592dc96-91dc-48d9-81f9-17980aff1ea6")
 	)
 	(junction
-		(at 148.59 107.95)
+		(at 140.97 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30a716e0-c5c2-415c-ab4b-e2f6fad1b142")
@@ -9707,7 +9707,7 @@
 		(at 134.62 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b73b5a5-fef5-4d7b-91d6-784405da996d")
+		(uuid "6d51fe12-393b-4fcf-a118-2ec397646dd5")
 	)
 	(junction
 		(at 181.61 167.64)
@@ -9722,7 +9722,7 @@
 		(uuid "72e43e01-d34a-47e3-b6b5-133999c46b8c")
 	)
 	(junction
-		(at 156.21 120.65)
+		(at 148.59 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b01ab31-f449-48f8-b249-23facb07e27a")
@@ -9744,18 +9744,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aed6e2ce-fe8e-4f05-8bbe-2fad507f99af")
-	)
-	(junction
-		(at 140.97 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb3054c5-f24d-4192-8edb-8a95dc1a09ae")
-	)
-	(junction
-		(at 148.59 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcba7887-2e30-48cb-b5c4-16d36060dfb8")
 	)
 	(junction
 		(at 146.05 205.74)
@@ -9870,16 +9858,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 120.65) (xy 140.97 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07f0734e-e10b-4638-9c17-142d887d2a40")
-	)
-	(wire
-		(pts
 			(xy 144.78 165.1) (xy 190.5 165.1)
 		)
 		(stroke
@@ -9960,7 +9938,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 107.95) (xy 156.21 107.95)
+			(xy 140.97 107.95) (xy 148.59 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10010,7 +9988,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 120.65) (xy 148.59 118.11)
+			(xy 140.97 120.65) (xy 140.97 118.11)
 		)
 		(stroke
 			(width 0)
@@ -10020,7 +9998,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 123.19) (xy 156.21 120.65)
+			(xy 148.59 123.19) (xy 148.59 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10290,16 +10268,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 120.65) (xy 148.59 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71b0d852-0564-4ebf-b697-467dd1c41490")
-	)
-	(wire
-		(pts
 			(xy 134.62 107.95) (xy 140.97 107.95)
 		)
 		(stroke
@@ -10440,7 +10408,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 120.65) (xy 156.21 120.65)
+			(xy 140.97 120.65) (xy 148.59 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10480,7 +10448,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 107.95) (xy 156.21 110.49)
+			(xy 148.59 107.95) (xy 148.59 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10490,7 +10458,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 107.95) (xy 148.59 110.49)
+			(xy 140.97 107.95) (xy 140.97 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10507,16 +10475,6 @@
 			(type default)
 		)
 		(uuid "93d4a8c2-8343-4c4b-9493-c2679964e634")
-	)
-	(wire
-		(pts
-			(xy 140.97 107.95) (xy 148.59 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9514716a-ca74-42e1-b8da-31f763e42ba2")
 	)
 	(wire
 		(pts
@@ -10567,16 +10525,6 @@
 			(type default)
 		)
 		(uuid "a2804a7a-534e-4f81-a551-fe27f79cdcd2")
-	)
-	(wire
-		(pts
-			(xy 140.97 107.95) (xy 140.97 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a29e823e-281c-494a-8ecb-03f9c3f02243")
 	)
 	(wire
 		(pts
@@ -10770,7 +10718,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 120.65) (xy 156.21 118.11)
+			(xy 148.59 120.65) (xy 148.59 118.11)
 		)
 		(stroke
 			(width 0)
@@ -11398,7 +11346,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 114.3 0)
+		(at 148.59 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11408,7 +11356,7 @@
 		(dnp no)
 		(uuid "310164a6-51b8-4318-bdcb-cc88e5a1e95d")
 		(property "Reference" "C151"
-			(at 157.226 111.252 0)
+			(at 149.606 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11419,7 +11367,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 157.226 117.348 0)
+			(at 149.606 117.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11430,7 +11378,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 157.1752 118.11 0)
+			(at 149.5552 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11441,7 +11389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 114.3 0)
+			(at 148.59 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11400,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 114.3 0)
+			(at 148.59 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11830,7 +11778,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 123.19 0)
+		(at 148.59 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11841,7 +11789,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d292cb4-36a5-4595-9fcc-9ebff69e7fca")
 		(property "Reference" "#PWR093"
-			(at 156.21 129.54 0)
+			(at 148.59 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11852,7 +11800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 128.27 0)
+			(at 148.59 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11862,7 +11810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 123.19 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11873,7 +11821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 123.19 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11884,7 +11832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 123.19 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13887,7 +13835,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 148.59 114.3 0)
+		(at 140.97 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13897,7 +13845,7 @@
 		(dnp no)
 		(uuid "7fcf408b-5fed-4405-a972-301df1bd6aea")
 		(property "Reference" "C150"
-			(at 149.606 111.252 0)
+			(at 141.986 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13908,7 +13856,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 149.606 117.348 0)
+			(at 141.986 117.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13919,7 +13867,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 149.5552 118.11 0)
+			(at 141.9352 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13930,7 +13878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 114.3 0)
+			(at 140.97 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13941,7 +13889,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 148.59 114.3 0)
+			(at 140.97 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14803,87 +14751,6 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 140.97 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bbc93efe-dca7-4fd0-8e8a-224c919bda86")
-		(property "Reference" "C147"
-			(at 141.986 111.252 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 141.986 117.348 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 141.9352 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 140.97 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e2765e7-b389-4da3-b571-9bba8bb378be")
-		)
-		(pin "1"
-			(uuid "f310cc57-4962-43f6-b118-dc362cf7b574")
-		)
-		(instances
-			(project "PCB"
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
-					(reference "C147")
 					(unit 1)
 				)
 			)
