@@ -394,7 +394,7 @@ There's a couple components I left off the board for now, because those aren't t
 
 This was actually after I started routing, so most of these components are in their final spots. Lots more components were actually off the board, and it's a constantly iterative process!
 
-## Decoupling scheme - 7 Hours
+## Decoupling scheme and some basic routing - 7 Hours
 
 Decoupling an FPGA and all the other peripherals is extremely difficult. They're power intensive devices and you really need to know the theory behind what you're doing.
 
@@ -411,4 +411,14 @@ The higher frequency decoupling (470nF) is priority, it should be directly next 
 
 You'll notice that there's no via-in-pad, this is an extra cost that I really don't need, and I want to create an extremely professional board, so it's something that was really important to me.
 
-Now there's a lot of decoupling on this board, but I really just want to go over the FPGA and DDR3 decoupling because those are definitely the most intensive
+Now there's a lot of decoupling on this board, but I really just want to go over the FPGA and DDR3 decoupling because those are definitely the most intensive.
+
+Next, let's take a look at our DDR3 decoupling. This needs to be extremely efficient for a hungry device, so we keep the paths short and tight.
+
+You need to keep VREF extremely quiet, so you'll notice a bunch of extra decoupling on that too. 
+
+Ignore these other traces, this is after I routed my DDR3 which we'll go over soon:
+
+![[Pasted image 20260308171254.png]]![[Pasted image 20260308171307.png]]
+
+And just like that, we've efficiently decoupled our intensive components! Next let's take a lookat the most complicated bit of routing, which I've already done a lot of, our DDR3!
