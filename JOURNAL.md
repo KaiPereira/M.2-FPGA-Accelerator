@@ -422,3 +422,47 @@ Ignore these other traces, this is after I routed my DDR3 which we'll go over so
 ![[Pasted image 20260308171254.png]]![[Pasted image 20260308171307.png]]
 
 And just like that, we've efficiently decoupled our intensive components! Next let's take a lookat the most complicated bit of routing, which I've already done a lot of, our DDR3!
+
+## Intensive DDR3 routing - 60 Hours
+
+Now, let's take a look at arguably the most complicated part of our board, the DDR3 routing. 
+
+There's a LOT of considerations when routing DDR3:
+- Efficient power distribution and VREF
+- Proper configurations
+- Proper layout/dogbone/breakout
+- DDR3 to FPGA routing
+- Length/delay mathching
+- Differential pairs
+
+And a whole lot more.
+
+Let's start off with our power distribution. I already went over this a lot, but all of the DDR3 pins should have 100nF decoupling, and medium/bulk decoupling along the sides of the chip. You can see exactly how we decoupled this chip, high frequency decoupling RIGHT by the pins, and then mid/low frequency at the top.
+
+![[Pasted image 20260308171730.png]]
+
+Next we can take a look at VREF. VREF is a little pesky brat that needs to be well filtered, so we have 100nF to 10nF caps right by the pins so we can efficiently run our DDR3. 
+
+![[Pasted image 20260308171847.png]]
+
+The layout considerations of these caps is extremely important because you need to image how you're going to get all of your traces through still, so it's a big puzzle game. 
+
+Next we have the actual routing and dogbone. Lots of your traces will need a via to get to other layers, so we put them in the center where there's no pins, perfectly placed so we don't get solder taken away from the pads by the via's.
+
+Routing these traces is definitely what took the longest, because there's so many considerations. 
+
+I routed the traces probably about 10 different times, because you need to pass what's called MIG, which essentially tells you if you used the right pins on the FPGA for your DDR3. The FPGA doesn't have specific pins, but instead byte lanes, where say pins DQ0 - 7 could go, and not other signals, so it's not crazy specific but still tedious.
+
+After passing MIG, you need to length/delay match all of your signals. This is an EXTREMELY dense layout, so doing this is absurdly difficult and tedious, which took a LOT of time.
+
+I'm not going to explain all of the specifics or else I would basically create my own DDR3 datasheet, the important stuff is all already created and I'm not going to repeat it. 
+
+But this is what our final layout looks like, it's absolutely beautiful and took wayyyyy too long:
+
+![[Pasted image 20260308172343.png]]
+
+![[Pasted image 20260308172401.png]]
+
+![[Pasted image 20260308172414.png]]
+
+This isn't actually the end of my DDR3 shenanigans though. I haven't done it yet, but I'll need to simulate the signal integrity of my traces using a field solver because of the extremely dense layout, there's a lot of local crosstalk which could kill my design. 
