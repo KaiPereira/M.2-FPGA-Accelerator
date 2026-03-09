@@ -423,7 +423,7 @@ Ignore these other traces, this is after I routed my DDR3 which we'll go over so
 
 And just like that, we've efficiently decoupled our intensive components! Next let's take a lookat the most complicated bit of routing, which I've already done a lot of, our DDR3!
 
-## Intensive DDR3 routing - 60 Hours
+## Intensive DDR3 routing - 50 Hours
 
 Now, let's take a look at arguably the most complicated part of our board, the DDR3 routing. 
 
@@ -466,3 +466,29 @@ But this is what our final layout looks like, it's absolutely beautiful and took
 ![[Pasted image 20260308172414.png]]
 
 This isn't actually the end of my DDR3 shenanigans though. I haven't done it yet, but I'll need to simulate the signal integrity of my traces using a field solver because of the extremely dense layout, there's a lot of local crosstalk which could kill my design. 
+
+## More layout and basic routing - 5 Hours
+
+Now it's really hard to say specifically what I'm up to in these parts, but I'm essentially just trying to lay out all the components, and get ready for a massive spree of routing. Because all the connections are made to be as short as possible, routing everything else is actually fairly simple.
+
+All of these small things is just like configurations, passives, all the small details ya know.
+
+So let's take a look at the current status of the board:
+
+![[Pasted image 20260308172955.png]]
+
+![[Pasted image 20260308173008.png]]
+
+![[Pasted image 20260308173018.png]]
+
+The only components left are this button with it's resistor and an LED, because I want to figure out if I want to add some more LED's and I don't quite know exactly where I want to put these yet, so it's not crazy serious.
+
+I was also running the DRC during this time to make sure that I didn't have any problems that would annoy me AFTER I finished doing all of this routing, so it was just like a lot of small stuff I was up to.
+
+Let's just take a minute to admire this beautiful, near 100% density layout :D 
+
+![[Pasted image 20260308173205.png]]
+
+Now that I've actually put everything on the board, it's time to actually route it!!!! 
+
+This honestly won't take too long, because all the connections are so optimally placed already, it's just a quick trace ;) 

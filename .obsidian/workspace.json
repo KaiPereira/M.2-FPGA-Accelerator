@@ -67,14 +67,12 @@
             "id": "888fa34a8e8ebe0e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "JOURNAL.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20260308172955.png"
               },
-              "icon": "lucide-file",
-              "title": "JOURNAL"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260308172955"
             }
           }
         ],
@@ -240,10 +238,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "888fa34a8e8ebe0e",
+  "active": "95eb27a9e72794cd",
   "lastOpenFiles": [
-    "images/Pasted image 20260308172343.png",
     "JOURNAL.md",
+    "images/Pasted image 20260308173205.png",
+    "images/Pasted image 20260308173018.png",
+    "images/Pasted image 20260308173008.png",
+    "images/Pasted image 20260308172955.png",
+    "images/Pasted image 20260308172343.png",
     "images/Pasted image 20260308172414.png",
     "images/Pasted image 20260308172401.png",
     "PCB/PCB-backups/PCB-2026-03-08_172357.zip",
@@ -251,10 +253,6 @@
     "images/Pasted image 20260308171847.png",
     "images/Pasted image 20260308171844.png",
     "PCB/~PCB.kicad_sch.lck",
-    "images/Pasted image 20260308170221.png",
-    "images/Pasted image 20260308171307.png",
-    "images/Pasted image 20260308171254.png",
-    "images/Pasted image 20260308171023.png",
     "PCB/PCB-backups/PCB-2026-03-08_165811.zip",
     "README.md",
     "PCB/~PCB.kicad_pro.lck",
