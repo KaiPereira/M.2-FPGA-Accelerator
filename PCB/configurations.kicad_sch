@@ -9674,16 +9674,16 @@
 		(uuid "3204f3c8-b0cc-416d-8633-c5fbf5c04d7a")
 	)
 	(junction
+		(at 323.85 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38095291-d2b9-43fa-bbe9-b3bbea6d1898")
+	)
+	(junction
 		(at 146.05 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dcc9450-1237-4a8d-b3ce-18c18abf25ef")
-	)
-	(junction
-		(at 323.85 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d9cc56c-f479-41a0-bda5-36ef63f62a76")
 	)
 	(junction
 		(at 300.99 151.13)
@@ -9740,22 +9740,10 @@
 		(uuid "a02e4264-9258-4a9d-9785-b7301a7fcbb2")
 	)
 	(junction
-		(at 339.09 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aed6e2ce-fe8e-4f05-8bbe-2fad507f99af")
-	)
-	(junction
 		(at 146.05 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c29f3645-f207-4b77-8324-c899aaf9abba")
-	)
-	(junction
-		(at 323.85 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7c7f6d2-7988-49b5-bdd6-eb5965301837")
 	)
 	(junction
 		(at 167.64 175.26)
@@ -10078,16 +10066,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 144.78) (xy 339.09 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557798d0-6ed6-4f4d-94ef-e6e18308783e")
-	)
-	(wire
-		(pts
 			(xy 300.99 151.13) (xy 300.99 152.4)
 		)
 		(stroke
@@ -10196,16 +10174,6 @@
 		)
 		(uuid "680bb55a-46e1-4ee1-8040-d9a63873304b")
 	)
-	(wire
-		(pts
-			(xy 323.85 144.78) (xy 327.66 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a06c69f-3dc8-4c23-8822-75cfc0721a25")
-	)
 	(bus
 		(pts
 			(xy 267.97 160.02) (xy 274.32 160.02)
@@ -10255,16 +10223,6 @@
 			(type default)
 		)
 		(uuid "7063d978-3691-4d98-8edb-5c477bbea1e8")
-	)
-	(wire
-		(pts
-			(xy 323.85 137.16) (xy 323.85 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7092969b-73cf-4207-bfcf-8414e31250ce")
 	)
 	(wire
 		(pts
@@ -10355,16 +10313,6 @@
 			(type default)
 		)
 		(uuid "8310520a-216c-45d6-afa8-083f8506409a")
-	)
-	(wire
-		(pts
-			(xy 339.09 144.78) (xy 339.09 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83cbbb08-eba6-41da-aa71-29ddcb7f075f")
 	)
 	(bus
 		(pts
@@ -10768,7 +10716,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 144.78) (xy 323.85 157.48)
+			(xy 323.85 151.13) (xy 323.85 157.48)
 		)
 		(stroke
 			(width 0)
@@ -12015,7 +11963,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 323.85 137.16 0)
+		(at 323.85 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12026,7 +11974,7 @@
 		(fields_autoplaced yes)
 		(uuid "52c61178-f5c6-4282-98c0-79a7daa5dfe1")
 		(property "Reference" "#PWR051"
-			(at 323.85 140.97 0)
+			(at 323.85 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12037,7 +11985,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 323.85 132.08 0)
+			(at 323.85 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12047,7 +11995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 137.16 0)
+			(at 323.85 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12058,7 +12006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 137.16 0)
+			(at 323.85 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12069,7 +12017,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 323.85 137.16 0)
+			(at 323.85 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12246,86 +12194,6 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
 					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 331.47 144.78 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b2d9f35-b0d9-4dc3-a786-fd1f9ae01690")
-		(property "Reference" "C112"
-			(at 331.47 137.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 331.47 139.7 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 335.28 143.8148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331.47 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 331.47 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "419f42e2-2a97-4bde-a124-80fec7d70c5e")
-		)
-		(pin "1"
-			(uuid "317b7a3c-9cd2-4c44-9225-86fa3173aeed")
-		)
-		(instances
-			(project "PCB"
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
-					(reference "C112")
 					(unit 1)
 				)
 			)

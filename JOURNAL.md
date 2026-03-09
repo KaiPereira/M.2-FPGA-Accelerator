@@ -348,7 +348,7 @@ I added ESD protection to all of the lines, just because I want to create a pret
 
 I think I had a really strong fundamental understanding of this wiring which I'm really proud of myself for, but I really need to get that 5V sorted out, and a $1 boost might be the best way to do that. 
 
-## Ethernet shenanigans - 7
+## Ethernet shenanigans - 7 Hours
 
 The second peripheral I wanted to add onto the board is ethernet! 
 
@@ -369,3 +369,46 @@ I added a button onto the ethernet PHY to force reset, because it's a devboard, 
 Finally, we have the LED's, one is pulled up internally, and one needs an external pullup, but once they have pullups they act as current sinks so I can just wire those as sinks to the PHY LED's.
 
 And BOOM, we have ethernet fully wired on our board! I'm really excited to work more with ethernet and understand the PHY and magnetics some more, because they seem really cool!
+
+## Revisions and starting to route everything - 8 Hours
+
+Now that I've finished wiring my ethernet, I'm actually done my schematic!
+
+Now we can work on laying out all the components onto the board so we can make sure that it fits nicely! This is a really iterative process, but you can get a nice rough layout which you'll modify greatly as you route, but it'll form the basis of your board!
+
+**I actually decided to remove my ethernet in this step, because the PHY was too large for such a small card, it wasn't worth it...**
+
+First I layed out all my large components onto the frontside of the PCB so that I could get a grasp of how the board would look.
+
+Next I added all the passives for the top layer to have short loop area's, and really just going for optimal practices. There's a lot of thought that goes into doing this, but it's not too difficult!
+
+![[Pasted image 20260308170221.png]]
+
+Next I took a look at the back side. Essentially where I couldn't fit all of the other passives is where I would place these ones. This is especially true for stuff like my decoupling which won't have space on the front because of my BGA DDR3, artix 7, etc.
+
+![[Pasted image 20260308170313.png]]
+
+There was a LOT of thought that went into this layout. I first modelled it off of existing boards, so fpga in the center, power management at the bottom, connectors on one side, and then USB to JTAG at the top alongside the flash and DDR3!
+
+There's a couple components I left off the board for now, because those aren't too important, and they're in spots where traces might go, so I don't quite know exactly where I want to put them!
+
+This was actually after I started routing, so most of these components are in their final spots. Lots more components were actually off the board, and it's a constantly iterative process!
+
+## Decoupling scheme - 7 Hours
+
+Decoupling an FPGA and all the other peripherals is extremely difficult. They're power intensive devices and you really need to know the theory behind what you're doing.
+
+The main things I was thinking about, was keeping a short loop area, minimizing trace inductance and properly laying out components for future routing.
+
+Ignore the DDR3 traces, I took this screenshot after doing some intensive routing:
+
+![[Pasted image 20260308170716.png]]
+![[Pasted image 20260308171023.png]]
+
+You can see I used the largest possible trace and via which maximized the surface area of the copper, minimizing the density of the magnetic flux, decreasing inductance which give higher efficient decoupling.
+
+The higher frequency decoupling (470nF) is priority, it should be directly next to the pins it's decoupling. The mid frequency decoupling can be a bit farther away, but you still want to keep it close to the group of pins. And then finally, the low frequency decoupling can be quite far away, but you want to make the path extremely low inductance nonetheless. 
+
+You'll notice that there's no via-in-pad, this is an extra cost that I really don't need, and I want to create an extremely professional board, so it's something that was really important to me.
+
+Now there's a lot of decoupling on this board, but I really just want to go over the FPGA and DDR3 decoupling because those are definitely the most intensive
