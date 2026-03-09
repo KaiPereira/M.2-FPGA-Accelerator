@@ -332,7 +332,7 @@ Because you could plug it into both your computer and HDMI, you could do fun thi
 
 So I came up with this little schematic:
 
-![[Pasted image 20260120061538.png]]
+![Pasted image 20260120061538.png](images/Pasted%20image%2020260120061538.png)
 
 First of all, I don't want ethernet powering my board, so I added a diode to prevent that, and it's connected to VBUS so if USB is plugged in, you get the extra features from HDMI.
 
@@ -356,7 +356,7 @@ Ethernet is really cool to add to an FPGA board like this, because it allows you
 
 I decided to use a magjack with integrated magnetics and other useful stuff because I don't want to have to worry about all of that working with ethernet for the first time. 
 
-![[Pasted image 20260120062520.png]]
+![Pasted image 20260120062520.png](images/Pasted%20image%2020260120062520.png)
 
 First, you'll notice really strong pullups on MDI lines. These aren't actually pullups, and are instead parallel termination. Essentially when signal reflections hit these lines, they'll sink into the power/ground instead of just continuously reflecting, and this is why it's on the analog rail, so the power can get filtered! 
 
@@ -382,11 +382,11 @@ First I layed out all my large components onto the frontside of the PCB so that 
 
 Next I added all the passives for the top layer to have short loop area's, and really just going for optimal practices. There's a lot of thought that goes into doing this, but it's not too difficult!
 
-![[Pasted image 20260308170221.png]]
+![Pasted image 20260308170221.png](images/Pasted%20image%2020260308170221.png)
 
 Next I took a look at the back side. Essentially where I couldn't fit all of the other passives is where I would place these ones. This is especially true for stuff like my decoupling which won't have space on the front because of my BGA DDR3, artix 7, etc.
 
-![[Pasted image 20260308170313.png]]
+![Pasted image 20260308170313.png](images/Pasted%20image%2020260308170313.png)
 
 There was a LOT of thought that went into this layout. I first modelled it off of existing boards, so fpga in the center, power management at the bottom, connectors on one side, and then USB to JTAG at the top alongside the flash and DDR3!
 
@@ -402,8 +402,8 @@ The main things I was thinking about, was keeping a short loop area, minimizing 
 
 Ignore the DDR3 traces, I took this screenshot after doing some intensive routing:
 
-![[Pasted image 20260308170716.png]]
-![[Pasted image 20260308171023.png]]
+![Pasted image 20260308170716.png](images/Pasted%20image%2020260308170716.png)
+![Pasted image 20260308171023.png](images/Pasted%20image%2020260308171023.png)
 
 You can see I used the largest possible trace and via which maximized the surface area of the copper, minimizing the density of the magnetic flux, decreasing inductance which give higher efficient decoupling.
 
@@ -419,7 +419,8 @@ You need to keep VREF extremely quiet, so you'll notice a bunch of extra decoupl
 
 Ignore these other traces, this is after I routed my DDR3 which we'll go over soon:
 
-![[Pasted image 20260308171254.png]]![[Pasted image 20260308171307.png]]
+![Pasted image 20260308171254.png](images/Pasted%20image%2020260308171254.png)
+![Pasted image 20260308171307.png](images/Pasted%20image%2020260308171307.png)
 
 And just like that, we've efficiently decoupled our intensive components! Next let's take a lookat the most complicated bit of routing, which I've already done a lot of, our DDR3!
 
@@ -439,11 +440,11 @@ And a whole lot more.
 
 Let's start off with our power distribution. I already went over this a lot, but all of the DDR3 pins should have 100nF decoupling, and medium/bulk decoupling along the sides of the chip. You can see exactly how we decoupled this chip, high frequency decoupling RIGHT by the pins, and then mid/low frequency at the top.
 
-![[Pasted image 20260308171730.png]]
+![Pasted image 20260308171730.png](images/Pasted%20image%2020260308171730.png)
 
 Next we can take a look at VREF. VREF is a little pesky brat that needs to be well filtered, so we have 100nF to 10nF caps right by the pins so we can efficiently run our DDR3. 
 
-![[Pasted image 20260308171847.png]]
+![Pasted image 20260308171847.png](images/Pasted%20image%2020260308171847.png)
 
 The layout considerations of these caps is extremely important because you need to image how you're going to get all of your traces through still, so it's a big puzzle game. 
 
@@ -459,11 +460,11 @@ I'm not going to explain all of the specifics or else I would basically create m
 
 But this is what our final layout looks like, it's absolutely beautiful and took wayyyyy too long:
 
-![[Pasted image 20260308172343.png]]
+![Pasted image 20260308172343.png](images/Pasted%20image%2020260308172343.png)
 
-![[Pasted image 20260308172401.png]]
+![Pasted image 20260308172401.png](images/Pasted%20image%2020260308172401.png)
 
-![[Pasted image 20260308172414.png]]
+![Pasted image 20260308172414.png](images/Pasted%20image%2020260308172414.png)
 
 This isn't actually the end of my DDR3 shenanigans though. I haven't done it yet, but I'll need to simulate the signal integrity of my traces using a field solver because of the extremely dense layout, there's a lot of local crosstalk which could kill my design. 
 
@@ -475,11 +476,11 @@ All of these small things is just like configurations, passives, all the small d
 
 So let's take a look at the current status of the board:
 
-![[Pasted image 20260308172955.png]]
+![Pasted image 20260308172955.png](images/Pasted%20image%2020260308172955.png)
 
-![[Pasted image 20260308173008.png]]
+![Pasted image 20260308173008.png](images/Pasted%20image%2020260308173008.png)
 
-![[Pasted image 20260308173018.png]]
+![Pasted image 20260308173018.png](images/Pasted%20image%2020260308173018.png)
 
 The only components left are this button with it's resistor and an LED, because I want to figure out if I want to add some more LED's and I don't quite know exactly where I want to put these yet, so it's not crazy serious.
 
@@ -487,7 +488,7 @@ I was also running the DRC during this time to make sure that I didn't have any 
 
 Let's just take a minute to admire this beautiful, near 100% density layout :D 
 
-![[Pasted image 20260308173205.png]]
+![Pasted image 20260308173205.png](images/Pasted%20image%2020260308173205.png)
 
 Now that I've actually put everything on the board, it's time to actually route it!!!! 
 
