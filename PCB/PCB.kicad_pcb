@@ -31446,7 +31446,7 @@
 			(at 0 1.17 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "2c4eaccc-15b9-4791-9ead-10ec5ade5a53")
+			(uuid "77d8e24a-c0ea-45ff-8e4e-b069c734ff50")
 			(effects
 				(font
 					(size 1 1)
@@ -31458,7 +31458,7 @@
 		(property "Value" "10k"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
-			(uuid "f49c6527-b80a-4b87-a28a-d11350b38607")
+			(uuid "23f11a49-e3a5-43f7-adac-4d22d934d594")
 			(effects
 				(font
 					(size 1 1)
@@ -31471,7 +31471,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dd34c249-a813-45fc-8bae-00c8be706e42")
+			(uuid "c57e9547-f222-43fe-9ad5-0707c0fa48ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31484,7 +31484,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "eb2f42a8-fb8a-4e4b-8e47-cc3b08c33f70")
+			(uuid "a3100cb9-60cd-4680-aa04-ca1c8d54d59c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33552,13 +33552,13 @@
 	(footprint "Package_TO_SOT_SMD:Texas_DRT-3"
 		(layer "B.Cu")
 		(uuid "1fcc9356-fd0b-4d9c-9143-468de54de0d4")
-		(at 146.3 67.25 -90)
+		(at 146.4 65.6 -90)
 		(descr "Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf")
 		(tags "DRT-3 1x0.8mm Pitch 0.7mm")
 		(property "Reference" "U6"
 			(at 0 1.5 90)
 			(layer "B.SilkS")
-			(uuid "e4492285-cac7-43e9-b29f-150c4cee88dc")
+			(uuid "cfccb271-b1a6-4bdc-8426-41b485665e0f")
 			(effects
 				(font
 					(size 1 1)
@@ -33570,7 +33570,7 @@
 		(property "Value" "TPD2EUSB30"
 			(at 0 -1.5 90)
 			(layer "B.Fab")
-			(uuid "fd29a1e2-beb4-47be-a3b4-5a654f134a2b")
+			(uuid "eab3b2fa-26a7-4e23-81a3-4ab973bef4b4")
 			(effects
 				(font
 					(size 1 1)
@@ -33584,7 +33584,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2ecb5baa-45eb-434a-81dd-93d7bfe67e32")
+			(uuid "05d4e7eb-0a07-4672-be47-797c240d8faf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33598,7 +33598,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d0c8b467-7094-47d0-8260-d30eb95a877e")
+			(uuid "337782fb-43bd-4c10-a969-116c4a5f3bc8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43213,7 +43213,7 @@
 			(at 0 1.17 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "188b3033-ea10-462e-af65-7d831a0bf6c7")
+			(uuid "fc268c78-600c-40bd-bccc-70cec2300cb7")
 			(effects
 				(font
 					(size 1 1)
@@ -43225,7 +43225,7 @@
 		(property "Value" "10k"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
-			(uuid "d282bcfb-4151-4e3b-99e3-20854e3a1ba3")
+			(uuid "5fef79a0-08a0-4e40-b9a8-d75de0d2e4a8")
 			(effects
 				(font
 					(size 1 1)
@@ -43238,7 +43238,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "97671cab-c351-4e27-9abd-11b7a62d8b22")
+			(uuid "ca837ea4-2a64-458b-b284-0a3b915a2725")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43251,7 +43251,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "87fad331-6506-48e3-a2d2-330027e1d984")
+			(uuid "6f739d44-efca-4ff3-8d0b-a7f0e73cb895")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49782,13 +49782,13 @@
 	(footprint "Package_TO_SOT_SMD:Texas_DRT-3"
 		(layer "B.Cu")
 		(uuid "90bba59d-bdd0-4736-86b6-f0c5c1970bc9")
-		(at 146.325 65.6 -90)
+		(at 146.4 67.25 -90)
 		(descr "Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf")
 		(tags "DRT-3 1x0.8mm Pitch 0.7mm")
 		(property "Reference" "U4"
 			(at 0 1.5 90)
 			(layer "B.SilkS")
-			(uuid "6e08e946-ccc5-41e1-bbdf-9aaa9db390bd")
+			(uuid "26a22763-97df-496a-b5b4-efc302b455b5")
 			(effects
 				(font
 					(size 1 1)
@@ -49800,7 +49800,7 @@
 		(property "Value" "TPD2EUSB30"
 			(at 0 -1.5 90)
 			(layer "B.Fab")
-			(uuid "ec45945d-9cd1-45ad-8484-cc49dbe1efad")
+			(uuid "79be48c4-a938-4b83-aea2-710a814d9945")
 			(effects
 				(font
 					(size 1 1)
@@ -49814,7 +49814,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "99e7321a-4edd-4c34-af6e-51514e56e633")
+			(uuid "6ff7bb96-7914-4f3e-b868-377f41c27b4e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49828,7 +49828,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "42034bed-1e3d-4654-9c97-069a54e5c50b")
+			(uuid "682a80cf-e6db-436a-a3cf-6d1e60a6ec56")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67267,14 +67267,6 @@
 		(uuid "e9ca16b4-01aa-4b5f-b1d6-7cd1a0698d24")
 	)
 	(segment
-		(start 144.41 64.6)
-		(end 144.75 64.6)
-		(width 0.1862)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "edd7c187-f6d4-4879-8f2c-4195b23f469f")
-	)
-	(segment
 		(start 136.25 102)
 		(end 136.75 102.5)
 		(width 0.5)
@@ -67289,14 +67281,6 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "f158c836-8678-479e-9003-05b6c25d3829")
-	)
-	(segment
-		(start 144.75 64.6)
-		(end 145.083768 64.933768)
-		(width 0.1862)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "f1af8f23-a0c8-4883-a2d7-18a84b4deb43")
 	)
 	(segment
 		(start 141.25 87)
@@ -67937,14 +67921,6 @@
 		(filling no)
 		(net "+3V3")
 		(uuid "e09f2a60-2145-4ce8-86c7-04403ddd28c5")
-	)
-	(via
-		(at 145.083768 64.933768)
-		(size 0.45)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net "+3V3")
-		(uuid "e38bf3b3-42a6-4210-9ffb-50e607961155")
 	)
 	(via
 		(at 138.75 109.95)
@@ -68688,14 +68664,6 @@
 		(uuid "22781469-2946-46be-b362-0b8fba6f8140")
 	)
 	(segment
-		(start 143.425147 65.65)
-		(end 143.425005 65.649858)
-		(width 0.4)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "23760675-66c9-4fce-b554-ab695eee5c1b")
-	)
-	(segment
 		(start 150.25 102)
 		(end 150.25 102.05)
 		(width 0.5)
@@ -69190,14 +69158,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "9927381a-a334-491a-b49c-90f337cf7e53")
-	)
-	(segment
-		(start 144.09 65.65)
-		(end 143.425147 65.65)
-		(width 0.4)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "99d1a67c-4390-4c75-9f74-ebdceba6f26f")
 	)
 	(segment
 		(start 144.3 81.05)
@@ -71371,14 +71331,6 @@
 		(free yes)
 		(net "GND")
 		(uuid "9da1d5ee-15e4-41cd-ac3e-ed9c242adb49")
-	)
-	(via
-		(at 143.425005 65.649858)
-		(size 0.45)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net "GND")
-		(uuid "9ef72484-f6a1-45c1-ae8e-495d2028e49c")
 	)
 	(via
 		(at 140.7 75.05)
@@ -87455,6 +87407,14 @@
 		(uuid "b510a11b-215d-4141-a0eb-be6159be30a4")
 	)
 	(via
+		(at 144.571794 66.275276)
+		(size 0.45)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net "/Artix 7 Configurations and Flash/JTAG_TDI")
+		(uuid "28fd9b24-7a79-4649-b070-8b20ce81e40b")
+	)
+	(via
 		(at 141.730838 94.466756)
 		(size 0.45)
 		(drill 0.2)
@@ -87471,6 +87431,22 @@
 		(filling no)
 		(net "/Artix 7 Configurations and Flash/JTAG_TDI")
 		(uuid "fb2b3c9b-5331-4b75-98c1-993d6b2ed39a")
+	)
+	(segment
+		(start 144.07 65.8)
+		(end 144.096518 65.8)
+		(width 0.1862)
+		(layer "B.Cu")
+		(net "/Artix 7 Configurations and Flash/JTAG_TDI")
+		(uuid "5fbeba75-3a75-4082-a6fb-f1dfd2fc9267")
+	)
+	(segment
+		(start 144.096518 65.8)
+		(end 144.571794 66.275276)
+		(width 0.1862)
+		(layer "B.Cu")
+		(net "/Artix 7 Configurations and Flash/JTAG_TDI")
+		(uuid "6c833e99-c0fb-4c09-9ebf-042866a7dab0")
 	)
 	(segment
 		(start 136.05 78.824784)
@@ -92378,6 +92354,46 @@
 		(net "/Artix 7 Configurations and Flash/JTAG_TDO")
 		(uuid "0e8169fb-9d54-4e9b-b0d1-66f06bdfe8ed")
 	)
+	(via
+		(at 143.35 65.85)
+		(size 0.45)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net "/Artix 7 Configurations and Flash/JTAG_TDO")
+		(uuid "2f065874-c6a2-4b46-bff7-f4de953b5b00")
+	)
+	(segment
+		(start 142.1 65.155)
+		(end 142.75 65.805)
+		(width 0.1862)
+		(layer "B.Cu")
+		(net "/Artix 7 Configurations and Flash/JTAG_TDO")
+		(uuid "8b781a70-5588-4c96-86fc-a9e73abab374")
+	)
+	(segment
+		(start 143.305 65.805)
+		(end 143.35 65.85)
+		(width 0.1862)
+		(layer "B.Cu")
+		(net "/Artix 7 Configurations and Flash/JTAG_TDO")
+		(uuid "bdcf2921-5f3d-4051-91e7-4ab32315cb68")
+	)
+	(segment
+		(start 142.1 64.885)
+		(end 142.1 65.155)
+		(width 0.1862)
+		(layer "B.Cu")
+		(net "/Artix 7 Configurations and Flash/JTAG_TDO")
+		(uuid "bffb9361-baa6-4f83-946f-9f07ee80c51f")
+	)
+	(segment
+		(start 142.75 65.805)
+		(end 143.305 65.805)
+		(width 0.1862)
+		(layer "B.Cu")
+		(net "/Artix 7 Configurations and Flash/JTAG_TDO")
+		(uuid "d49a7541-c636-471c-bfe3-5d6cdc9352fe")
+	)
 	(segment
 		(start 133.25 92)
 		(end 133.75 91.5)
@@ -95403,6 +95419,30 @@
 		(filling no)
 		(net "/Artix 7 Configurations and Flash/JTAG_TCK")
 		(uuid "10fa4f1b-0509-4461-b8fe-1d69286e9a1a")
+	)
+	(via
+		(at 145.65 66.25)
+		(size 0.45)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net "/Artix 7 Configurations and Flash/JTAG_TCK")
+		(uuid "6233fdc7-0342-446e-9838-378096554e73")
+	)
+	(segment
+		(start 145.2 65.8)
+		(end 145.65 66.25)
+		(width 0.1862)
+		(layer "B.Cu")
+		(net "/Artix 7 Configurations and Flash/JTAG_TCK")
+		(uuid "3d8c914a-90c8-45ff-81d5-cd87672738d6")
+	)
+	(segment
+		(start 145.07 65.8)
+		(end 145.2 65.8)
+		(width 0.1862)
+		(layer "B.Cu")
+		(net "/Artix 7 Configurations and Flash/JTAG_TCK")
+		(uuid "d04fcac0-61a4-4162-b8db-d6e512a87c18")
 	)
 	(segment
 		(start 151.74 79.45)
