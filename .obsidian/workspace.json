@@ -67,12 +67,14 @@
             "id": "888fa34a8e8ebe0e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Pasted image 20260308172955.png"
+                "file": "JOURNAL.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260308172955"
+              "icon": "lucide-file",
+              "title": "JOURNAL"
             }
           }
         ],
@@ -238,13 +240,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "95eb27a9e72794cd",
+  "active": "888fa34a8e8ebe0e",
   "lastOpenFiles": [
+    "images/Pasted image 20260308172955.png",
     "JOURNAL.md",
     "images/Pasted image 20260308173205.png",
     "images/Pasted image 20260308173018.png",
     "images/Pasted image 20260308173008.png",
-    "images/Pasted image 20260308172955.png",
     "images/Pasted image 20260308172343.png",
     "images/Pasted image 20260308172414.png",
     "images/Pasted image 20260308172401.png",
