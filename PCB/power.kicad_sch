@@ -7492,7 +7492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:QFN-28_L5.0-W5.0-P0.50-TL-EP3.2"
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.25x3.25mm_ThermalVias"
 			(at 259.08 210.312 0)
 			(hide yes)
 			(show_name no)

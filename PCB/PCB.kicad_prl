@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.4699999988079071
+      "zones": 0.41999998688697815
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -44,6 +44,7 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
+      "zones",
       "drc_warnings",
       "drc_exclusions",
       "conflict_shadows",
