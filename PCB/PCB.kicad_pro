@@ -591,6 +591,8 @@
         "tuning_profile": ""
       },
       {
+        "diff_pair_gap": 0.1016,
+        "diff_pair_width": 0.1463,
         "name": "PCIe",
         "pcb_color": "rgb(255, 243, 22)",
         "priority": 4,
