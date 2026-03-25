@@ -2371,7 +2371,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -7.62 0)
+				(at -10.16 -15.24 0)
 				(length 2.54)
 				(name "D1+"
 					(effects
@@ -2407,7 +2407,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -10.16 0)
+				(at -10.16 -17.78 0)
 				(length 2.54)
 				(name "D1-"
 					(effects
@@ -2425,7 +2425,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -15.24 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "D0+"
 					(effects
@@ -2461,7 +2461,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -17.78 0)
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "D0-"
 					(effects
@@ -2569,7 +2569,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 20.32 0)
+				(at -10.16 17.78 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -2587,7 +2587,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 17.78 0)
+				(at -10.16 20.32 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
