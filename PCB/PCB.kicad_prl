@@ -2,33 +2,9 @@
   "board": {
     "active_layer": 6,
     "active_layer_preset": "",
-    "auto_track_width": false,
-    "hidden_netclasses": [
-      "PCIe"
-    ],
-    "hidden_nets": [
-      "/Artix 7 PCIe GTP Transceivers/PCIe_TX3+",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_TX0-",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_TX2-",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_RX0-",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_RX2-",
-      "/Artix 7 Banks/~{PCIe_CLKREQ}",
-      "/Artix 7 Banks/~{PCIe_PERST}",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_TX0+",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_TX2+",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_RX0+",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_RX2+",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_TX1-",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_TX3-",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_RX3-",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_RX1-",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_TX1+",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_RX3+",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_RX1+",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_REFCLK-",
-      "/Artix 7 PCIe GTP Transceivers/PCIe_REFCLK+",
-      "/Artix 7 Banks/~{PCIe_PEWAKE}"
-    ],
+    "auto_track_width": true,
+    "hidden_netclasses": [],
+    "hidden_nets": [],
     "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
