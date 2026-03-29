@@ -493,3 +493,20 @@ Let's just take a minute to admire this beautiful, near 100% density layout :D
 Now that I've actually put everything on the board, it's time to actually route it!!!! 
 
 This honestly won't take too long, because all the connections are so optimally placed already, it's just a quick trace ;) 
+
+## Top half routing - 6 Hours
+
+Now initially I thought that the rest of my layout would've been simple to route on 6 layers, but I was actually kind of wrong. 
+
+The first thing I need to do, was route the top half, to the bottom half. This means USB to JTAG, QSPI flash, crystal, etc. I decided to keep the QSPI and JTAG signals on the middle layer and then leave all the simple direct connections to the top and bottom so they could be low inductance. 
+
+![[Pasted image 20260329142145.png]]
+
+![[Pasted image 20260329142208.png]]
+![[Pasted image 20260329142235.png]]
+
+You can see it's getting extremely dense which makes it significantly harder to route. I'm currently still in the process of routing the JTAG lines, but it's almost done. 
+
+## Bottom half routing - 9 Hours
+
+Now that I've routed pretty much the entirety of the top half, I need to route most of the bottom half. This half is a bit more important because it consists of the high speed PCIe gen 2.0 and also the power architecture system. 
