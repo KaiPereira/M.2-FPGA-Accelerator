@@ -531,3 +531,23 @@ Now that I've finished the buck schematic and routing, I can do my power fills a
 And this is how I did my power fills, pretty clean and messy at the same time:
 
 ![[Pasted image 20260329143046.png]]
+
+Now that I've done all my power fills, we can move onto the next and one of the final parts!
+
+## The bottom routing - 5 Hours
+
+Now the power architecture was quite a large portion of the bottom routing, but there's still quite a bit like the PCIe and bringing out the JTAG/QSPI pins on the FPGA to the top.
+
+So the first thing I did was route the PCIe. This took a lot of mental bandwidth to figure out, but I did it pretty cleanly, without too many via transitions.
+
+![[Pasted image 20260329143317.png]]
+
+And then next, I routed out the HDMI and all the other smaller things I need to do like the power good signal for the crystal from the buck converter and many other things!
+
+![[Pasted image 20260329143417.png]]
+
+![[Pasted image 20260329143435.png]]
+
+And then finally, you'll notice some of the other small things on the board like the LED's, small passives , configuration stuff and other things I was waiting to add when I had less space. 
+
+Now, I just have to route the 34 remaining things and also do my UART and HDMI routing! 
