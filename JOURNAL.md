@@ -507,6 +507,27 @@ The first thing I need to do, was route the top half, to the bottom half. This m
 
 You can see it's getting extremely dense which makes it significantly harder to route. I'm currently still in the process of routing the JTAG lines, but it's almost done. 
 
-## Bottom half routing - 9 Hours
+## Power architecture - 7 Hours
 
-Now that I've routed pretty much the entirety of the top half, I need to route most of the bottom half. This half is a bit more important because it consists of the high speed PCIe gen 2.0 and also the power architecture system. 
+Now that I've routed pretty much the entirety of the top half, I need to route most of the bottom half. This half is a bit more important because it consists of the high speed PCIe gen 2.0 and also the power architecture/rails.
+
+Now this part will only consist of the power architecture just barbecue it took a really long time and was a major part of this board. 
+
+So the first thing I had to do was layout my buck converter so that I could efficiently branch out the power fills on the same layer. 
+
+I drew it out and then matched it onto the cube shaped quad buck:
+
+![[Pasted image 20260329142723.png]]
+![[Pasted image 20260329142733.png]]
+
+This gave me a good visualization of how to do the fills, so this is how I layed out my buck:
+
+![[Pasted image 20260329142828.png]]
+
+I also added a small 5V buck boost so that I could always power the HDMI, which I thought was worth it so I didn't have any unpredictable behavior on this board. It'll also let me break out another 5V debug pin which is pretty useful to people. 
+
+Now that I've finished the buck schematic and routing, I can do my power fills and the rest of the bottom routing. Do note that a lot of my bottom stuff has already been routed, and that this is just an old screenshot, but you'll see more in the next log.
+
+And this is how I did my power fills, pretty clean and messy at the same time:
+
+![[Pasted image 20260329143046.png]]
