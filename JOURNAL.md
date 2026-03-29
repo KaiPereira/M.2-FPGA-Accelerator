@@ -500,10 +500,10 @@ Now initially I thought that the rest of my layout would've been simple to route
 
 The first thing I need to do, was route the top half, to the bottom half. This means USB to JTAG, QSPI flash, crystal, etc. I decided to keep the QSPI and JTAG signals on the middle layer and then leave all the simple direct connections to the top and bottom so they could be low inductance. 
 
-![[Pasted image 20260329142145.png]]
+![Pasted image 20260329142145.png](images/Pasted%20image%2020260329142145.png)
 
-![[Pasted image 20260329142208.png]]
-![[Pasted image 20260329142235.png]]
+![Pasted image 20260329142208.png](images/Pasted%20image%2020260329142208.png)
+![Pasted image 20260329142235.png](images/Pasted%20image%2020260329142235.png)
 
 You can see it's getting extremely dense which makes it significantly harder to route. I'm currently still in the process of routing the JTAG lines, but it's almost done. 
 
@@ -517,12 +517,12 @@ So the first thing I had to do was layout my buck converter so that I could effi
 
 I drew it out and then matched it onto the cube shaped quad buck:
 
-![[Pasted image 20260329142723.png]]
-![[Pasted image 20260329142733.png]]
+![Pasted image 20260329142723.png](images/Pasted%20image%2020260329142723.png)
+![Pasted image 20260329142733.png](images/Pasted%20image%2020260329142733.png)
 
 This gave me a good visualization of how to do the fills, so this is how I layed out my buck:
 
-![[Pasted image 20260329142828.png]]
+![Pasted image 20260329142828.png](images/Pasted%20image%2020260329142828.png)
 
 I also added a small 5V buck boost so that I could always power the HDMI, which I thought was worth it so I didn't have any unpredictable behavior on this board. It'll also let me break out another 5V debug pin which is pretty useful to people. 
 
@@ -530,7 +530,7 @@ Now that I've finished the buck schematic and routing, I can do my power fills a
 
 And this is how I did my power fills, pretty clean and messy at the same time:
 
-![[Pasted image 20260329143046.png]]
+![Pasted image 20260329143046.png](images/Pasted%20image%2020260329143046.png)
 
 Now that I've done all my power fills, we can move onto the next and one of the final parts!
 
@@ -540,13 +540,13 @@ Now the power architecture was quite a large portion of the bottom routing, but 
 
 So the first thing I did was route the PCIe. This took a lot of mental bandwidth to figure out, but I did it pretty cleanly, without too many via transitions.
 
-![[Pasted image 20260329143317.png]]
+![Pasted image 20260329143317.png](images/Pasted%20image%2020260329143317.png)
 
 And then next, I routed out the HDMI and all the other smaller things I need to do like the power good signal for the crystal from the buck converter and many other things!
 
-![[Pasted image 20260329143417.png]]
+![Pasted image 20260329143417.png](images/Pasted%20image%2020260329143417.png)
 
-![[Pasted image 20260329143435.png]]
+![Pasted image 20260329143435.png](images/Pasted%20image%2020260329143435.png)
 
 And then finally, you'll notice some of the other small things on the board like the LED's, small passives , configuration stuff and other things I was waiting to add when I had less space. 
 
