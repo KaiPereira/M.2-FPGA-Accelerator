@@ -551,3 +551,21 @@ And then next, I routed out the HDMI and all the other smaller things I need to 
 And then finally, you'll notice some of the other small things on the board like the LED's, small passives , configuration stuff and other things I was waiting to add when I had less space. 
 
 Now, I just have to route the 34 remaining things and also do my UART and HDMI routing! 
+
+## Some chill routing - 4 Hours
+
+Now I'm on the final stretches of this board with 34 unrouted items. But the thing is, this number is kind of a lie, because some of these are like badly done fills so you need to completely redo them.
+
+So I did quite a few different things this time. I was mainly fixing DRC errors and routing the smaller things. This includes doing stuff like:
+- Fixing small traces to decoupling/resistors that I forgot to add
+- Redoing the M.2 3V3 power fill to be much more efficient
+- Routing some small, low frequency signal pins
+- DRC fixes
+
+There's honestly not too many changes in the photo's, but here's the new power fill and feel free to check the commit history :D 
+
+![Pasted image 20260331072314.png](images/Pasted%20image%2020260331072314.png)
+
+![Pasted image 20260331072333.png](images/Pasted%20image%2020260331072333.png)
+
+18 unrouted now, way less DRC errors, we're getting really close!
