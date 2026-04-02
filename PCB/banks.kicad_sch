@@ -15332,7 +15332,7 @@
 	)
 	(hierarchical_label "{UART}"
 		(shape bidirectional)
-		(at 679.45 38.1 0)
+		(at 163.83 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
