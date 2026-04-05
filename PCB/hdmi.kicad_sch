@@ -4394,6 +4394,16 @@
 		)
 		(uuid "39eb296a-b998-4141-873b-c641468882a7")
 	)
+	(label "HDMI_SDA"
+		(at 236.22 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b0b86bc-100b-4f8e-ad9f-b42bf6bde11a")
+	)
 	(label "HDMI_CONN_D2+"
 		(at 148.59 152.4 0)
 		(effects
@@ -4434,16 +4444,6 @@
 		)
 		(uuid "7c1d4580-9c4f-4eb5-8340-95351277a5d3")
 	)
-	(label "HDMI_SDA_5V"
-		(at 346.71 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "885b9eb4-316e-414e-a244-03b0a52d1f93")
-	)
 	(label "HDMI_CLK-"
 		(at 77.47 177.8 0)
 		(effects
@@ -4454,6 +4454,16 @@
 		)
 		(uuid "8d7c8da5-fff2-4257-96e7-5179b9fbb9b3")
 	)
+	(label "HDMI_SCL_5V"
+		(at 346.71 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "917e4e95-7f63-46da-877f-f268b9b40dd1")
+	)
 	(label "HDMI_CONN_D2-"
 		(at 148.59 154.94 0)
 		(effects
@@ -4463,16 +4473,6 @@
 			(justify left bottom)
 		)
 		(uuid "a2112dc2-ea89-454f-9496-ec974f829614")
-	)
-	(label "HDMI_SDA"
-		(at 236.22 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3772e85-bceb-4ef1-8f49-533db3a40834")
 	)
 	(label "HDMI_D1+"
 		(at 77.47 167.64 0)
@@ -4493,16 +4493,6 @@
 			(justify left bottom)
 		)
 		(uuid "a9bab9c8-7719-46ed-8ecf-4313a6c15933")
-	)
-	(label "HDMI_SCL"
-		(at 236.22 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6a597ec-5ad4-4586-a66f-10fedaf44d82")
 	)
 	(label "HDMI_D0-"
 		(at 77.47 162.56 0)
@@ -4534,6 +4524,16 @@
 		)
 		(uuid "d2da80af-6228-4e61-baab-fbf5a50832d1")
 	)
+	(label "HDMI_SCL"
+		(at 236.22 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dafc50ad-4e76-43f6-9703-bc8b7111c06b")
+	)
 	(label "HDMI_CONN_D0+"
 		(at 148.59 160.02 0)
 		(effects
@@ -4544,7 +4544,7 @@
 		)
 		(uuid "dfbc90fb-d6cc-4c41-8264-7b66dbf4117a")
 	)
-	(label "HDMI_SCL_5V"
+	(label "HDMI_SDA_5V"
 		(at 346.71 153.67 180)
 		(effects
 			(font
@@ -4552,7 +4552,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ecdf0564-448a-4917-9f9d-055140f81f4a")
+		(uuid "e916c5dc-5260-47f2-bd39-6d14cd0e809e")
 	)
 	(label "HDMI_CONN_D0-"
 		(at 148.59 162.56 0)

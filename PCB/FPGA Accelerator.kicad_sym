@@ -10142,7 +10142,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -15.24 90)
+				(at 0 -15.24 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"

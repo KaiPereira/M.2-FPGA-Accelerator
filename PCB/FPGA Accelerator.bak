@@ -2371,7 +2371,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -7.62 0)
+				(at -10.16 -15.24 0)
 				(length 2.54)
 				(name "D1+"
 					(effects
@@ -2407,7 +2407,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -10.16 0)
+				(at -10.16 -17.78 0)
 				(length 2.54)
 				(name "D1-"
 					(effects
@@ -2425,7 +2425,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -15.24 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "D0+"
 					(effects
@@ -2461,7 +2461,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -17.78 0)
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "D0-"
 					(effects
@@ -10142,9 +10142,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -15.24 90)
+				(at 0 -15.24 90)
 				(length 2.54)
-				(hide yes)
 				(name "GND"
 					(effects
 						(font
