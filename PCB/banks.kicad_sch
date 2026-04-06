@@ -10197,6 +10197,15 @@
 		(uuid "462a2ff5-28ea-429a-9986-542cad34feff")
 	)
 	(bus_entry
+		(at 381 168.91)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46870cc3-678c-47f4-a7ea-0b654fd5f9c1")
+	)
+	(bus_entry
 		(at 674.37 123.19)
 		(size 2.54 2.54)
 		(stroke
@@ -10620,6 +10629,15 @@
 		(uuid "d9bfcee4-5fda-403e-960b-594bb7764f5f")
 	)
 	(bus_entry
+		(at 381 171.45)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc38c7a5-3317-4c52-a6eb-963e2b7aa9bc")
+	)
+	(bus_entry
 		(at 622.3 209.55)
 		(size 2.54 2.54)
 		(stroke
@@ -10647,6 +10665,15 @@
 		(uuid "e1447960-8083-406e-bdc9-3e70b267c8b0")
 	)
 	(bus_entry
+		(at 381 194.31)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32f5a89-deb4-4cde-984a-06db9654bb7a")
+	)
+	(bus_entry
 		(at 622.3 189.23)
 		(size 2.54 2.54)
 		(stroke
@@ -10672,6 +10699,15 @@
 			(type default)
 		)
 		(uuid "e8ad6d3d-06f5-4835-aa51-4846834d4e27")
+	)
+	(bus_entry
+		(at 381 173.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca11346-c906-4aa9-800f-8f0f77a88f1d")
 	)
 	(bus_entry
 		(at 142.24 95.25)
@@ -11015,6 +11051,16 @@
 			(type default)
 		)
 		(uuid "14c1a589-b376-4ba1-aa2f-ab2e61f63422")
+	)
+	(wire
+		(pts
+			(xy 363.22 171.45) (xy 378.46 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1541b1be-410a-4b90-ac68-24b756ce460a")
 	)
 	(wire
 		(pts
@@ -11628,6 +11674,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 176.53) (xy 378.46 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc1d4fc-ac14-40d5-932d-e34dc7370732")
+	)
+	(wire
+		(pts
 			(xy 741.68 62.23) (xy 741.68 59.69)
 		)
 		(stroke
@@ -11635,6 +11691,16 @@
 			(type default)
 		)
 		(uuid "3dae3f86-f845-49b9-91a7-3b1be1bc62b1")
+	)
+	(wire
+		(pts
+			(xy 363.22 196.85) (xy 378.46 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2ee0b6-8337-44f2-932b-1fe8f4f0e713")
 	)
 	(wire
 		(pts
@@ -12608,6 +12674,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 173.99) (xy 378.46 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c50fb31-ccc6-4bac-8db5-7071d543f260")
+	)
+	(wire
+		(pts
 			(xy 764.54 49.53) (xy 764.54 52.07)
 		)
 		(stroke
@@ -13315,6 +13391,16 @@
 			(type default)
 		)
 		(uuid "a504c85d-f3aa-4a9a-bc8b-2faeadad7ca0")
+	)
+	(bus
+		(pts
+			(xy 381 133.35) (xy 381 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73ad6bf-bea9-41e2-b449-76585c4ddca5")
 	)
 	(wire
 		(pts
@@ -14346,16 +14432,6 @@
 		)
 		(uuid "e04b8d95-b24c-4bec-8c1d-a76df2ac4e02")
 	)
-	(bus
-		(pts
-			(xy 381 133.35) (xy 381 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2a28f81-bc66-486a-8469-4d734d5b1748")
-	)
 	(wire
 		(pts
 			(xy 278.13 62.23) (xy 285.75 62.23)
@@ -15176,6 +15252,16 @@
 		)
 		(uuid "4ab58c9f-7cf2-4dfc-9ece-8c3c93a01a67")
 	)
+	(label "HDMI_HPD"
+		(at 377.19 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b244863-9fc9-4d6d-ab6c-fd7a2fdb076f")
+	)
 	(label "HDMI_D0+"
 		(at 377.19 133.35 180)
 		(effects
@@ -15336,6 +15422,16 @@
 		)
 		(uuid "905b5e25-3b59-44d3-ad4c-c6326e8fd509")
 	)
+	(label "HDMI_SCL"
+		(at 377.19 196.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90aff672-667e-4594-9c90-ab886320848f")
+	)
 	(label "DDR_A11"
 		(at 702.31 95.25 180)
 		(effects
@@ -15355,6 +15451,16 @@
 			(justify right bottom)
 		)
 		(uuid "99e58564-a636-4536-8701-c153c3d7f57b")
+	)
+	(label "HDMI_SDA"
+		(at 377.19 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d342fba-04f0-4c18-b03c-d2061e94c2a2")
 	)
 	(label "DDR_A9"
 		(at 702.31 125.73 180)
@@ -15625,6 +15731,16 @@
 			(justify right bottom)
 		)
 		(uuid "fcd9bbd1-5019-483e-a8ef-d49a7f5f54a2")
+	)
+	(label "HDMI_CEC"
+		(at 377.19 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd4b033b-0569-44e3-b2f5-359fff29f60e")
 	)
 	(hierarchical_label "{DDR_CLK}"
 		(shape output)
