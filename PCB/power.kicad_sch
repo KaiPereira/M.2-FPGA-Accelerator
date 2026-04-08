@@ -9798,7 +9798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_VQFN-HR-12_2x2.5mm_P0.5mm_ThermalVias"
+		(property "Footprint" "FPGA:Texas_VQFN-HR-12_2x2.5mm_P0.5mm_ThermalVias"
 			(at 97.79 87.63 0)
 			(hide yes)
 			(show_name no)
