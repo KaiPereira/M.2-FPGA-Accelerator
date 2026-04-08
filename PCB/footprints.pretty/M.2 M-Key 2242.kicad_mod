@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3e75ed9c-a81c-4e2c-a0d3-f8c44bacea45")
+		(uuid "880c5376-e780-4a67-bbbf-e4badcc2aaa8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b153c191-8e8d-40e5-882d-f86cbd947c38")
+		(uuid "f0fe8382-bf9c-4caa-98a5-09818b6e1f40")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fb0f8990-50f7-4ad0-b803-f9f9e7d5875a")
+		(uuid "ec8fcd95-60b6-4476-baf3-3b204a8cdbc4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "73e293fc-e3b6-4934-b510-bc1a3f6905ac")
+		(uuid "b33ac6d3-cb43-4c72-a72f-be48e126a10e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6e4f20c8-19e8-4c55-820c-c117b942bd02")
+		(uuid "623d3424-70ee-45e3-9f48-e26248201b76")
 	)
 	(fp_line
 		(start -10.8 -4)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "15a04afe-69d6-4202-a968-12689a540e17")
+		(uuid "b7360941-9571-4e7b-b94f-7c9e9f605bdd")
 	)
 	(fp_line
 		(start -9.95 -3.5)
@@ -81,7 +81,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "9df0945a-6188-4f6e-85e4-ae8eadad2e69")
+		(uuid "cab51590-2f02-4ddd-8504-b6e6e22f9423")
 	)
 	(fp_line
 		(start -9.75 0)
@@ -91,7 +91,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b26ba398-b940-4718-955f-9ca871c038e9")
+		(uuid "4f7a5c3a-cdb8-44af-a8b4-644ae52a2718")
 	)
 	(fp_line
 		(start -6.725 -2.9)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "1a024ddf-a2cc-4cd9-99f2-0156147d0bbb")
+		(uuid "a64d7054-3d80-436c-9ab3-ecd60fbb3a4b")
 	)
 	(fp_line
 		(start -5.525 -2.9)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "60b3e0fd-0c95-474b-8507-ea73bdc6b17c")
+		(uuid "911f5404-5e43-420a-8b55-2376de5503a4")
 	)
 	(fp_line
 		(start -5.525 0)
@@ -121,7 +121,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "9e24605d-5118-490d-a0dc-8b5797ddbf82")
+		(uuid "a816b9b7-256f-447c-bf4a-b7885608db7c")
 	)
 	(fp_line
 		(start 9.95 -0.2)
@@ -131,7 +131,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "3c13447b-c270-4d12-b80d-be9b1788b6a8")
+		(uuid "d7a5b493-3381-40df-96c7-56db537389fc")
 	)
 	(fp_line
 		(start 10.45 -4)
@@ -141,7 +141,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "c7597483-e70c-4237-b901-a24a999c4b42")
+		(uuid "70fd854c-c12b-4405-a3e1-1e601885320d")
 	)
 	(fp_line
 		(start 10.5 -80)
@@ -151,7 +151,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "0dbf033b-8a72-4ab9-920b-adaa20a82253")
+		(uuid "f2e54de8-be34-48a3-93bd-fc4ed881cf0c")
 	)
 	(fp_line
 		(start 11 -4.2)
@@ -161,7 +161,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "acb2b1bc-8ce0-4174-8172-6a0a37dff568")
+		(uuid "c6fa4e5d-5e98-4c77-b043-bbeaa5c77081")
 	)
 	(fp_arc
 		(start -11 -79.5)
@@ -172,7 +172,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "825c6892-75c2-4b59-b447-bc5e96238fed")
+		(uuid "89c26c57-1e3f-423c-8499-2507762a3948")
 	)
 	(fp_arc
 		(start -10.8 -4)
@@ -183,7 +183,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e92a1abc-bd17-4324-9dcf-34ad395051b5")
+		(uuid "efbc2312-0437-4bd3-a71c-53e310adf8a7")
 	)
 	(fp_arc
 		(start -10.45 -4)
@@ -194,7 +194,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "98301263-34b0-4c34-9b14-d40132f36ad4")
+		(uuid "63b2280a-3c53-41e6-9a94-fc2e68ab561b")
 	)
 	(fp_arc
 		(start -9.75 0)
@@ -205,7 +205,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7f009af0-10b0-4c1e-9273-4d66c5e96c9f")
+		(uuid "3f6ee52d-1719-4fec-9e6c-01d857cc866b")
 	)
 	(fp_arc
 		(start -6.725 -2.9)
@@ -216,7 +216,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "fbe94016-ce20-4445-93f8-6766d375481c")
+		(uuid "bd3ff04f-93a8-411a-9027-e839f5d26e63")
 	)
 	(fp_arc
 		(start -6.125 -3.5)
@@ -227,7 +227,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7e9474f3-c7b1-4ace-81ab-fe15c0e269fd")
+		(uuid "bab74ce1-f3e0-4f53-8788-8fcd8cb1ec4e")
 	)
 	(fp_arc
 		(start 9.95 -3.5)
@@ -238,7 +238,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "9c6ffa2c-9598-4960-919a-11fed35b208e")
+		(uuid "7e676b25-634c-4758-88bf-beb76b5ed552")
 	)
 	(fp_arc
 		(start 9.95 -0.2)
@@ -249,7 +249,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "637d2d41-dd30-44a2-9f11-2c8af11f99a7")
+		(uuid "acfdeafa-fd21-4987-ad9f-2adc618f55d4")
 	)
 	(fp_arc
 		(start 10.5 -80)
@@ -260,7 +260,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "f2a1f9ab-b7d1-496b-9090-3beddd3ba1e9")
+		(uuid "c2a1cf3e-3cfe-4fde-9c0c-c003678aa8e6")
 	)
 	(fp_arc
 		(start 11 -4.2)
@@ -271,7 +271,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "f1c1128f-eac9-4b03-999a-3df023fab5f1")
+		(uuid "5d3b9359-2eba-4bf1-8e41-c535412d4a48")
 	)
 	(pad "1" smd rect
 		(at 9.25 -1.25)
@@ -279,7 +279,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "11d93584-233a-4a1b-908e-f66ffbb2dd08")
+		(uuid "68ea92ed-f9b4-48e7-b6e9-708126f4aa33")
 	)
 	(pad "2" smd rect
 		(at 9 -1.25)
@@ -287,7 +287,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "b1626874-34f1-4f7d-b76c-7ead14efb0f0")
+		(uuid "7c13d440-85b7-4ff2-8ecb-16c7f3d07e1b")
 	)
 	(pad "3" smd rect
 		(at 8.75 -1.25)
@@ -295,7 +295,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "720fb07e-1b9a-48ef-aeb3-7270fc164e6b")
+		(uuid "306cb348-abb4-49c1-a73e-4480252d27f8")
 	)
 	(pad "4" smd rect
 		(at 8.5 -1.25)
@@ -303,7 +303,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "e49aaad4-8806-4d50-9f93-76ebf5fef9c4")
+		(uuid "602f5b3b-d875-4549-b4e3-6422d3dec47f")
 	)
 	(pad "5" smd rect
 		(at 8.25 -1.25)
@@ -311,7 +311,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "44b78b8a-6767-4261-859b-d4c96d7e390f")
+		(uuid "1d9d9f8f-6218-4b3a-bf6c-5f6aa9ba1ccd")
 	)
 	(pad "6" smd rect
 		(at 8 -1.25)
@@ -319,7 +319,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "851d3255-b722-409c-a26c-4f91a5a96f0a")
+		(uuid "023e2098-ef15-4b57-b8b5-f91e8d0d3381")
 	)
 	(pad "7" smd rect
 		(at 7.75 -1.25)
@@ -327,7 +327,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "87e976ef-1e30-4679-8cdb-661606153fbd")
+		(uuid "8bb4acd2-09d8-463d-9bb7-8c2177ad2449")
 	)
 	(pad "8" smd rect
 		(at 7.5 -1.25)
@@ -335,7 +335,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "aed44222-5b9c-4377-a0de-4dfe4b95f1b2")
+		(uuid "00015f63-697a-4bf7-b0f0-bc166a40d51a")
 	)
 	(pad "9" smd rect
 		(at 7.25 -1.25)
@@ -343,7 +343,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "edcce0f0-d5f9-4f25-bb02-8dc76475f072")
+		(uuid "4f74ea1f-0503-4101-9e8a-506b14eca170")
 	)
 	(pad "10" smd rect
 		(at 7 -1.25)
@@ -351,7 +351,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "0989c13e-c763-4837-9d5c-835f280cea07")
+		(uuid "e29cfec1-0a38-4d15-8fde-56b0086ed0d4")
 	)
 	(pad "11" smd rect
 		(at 6.75 -1.25)
@@ -359,7 +359,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "0fb81e93-ef9d-499b-a2b0-ed7289df5ef4")
+		(uuid "c6f8229b-b58e-4dcf-a115-3b444646cf9e")
 	)
 	(pad "12" smd rect
 		(at 6.5 -1.25)
@@ -367,7 +367,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "10cc36e6-c862-4037-ad62-5f8eb408aa2a")
+		(uuid "8a5cbb0d-3f7a-4b85-b3a7-e0894e33ce83")
 	)
 	(pad "13" smd rect
 		(at 6.25 -1.25)
@@ -375,7 +375,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "eabea29a-4441-4e39-9664-f209207897bd")
+		(uuid "c06f2809-858a-4999-a928-c1ac332fffe6")
 	)
 	(pad "14" smd rect
 		(at 6 -1.25)
@@ -383,7 +383,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "0a9f48d1-579d-45d5-ae16-d585a25556db")
+		(uuid "ce92be79-9634-4571-a96d-c58b6e47fcd2")
 	)
 	(pad "15" smd rect
 		(at 5.75 -1.25)
@@ -391,7 +391,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "86454664-9145-43d7-be8e-23580b595d5e")
+		(uuid "6cb02f9e-fc5d-4898-b8b8-9a526522f5cc")
 	)
 	(pad "16" smd rect
 		(at 5.5 -1.25)
@@ -399,7 +399,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "ecbb5831-f66a-4060-a14f-f5eb473a6ecb")
+		(uuid "7020af91-9d38-4b1b-ad68-a6627b2f8125")
 	)
 	(pad "17" smd rect
 		(at 5.25 -1.25)
@@ -407,7 +407,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "519ce217-3ba0-4b22-8865-b8faf2433f59")
+		(uuid "10fb0a74-8b60-4cd8-9e0a-3d57821f2ad1")
 	)
 	(pad "18" smd rect
 		(at 5 -1.25)
@@ -415,7 +415,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "96aa311c-0ab6-48d5-9f32-03583f8ec2f3")
+		(uuid "a71e7619-405e-4445-ab84-836cb5971aa9")
 	)
 	(pad "19" smd rect
 		(at 4.75 -1.25)
@@ -423,7 +423,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "0147dda6-24d6-466d-b958-fc999329093a")
+		(uuid "76fd12e1-164b-4c64-9c92-c60a433e6535")
 	)
 	(pad "20" smd rect
 		(at 4.5 -1.25)
@@ -431,7 +431,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "8cdebc7d-d17e-4e52-82ec-3b00281543b0")
+		(uuid "1f09493d-76e9-404b-bb73-edad0aa7aaeb")
 	)
 	(pad "21" smd rect
 		(at 4.25 -1.25)
@@ -439,7 +439,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "eb90aaf7-ec41-4701-9f59-399f1b43c761")
+		(uuid "e3fc9487-1929-48c6-8e07-d9bd4b3db47a")
 	)
 	(pad "22" smd rect
 		(at 4 -1.25)
@@ -447,7 +447,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "9fe912c9-75c8-4c26-b7f9-7f7ea2adf168")
+		(uuid "a70ce860-a4ca-4376-b986-bb932a0ec1b6")
 	)
 	(pad "23" smd rect
 		(at 3.75 -1.25)
@@ -455,7 +455,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "db86cda6-44e1-496d-a6da-b7df484fc5c7")
+		(uuid "ed7ed3ed-835c-461f-a956-ebb48ab99b10")
 	)
 	(pad "24" smd rect
 		(at 3.5 -1.25)
@@ -463,7 +463,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "cee8d3e2-e0f2-4737-99ae-b85a981ae644")
+		(uuid "0990e2ba-d1ba-4ee9-8fb9-0da32c972687")
 	)
 	(pad "25" smd rect
 		(at 3.25 -1.25)
@@ -471,7 +471,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "f98feafc-6b97-4256-91bc-87d86801e6df")
+		(uuid "f01a1f15-aed8-4c30-9201-af7c2a419d79")
 	)
 	(pad "26" smd rect
 		(at 3 -1.25)
@@ -479,7 +479,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "b33d2867-5bfa-4a76-95bc-e6a337ef2e40")
+		(uuid "3eb8fb7d-b21f-4422-aa31-46362b5fb98b")
 	)
 	(pad "27" smd rect
 		(at 2.75 -1.25)
@@ -487,7 +487,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "37410f93-3c09-4558-90fc-0362465eddf9")
+		(uuid "79f75431-3079-4378-9eee-45b6f6b81175")
 	)
 	(pad "28" smd rect
 		(at 2.5 -1.25)
@@ -495,7 +495,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "d0477062-86d3-400a-bbbb-6b652bea71cc")
+		(uuid "0f93d9c8-bc9a-40cf-a49f-29efc8111a51")
 	)
 	(pad "29" smd rect
 		(at 2.25 -1.25)
@@ -503,7 +503,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "12b2344c-a708-4af4-8dca-beb2f26e3935")
+		(uuid "0bfcef9c-701a-47be-91d7-a0639db384b3")
 	)
 	(pad "30" smd rect
 		(at 2 -1.25)
@@ -511,7 +511,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "7b933518-2829-4034-9b30-f23b7148ca16")
+		(uuid "edad9e1e-8063-4121-be55-f2d80e857e9d")
 	)
 	(pad "31" smd rect
 		(at 1.75 -1.25)
@@ -519,7 +519,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "0d2f41a9-1312-4037-a04f-ff0a1598c9c8")
+		(uuid "6955440a-274d-477b-ad62-682e00813985")
 	)
 	(pad "32" smd rect
 		(at 1.5 -1.25)
@@ -527,7 +527,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "93b9f260-9915-40e2-9253-6e7a4a6c361e")
+		(uuid "7810baef-24de-48b8-9def-cc7bdc0b05e5")
 	)
 	(pad "33" smd rect
 		(at 1.25 -1.25)
@@ -535,7 +535,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "a1e33fd8-332b-4e93-ab11-818c65f3b2d0")
+		(uuid "91a6ef58-a1c0-42ca-848b-a22374411717")
 	)
 	(pad "34" smd rect
 		(at 1 -1.25)
@@ -543,7 +543,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "e4fd1297-b906-44d9-ae24-55e3a3369648")
+		(uuid "5a3320b6-f85c-4266-b2e5-a327e49c60c6")
 	)
 	(pad "35" smd rect
 		(at 0.75 -1.25)
@@ -551,7 +551,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "5409a582-abd5-4376-a4dd-93cacc776e52")
+		(uuid "7304dd39-fa31-4ff4-8793-0f9a3787b732")
 	)
 	(pad "36" smd rect
 		(at 0.5 -1.25)
@@ -559,7 +559,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "00c219df-1101-4aaf-bd11-c552df41c46c")
+		(uuid "e865f8cc-24bd-4cb8-bd20-8e65186d74e2")
 	)
 	(pad "37" smd rect
 		(at 0.25 -1.25)
@@ -567,7 +567,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "f76255a4-b42d-4105-ab61-b223e01b57ae")
+		(uuid "980f5759-33f9-42a2-96d4-3ca9fe4524cc")
 	)
 	(pad "38" smd rect
 		(at 0 -1.25)
@@ -575,7 +575,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "a15ca5cd-bb9d-40d2-b5f4-1951b9e8ca47")
+		(uuid "6bac2689-67f4-4a1c-94df-04ccaf2209b9")
 	)
 	(pad "39" smd rect
 		(at -0.25 -1.25)
@@ -583,7 +583,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "dccdee5a-d807-4e78-997a-2d8844061e51")
+		(uuid "4c601bc8-6b1e-4f43-9a5c-b68ee1595809")
 	)
 	(pad "40" smd rect
 		(at -0.5 -1.25)
@@ -591,7 +591,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "6eaf1f13-5dc7-4299-add3-3b962bf83906")
+		(uuid "095b8cf2-0269-4bb1-885a-7e95cc7a3f2e")
 	)
 	(pad "41" smd rect
 		(at -0.75 -1.25)
@@ -599,7 +599,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "469b8a52-6cf6-4be3-9e08-64e0078faab6")
+		(uuid "631a8009-8996-4f5c-a872-c58fd65f19bf")
 	)
 	(pad "42" smd rect
 		(at -1 -1.25)
@@ -607,7 +607,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "ee4cd7e9-56ce-4342-8d48-0f10f69dd200")
+		(uuid "b7c8e380-e323-44cb-9b11-945619c99d2c")
 	)
 	(pad "43" smd rect
 		(at -1.25 -1.25)
@@ -615,7 +615,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "67cea4f6-1a5f-4da1-b505-ef8f11c49276")
+		(uuid "7b3953a9-e905-43a2-abc1-2bb703efd59c")
 	)
 	(pad "44" smd rect
 		(at -1.5 -1.25)
@@ -623,7 +623,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "f14d6e48-2663-4afe-a02f-a54cc9e9a791")
+		(uuid "e3c8d232-5dea-41ec-8633-7e5fac4c3d76")
 	)
 	(pad "45" smd rect
 		(at -1.75 -1.25)
@@ -631,7 +631,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "b9060531-45ee-459a-8a9a-e55a478b2849")
+		(uuid "9e2fae08-59fa-4eae-999f-d9ea06f6921a")
 	)
 	(pad "46" smd rect
 		(at -2 -1.25)
@@ -639,7 +639,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "210cb5a2-aee9-472c-92cd-50574d1cf18b")
+		(uuid "9e309a6b-1bbb-4891-b06c-a8ff8c2956cd")
 	)
 	(pad "47" smd rect
 		(at -2.25 -1.25)
@@ -647,7 +647,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "8399ba87-9882-42b9-b618-a43cb2f0d371")
+		(uuid "1732d609-c32d-4f24-a7d6-369b5912835c")
 	)
 	(pad "48" smd rect
 		(at -2.5 -1.25)
@@ -655,7 +655,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "ad005c80-9bb7-4bca-b7a8-d027b4e1de4e")
+		(uuid "6f6b4fb9-e32e-4389-9a29-0b7c7eda465f")
 	)
 	(pad "49" smd rect
 		(at -2.75 -1.25)
@@ -663,7 +663,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "c7661e31-88a8-468b-95ae-5a0369ae29f7")
+		(uuid "e6c62519-d972-4b84-882d-5550ad456852")
 	)
 	(pad "50" smd rect
 		(at -3 -1.25)
@@ -671,7 +671,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "dd91a88c-1903-4960-993a-be85d1e7e65a")
+		(uuid "d23b7a4e-cb52-45cb-899e-bb3d26c2ed78")
 	)
 	(pad "51" smd rect
 		(at -3.25 -1.25)
@@ -679,7 +679,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "9043c4f1-33d8-4668-ab3f-8a4c3a12379e")
+		(uuid "32e86513-cd0f-40a0-b9a5-6e3d3f133e9d")
 	)
 	(pad "52" smd rect
 		(at -3.5 -1.25)
@@ -687,7 +687,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "78dcebfb-8614-436b-b1a8-cbe9f6f1fe6e")
+		(uuid "b06954cf-81f1-4e45-9cf2-9b13009cef32")
 	)
 	(pad "53" smd rect
 		(at -3.75 -1.25)
@@ -695,7 +695,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "f3452689-12b3-4def-9439-bdd98551b533")
+		(uuid "b9b7a13d-5fa1-48e9-8214-fecaa2529536")
 	)
 	(pad "54" smd rect
 		(at -4 -1.25)
@@ -703,7 +703,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "0044b201-9af4-40b6-a640-dbe2054da2bc")
+		(uuid "25fe9b58-a55b-4dee-9b6c-f925954c9449")
 	)
 	(pad "55" smd rect
 		(at -4.25 -1.25)
@@ -711,7 +711,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "ae0c387b-2ee5-4ad9-b032-ed77f800792e")
+		(uuid "737f56ed-a0a3-4174-ad7c-86ffc5db9b51")
 	)
 	(pad "56" smd rect
 		(at -4.5 -1.25)
@@ -719,7 +719,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "461ea25d-e764-4be0-a2b9-000e12176b48")
+		(uuid "3a712635-dc98-440a-bf9c-1f9a32386753")
 	)
 	(pad "57" smd rect
 		(at -4.75 -1.25)
@@ -727,7 +727,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "4df3af65-c14b-405d-9f2f-89cffdfaa227")
+		(uuid "b80fea97-6796-4ff5-9e5a-aa8041c4ddb9")
 	)
 	(pad "58" smd rect
 		(at -5 -1.25)
@@ -735,7 +735,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "7c0cbbf3-4d8c-4d16-af35-ddc5fa5b0ea1")
+		(uuid "5eade5a8-10d0-4bde-a6c2-100275a28b66")
 	)
 	(pad "67" smd rect
 		(at -7.25 -1.25)
@@ -743,7 +743,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "9189d4cf-86e7-4e7f-aa52-e454281d8136")
+		(uuid "fc0bb4a9-1d56-4c50-bf51-d1499d632a85")
 	)
 	(pad "68" smd rect
 		(at -7.5 -1.25)
@@ -751,7 +751,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "f42c4e65-7988-412e-a39f-511a9b2d2f01")
+		(uuid "82745c86-541a-41aa-a3be-568c7c10d46f")
 	)
 	(pad "69" smd rect
 		(at -7.75 -1.25)
@@ -759,7 +759,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "1c2c936c-e529-4b83-a947-cc54aaf1642c")
+		(uuid "4b34dbd9-f5f2-434b-9f5c-05f356f640ec")
 	)
 	(pad "70" smd rect
 		(at -8 -1.25)
@@ -767,7 +767,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "35e115fa-e667-433a-8d10-d9a409216219")
+		(uuid "b9c9d2c6-a858-4c26-b125-ab06941a29c3")
 	)
 	(pad "71" smd rect
 		(at -8.25 -1.25)
@@ -775,7 +775,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "ca77d6cf-d8da-4088-b1ab-3e2f934f3202")
+		(uuid "da18dac4-aa1a-4591-8b61-24014b566db4")
 	)
 	(pad "72" smd rect
 		(at -8.5 -1.25)
@@ -783,7 +783,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "caf2fd9a-0800-4d25-bbca-7804ee804a0f")
+		(uuid "86e6dfff-3085-4147-a813-8acad5fb88d7")
 	)
 	(pad "73" smd rect
 		(at -8.75 -1.25)
@@ -791,7 +791,7 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "c1440e3b-5794-4845-9dbf-e603ea609441")
+		(uuid "5de76dc7-c885-4103-a7cf-c8abeee53cdf")
 	)
 	(pad "74" smd rect
 		(at -9 -1.25)
@@ -799,7 +799,7 @@
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "0b9abf67-d811-4c0e-8951-624f88d6d0b4")
+		(uuid "276d3da0-ee3e-4f79-8a4f-0421b35bcf36")
 	)
 	(pad "75" smd rect
 		(at -9.25 -1.25)
@@ -807,16 +807,16 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0)
 		(zone_connect 2)
-		(uuid "557b01bf-b557-4870-9f08-958ecb8e13df")
+		(uuid "fc1a4582-6ef1-4266-84b3-42e8a7cfc6b1")
 	)
 	(pad "MOUNTING-HOLE" thru_hole circle
 		(at 0 -80)
 		(size 5.5 5.5)
 		(drill 3.5)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1016)
-		(uuid "1b0facb9-e738-41f8-ac4c-360733da37eb")
+		(uuid "dc91eac1-83fc-46f4-8913-8724c9f43b2e")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -825,7 +825,7 @@
 			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
 			"In29.Cu" "In30.Cu"
 		)
-		(uuid "e6009d32-2ac8-4d6d-add4-24dd13abb4d3")
+		(uuid "0fcca43b-a80c-45c3-b02c-e192569393e7")
 		(name "Keep Out")
 		(hatch edge 0.5)
 		(connect_pads
@@ -855,9 +855,9 @@
 		)
 	)
 	(group ""
-		(uuid "39ceea4e-99cd-4b2b-bc3a-4ebf684e4766")
-		(members "0dbf033b-8a72-4ab9-920b-adaa20a82253" "1b0facb9-e738-41f8-ac4c-360733da37eb"
-			"825c6892-75c2-4b59-b447-bc5e96238fed" "f2a1f9ab-b7d1-496b-9090-3beddd3ba1e9"
+		(uuid "4ab91f1d-98d2-42e6-998e-cae2d4e52e64")
+		(members "89c26c57-1e3f-423c-8499-2507762a3948" "c2a1cf3e-3cfe-4fde-9c0c-c003678aa8e6"
+			"dc91eac1-83fc-46f4-8913-8724c9f43b2e" "f2e54de8-be34-48a3-93bd-fc4ed881cf0c"
 		)
 	)
 	(embedded_fonts no)
