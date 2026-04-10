@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "47cc638a-6164-4ecb-9ed3-6d7634f22358")
@@ -16556,7 +16556,7 @@
 			(uuid "680d597a-08c3-41d5-8409-89e475bc9e1f")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b2fdda25-525f-499f-b2e7-c3e0e6b79359"
 					(reference "#PWR0147")
 					(unit 1)
@@ -17039,7 +17039,7 @@
 			(uuid "7a93f88c-bdd5-4fb0-aea2-6bc7e1519e5b")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b2fdda25-525f-499f-b2e7-c3e0e6b79359"
 					(reference "C139")
 					(unit 1)
@@ -17436,7 +17436,7 @@
 			(uuid "ab4c2f26-4fe4-4750-b47d-8a4ee70cb8f7")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b2fdda25-525f-499f-b2e7-c3e0e6b79359"
 					(reference "R75")
 					(unit 1)
@@ -17919,7 +17919,7 @@
 			(uuid "126024fa-88e0-430e-8896-c914cdb354ed")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b2fdda25-525f-499f-b2e7-c3e0e6b79359"
 					(reference "#PWR059")
 					(unit 1)
@@ -18344,7 +18344,7 @@
 			(uuid "98a54c40-5579-40e3-ac79-da06af52b259")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b2fdda25-525f-499f-b2e7-c3e0e6b79359"
 					(reference "Y3")
 					(unit 1)
@@ -18743,7 +18743,7 @@
 			(uuid "432bb91d-ee0a-4da2-b655-319742029c5e")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b2fdda25-525f-499f-b2e7-c3e0e6b79359"
 					(reference "#PWR0148")
 					(unit 1)
@@ -20971,7 +20971,7 @@
 			(uuid "59304334-3480-43ac-ae87-19d9f1192421")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b2fdda25-525f-499f-b2e7-c3e0e6b79359"
 					(reference "#PWR039")
 					(unit 1)
@@ -21533,7 +21533,7 @@
 			(uuid "3b65c96b-5011-49c5-ad0d-d60de1a9f613")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b2fdda25-525f-499f-b2e7-c3e0e6b79359"
 					(reference "#PWR063")
 					(unit 1)
@@ -21611,7 +21611,7 @@
 			(uuid "27f1f9a3-4035-441c-8091-c37561ffef6a")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b2fdda25-525f-499f-b2e7-c3e0e6b79359"
 					(reference "#PWR088")
 					(unit 1)
@@ -22007,7 +22007,7 @@
 			(uuid "93c74e53-c8ab-4c62-b77f-27245c796b5b")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b2fdda25-525f-499f-b2e7-c3e0e6b79359"
 					(reference "#PWR0146")
 					(unit 1)
@@ -25416,7 +25416,7 @@
 			(uuid "656e2407-0908-4785-b2d1-f56fab6c506e")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b2fdda25-525f-499f-b2e7-c3e0e6b79359"
 					(reference "R43")
 					(unit 1)

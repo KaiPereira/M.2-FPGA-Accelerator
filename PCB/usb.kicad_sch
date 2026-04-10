@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "47cc638a-6164-4ecb-9ed3-6d7634f22358")
@@ -7121,7 +7121,7 @@
 			(uuid "69199e6d-9a0d-4180-bde3-b627fdc1aef4")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
 					(reference "R76")
 					(unit 1)
@@ -9425,7 +9425,7 @@
 			(uuid "e2a305eb-93fc-4278-b5e1-204dbd25e42e")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
 					(reference "J2")
 					(unit 1)
@@ -9902,7 +9902,7 @@
 			(uuid "b34a6e7d-35f0-47c5-b2d0-949fa2e1e50a")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/b3feae67-f5ac-44a3-90a4-88fd0a4da47c"
 					(reference "#PWR0149")
 					(unit 1)

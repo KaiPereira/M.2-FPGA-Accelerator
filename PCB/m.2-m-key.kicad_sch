@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "47cc638a-6164-4ecb-9ed3-6d7634f22358")
@@ -3447,7 +3447,7 @@
 			(uuid "a7a8e3b3-bd49-478e-b486-976b1e35ea00")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
 					(reference "#PWR02")
 					(unit 1)
@@ -3530,7 +3530,7 @@
 			(uuid "ff18ad40-1d52-4000-aea6-63d9666cad92")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
 					(reference "R25")
 					(unit 1)
@@ -3608,7 +3608,7 @@
 			(uuid "0785b08f-51fc-44ec-a1a2-98a269f5a796")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
 					(reference "#PWR01")
 					(unit 1)
@@ -4446,7 +4446,7 @@
 			(uuid "60bd2aa2-484f-413f-be69-737302df23fd")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
 					(reference "J1")
 					(unit 1)
@@ -4761,7 +4761,7 @@
 			(uuid "64918266-0bb8-4541-a5cd-6e193fecb05b")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
 					(reference "#PWR03")
 					(unit 1)
