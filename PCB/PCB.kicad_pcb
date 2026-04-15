@@ -2120,7 +2120,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L1N_T0_AD4N_35-PadA1)")
 			(pinfunction "IO_L1N_T0_AD4N_35_A1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b683f820-568e-4ed8-856d-1f2aa90fd8b7")
 		)
 		(pad "A2" smd circle
@@ -2489,7 +2489,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L17P_T2_A14_D30_14-PadAA18)")
 			(pinfunction "IO_L17P_T2_A14_D30_14_AA18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "a08b898c-ab54-4ee6-bcf9-23179145ba5c")
 		)
 		(pad "AA19" smd circle
@@ -2499,7 +2499,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L15P_T2_DQS_RDWR_B_14-PadAA19)")
 			(pinfunction "IO_L15P_T2_DQS_RDWR_B_14_AA19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "1963732e-7315-476d-b213-e924d96a679b")
 		)
 		(pad "AA20" smd circle
@@ -2509,7 +2509,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L8P_T1_D11_14-PadAA20)")
 			(pinfunction "IO_L8P_T1_D11_14_AA20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3acd81da-219e-4dd9-93a7-913b7f4cdae3")
 		)
 		(pad "AA21" smd circle
@@ -2519,7 +2519,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L8N_T1_D12_14-PadAA21)")
 			(pinfunction "IO_L8N_T1_D12_14_AA21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0c8e5ad8-d0d5-4e8d-84bb-a7084691366e")
 		)
 		(pad "AA22" smd circle
@@ -2688,7 +2688,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L17N_T2_A13_D29_14-PadAB18)")
 			(pinfunction "IO_L17N_T2_A13_D29_14_AB18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "332e080b-cb7d-44ab-8ab3-060e79a7d10b")
 		)
 		(pad "AB19" smd circle
@@ -2708,7 +2708,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L15N_T2_DQS_DOUT_CSO_B_14-PadAB20)")
 			(pinfunction "IO_L15N_T2_DQS_DOUT_CSO_B_14_AB20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "467b5d25-e5f3-4178-9c24-27945122e8d4")
 		)
 		(pad "AB21" smd circle
@@ -2718,7 +2718,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L10P_T1_D14_14-PadAB21)")
 			(pinfunction "IO_L10P_T1_D14_14_AB21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "277f2980-0c49-463c-8b5d-8c2080f0116c")
 		)
 		(pad "AB22" smd circle
@@ -2738,7 +2738,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L1P_T0_AD4P_35-PadB1)")
 			(pinfunction "IO_L1P_T0_AD4P_35_B1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d10730a3-072d-4f51-acff-138a9cc460f1")
 		)
 		(pad "B2" smd circle
@@ -2748,7 +2748,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L2N_T0_AD12N_35-PadB2)")
 			(pinfunction "IO_L2N_T0_AD12N_35_B2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "119c2afe-f0d8-4940-aaed-d5ba1825b8ba")
 		)
 		(pad "B3" smd circle
@@ -2908,7 +2908,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L11N_T1_SRCC_16-PadB18)")
 			(pinfunction "IO_L11N_T1_SRCC_16_B18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "8e16de9e-9dc6-4a66-987b-4d96b8414c7c")
 		)
 		(pad "B19" smd circle
@@ -2928,7 +2928,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L16P_T2_16-PadB20)")
 			(pinfunction "IO_L16P_T2_16_B20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ecc0f00e-4d68-44a3-bed0-87e3f89eacb4")
 		)
 		(pad "B21" smd circle
@@ -2938,7 +2938,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L21P_T3_DQS_16-PadB21)")
 			(pinfunction "IO_L21P_T3_DQS_16_B21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "64e4909b-4417-4624-82b9-0b85fe1cb6cf")
 		)
 		(pad "B22" smd circle
@@ -2948,7 +2948,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L20N_T3_16-PadB22)")
 			(pinfunction "IO_L20N_T3_16_B22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2e3f7d49-3b12-4bea-a72b-46dac78c7476")
 		)
 		(pad "C1" smd circle
@@ -2968,7 +2968,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L2P_T0_AD12P_35-PadC2)")
 			(pinfunction "IO_L2P_T0_AD12P_35_C2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "60910283-870a-4a85-952d-8edb6e5fcaab")
 		)
 		(pad "C3" smd circle
@@ -3078,7 +3078,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L8P_T1_16-PadC13)")
 			(pinfunction "IO_L8P_T1_16_C13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b5dbbf9d-ad71-482d-ae42-1953216dd155")
 		)
 		(pad "C14" smd circle
@@ -3088,7 +3088,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L3P_T0_DQS_16-PadC14)")
 			(pinfunction "IO_L3P_T0_DQS_16_C14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ee2af761-5331-4fca-881a-b88602efe043")
 		)
 		(pad "C15" smd circle
@@ -3098,7 +3098,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L3N_T0_DQS_16-PadC15)")
 			(pinfunction "IO_L3N_T0_DQS_16_C15")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "eff5a4e8-f2ef-4951-8897-ad661719bc71")
 		)
 		(pad "C16" smd circle
@@ -3118,7 +3118,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L12N_T1_MRCC_16-PadC17)")
 			(pinfunction "IO_L12N_T1_MRCC_16_C17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "6155a2d8-52e2-4151-837a-73b7d068790d")
 		)
 		(pad "C18" smd circle
@@ -3128,7 +3128,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L13P_T2_MRCC_16-PadC18)")
 			(pinfunction "IO_L13P_T2_MRCC_16_C18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "aa0e1e67-1dde-431e-8d7b-21faf7228704")
 		)
 		(pad "C19" smd circle
@@ -3138,7 +3138,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L13N_T2_MRCC_16-PadC19)")
 			(pinfunction "IO_L13N_T2_MRCC_16_C19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "293e3eed-bd5b-4263-96cd-1d70ff3a0911")
 		)
 		(pad "C20" smd circle
@@ -3148,7 +3148,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L19N_T3_VREF_16-PadC20)")
 			(pinfunction "IO_L19N_T3_VREF_16_C20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b6a9ca04-5cad-42f0-933f-b6488f762bff")
 		)
 		(pad "C21" smd circle
@@ -3168,7 +3168,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L20P_T3_16-PadC22)")
 			(pinfunction "IO_L20P_T3_16_C22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "17fb9dbc-fb22-49bd-a025-7cf66dcf2c9c")
 		)
 		(pad "D1" smd circle
@@ -3178,7 +3178,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L3N_T0_DQS_AD5N_35-PadD1)")
 			(pinfunction "IO_L3N_T0_DQS_AD5N_35_D1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ba22c046-b9e8-4e15-964e-0361dfc8ab10")
 		)
 		(pad "D2" smd circle
@@ -3188,7 +3188,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L4N_T0_35-PadD2)")
 			(pinfunction "IO_L4N_T0_35_D2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c4ea8d54-07d3-46a5-942c-5f27d3ee917f")
 		)
 		(pad "D3" smd circle
@@ -3308,7 +3308,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L6P_T0_16-PadD14)")
 			(pinfunction "IO_L6P_T0_16_D14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "329d216e-8f8a-42fd-ad0e-7935b8c4337d")
 		)
 		(pad "D15" smd circle
@@ -3318,7 +3318,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L6N_T0_VREF_16-PadD15)")
 			(pinfunction "IO_L6N_T0_VREF_16_D15")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "a441633f-ce49-49e2-9398-bc738b328790")
 		)
 		(pad "D16" smd circle
@@ -3328,7 +3328,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L5N_T0_16-PadD16)")
 			(pinfunction "IO_L5N_T0_16_D16")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b7d0a44c-72ec-4ffe-be8c-ae88bdffe3da")
 		)
 		(pad "D17" smd circle
@@ -3338,7 +3338,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L12P_T1_MRCC_16-PadD17)")
 			(pinfunction "IO_L12P_T1_MRCC_16_D17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "dddcbc24-4b37-41d1-b680-b97551ef8879")
 		)
 		(pad "D18" smd circle
@@ -3358,7 +3358,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L14N_T2_SRCC_16-PadD19)")
 			(pinfunction "IO_L14N_T2_SRCC_16_D19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "23ae5151-b9e8-4e01-8e41-e1d3834b8c78")
 		)
 		(pad "D20" smd circle
@@ -3368,7 +3368,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L19P_T3_16-PadD20)")
 			(pinfunction "IO_L19P_T3_16_D20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2533ac0d-05c9-471e-8aaf-4e46eeff6dee")
 		)
 		(pad "D21" smd circle
@@ -3378,7 +3378,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L23N_T3_16-PadD21)")
 			(pinfunction "IO_L23N_T3_16_D21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f0ee4bf9-2a07-4ace-ac45-c40e90c9447a")
 		)
 		(pad "D22" smd circle
@@ -3388,7 +3388,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L22N_T3_16-PadD22)")
 			(pinfunction "IO_L22N_T3_16_D22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "534a0652-500b-4ee8-80c8-04ad6e33474a")
 		)
 		(pad "E1" smd circle
@@ -3398,7 +3398,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L3P_T0_DQS_AD5P_35-PadE1)")
 			(pinfunction "IO_L3P_T0_DQS_AD5P_35_E1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "8ce35806-30ec-4f6a-8063-cabdfa209e3a")
 		)
 		(pad "E2" smd circle
@@ -3408,7 +3408,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L4P_T0_35-PadE2)")
 			(pinfunction "IO_L4P_T0_35_E2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0fb88c4c-f7cd-47a4-9f80-8a90e28e9356")
 		)
 		(pad "E3" smd circle
@@ -3418,7 +3418,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L6N_T0_VREF_35-PadE3)")
 			(pinfunction "IO_L6N_T0_VREF_35_E3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5d7f4dd1-ca42-4518-ae68-c0922a5f712c")
 		)
 		(pad "E4" smd circle
@@ -3518,7 +3518,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L4P_T0_16-PadE13)")
 			(pinfunction "IO_L4P_T0_16_E13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "1f34aad8-48b8-40b2-87d4-ad371af295d4")
 		)
 		(pad "E14" smd circle
@@ -3528,7 +3528,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L4N_T0_16-PadE14)")
 			(pinfunction "IO_L4N_T0_16_E14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5cf73498-23b8-465f-b5cc-776ecd677f76")
 		)
 		(pad "E15" smd circle
@@ -3548,7 +3548,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L5P_T0_16-PadE16)")
 			(pinfunction "IO_L5P_T0_16_E16")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "13b21008-0e68-46fa-912e-5a4aad6ff1cd")
 		)
 		(pad "E17" smd circle
@@ -3558,7 +3558,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L2N_T0_16-PadE17)")
 			(pinfunction "IO_L2N_T0_16_E17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "49fb17cc-e7df-455e-aa6d-8fc70f1333eb")
 		)
 		(pad "E18" smd circle
@@ -3568,7 +3568,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L15N_T2_DQS_16-PadE18)")
 			(pinfunction "IO_L15N_T2_DQS_16_E18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "9471b2e7-d80f-4494-8e1e-6f9b400e16dc")
 		)
 		(pad "E19" smd circle
@@ -3578,7 +3578,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L14P_T2_SRCC_16-PadE19)")
 			(pinfunction "IO_L14P_T2_SRCC_16_E19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0963457d-4a26-4198-a4cc-311d0a4ecd1d")
 		)
 		(pad "E20" smd circle
@@ -3598,7 +3598,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L23P_T3_16-PadE21)")
 			(pinfunction "IO_L23P_T3_16_E21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "dc42b4dc-dc2f-41b2-bac6-54c1000dc283")
 		)
 		(pad "E22" smd circle
@@ -3608,7 +3608,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L22P_T3_16-PadE22)")
 			(pinfunction "IO_L22P_T3_16_E22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "050f8584-8a27-427e-9441-3ab1b4d4cdc3")
 		)
 		(pad "F1" smd circle
@@ -3618,7 +3618,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L5N_T0_AD13N_35-PadF1)")
 			(pinfunction "IO_L5N_T0_AD13N_35_F1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "54f6f2c0-47ad-43bb-9762-5717e9005dd4")
 		)
 		(pad "F2" smd circle
@@ -3638,7 +3638,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L6P_T0_35-PadF3)")
 			(pinfunction "IO_L6P_T0_35_F3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "8f02f0bf-9041-40b5-b2b6-3dd13160297d")
 		)
 		(pad "F4" smd circle
@@ -3648,7 +3648,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_0_35-PadF4)")
 			(pinfunction "IO_0_35_F4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "bc59cb5c-4819-47f6-85ce-5d789b914658")
 		)
 		(pad "F5" smd circle
@@ -3738,7 +3738,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L1P_T0_16-PadF13)")
 			(pinfunction "IO_L1P_T0_16_F13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d13f4252-4cdf-47db-8d7e-75dc2b553996")
 		)
 		(pad "F14" smd circle
@@ -3748,7 +3748,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L1N_T0_16-PadF14)")
 			(pinfunction "IO_L1N_T0_16_F14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d0f0dad1-985d-44ca-a58c-cd1d33f0d81f")
 		)
 		(pad "F15" smd circle
@@ -3758,7 +3758,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_0_16-PadF15)")
 			(pinfunction "IO_0_16_F15")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "48e19e8d-04fd-4e0d-891a-a06e1f0789f2")
 		)
 		(pad "F16" smd circle
@@ -3768,7 +3768,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L2P_T0_16-PadF16)")
 			(pinfunction "IO_L2P_T0_16_F16")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "e0438511-8b23-4eb3-85b6-8b00a99bd9e5")
 		)
 		(pad "F17" smd circle
@@ -3788,7 +3788,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L15P_T2_DQS_16-PadF18)")
 			(pinfunction "IO_L15P_T2_DQS_16_F18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "534027e8-0f72-412b-8362-8b22d6058039")
 		)
 		(pad "F19" smd circle
@@ -3798,7 +3798,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L18P_T2_16-PadF19)")
 			(pinfunction "IO_L18P_T2_16_F19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5cae795e-41aa-4802-a342-26b1166221dc")
 		)
 		(pad "F20" smd circle
@@ -3808,7 +3808,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L18N_T2_16-PadF20)")
 			(pinfunction "IO_L18N_T2_16_F20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "bcea8a4b-2a7a-4c16-b6c1-d4598bf5d1db")
 		)
 		(pad "F21" smd circle
@@ -3818,7 +3818,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_25_16-PadF21)")
 			(pinfunction "IO_25_16_F21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0e8206de-3dc6-4274-96de-290bcb8939ec")
 		)
 		(pad "F22" smd circle
@@ -3838,7 +3838,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L5P_T0_AD13P_35-PadG1)")
 			(pinfunction "IO_L5P_T0_AD13P_35_G1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2b2b31f2-0688-41c3-8549-59197d42cccf")
 		)
 		(pad "G2" smd circle
@@ -3848,7 +3848,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L8N_T1_AD14N_35-PadG2)")
 			(pinfunction "IO_L8N_T1_AD14N_35_G2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "22038673-1163-47fb-b124-835bf915bc6c")
 		)
 		(pad "G3" smd circle
@@ -3858,7 +3858,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L11N_T1_SRCC_35-PadG3)")
 			(pinfunction "IO_L11N_T1_SRCC_35_G3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "82f33c85-b94c-4d56-861f-d84162b1e826")
 		)
 		(pad "G4" smd circle
@@ -3868,7 +3868,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L12N_T1_MRCC_35-PadG4)")
 			(pinfunction "IO_L12N_T1_MRCC_35_G4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b4d1db83-cee8-48d0-8df1-238f4772fd81")
 		)
 		(pad "G5" smd circle
@@ -3958,7 +3958,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L1N_T0_AD0N_15-PadG13)")
 			(pinfunction "IO_L1N_T0_AD0N_15_G13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "db8575fd-e0d0-44d1-922e-d604831c82b5")
 		)
 		(pad "G14" smd circle
@@ -3978,7 +3978,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L2P_T0_AD8P_15-PadG15)")
 			(pinfunction "IO_L2P_T0_AD8P_15_G15")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b458e7c6-c3aa-4408-8589-5d39fc62cfe5")
 		)
 		(pad "G16" smd circle
@@ -3988,7 +3988,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L2N_T0_AD8N_15-PadG16)")
 			(pinfunction "IO_L2N_T0_AD8N_15_G16")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "dfd0f96b-98bb-458a-87b6-50bb96384d1a")
 		)
 		(pad "G17" smd circle
@@ -3998,7 +3998,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L4P_T0_15-PadG17)")
 			(pinfunction "IO_L4P_T0_15_G17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "fbdc003e-b619-4d71-912f-f348f49ae4c7")
 		)
 		(pad "G18" smd circle
@@ -4008,7 +4008,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L4N_T0_15-PadG18)")
 			(pinfunction "IO_L4N_T0_15_G18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2a39ef62-811f-4dfd-97ba-602b61381af9")
 		)
 		(pad "G19" smd circle
@@ -4028,7 +4028,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L8N_T1_AD10N_15-PadG20)")
 			(pinfunction "IO_L8N_T1_AD10N_15_G20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "454dee89-70a3-4014-a94f-6b01df5fdc2d")
 		)
 		(pad "G21" smd circle
@@ -4038,7 +4038,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L24P_T3_16-PadG21)")
 			(pinfunction "IO_L24P_T3_16_G21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "23fd3aee-edc2-4c2b-8a11-6b0ffb633a81")
 		)
 		(pad "G22" smd circle
@@ -4048,7 +4048,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L24N_T3_16-PadG22)")
 			(pinfunction "IO_L24N_T3_16_G22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "32a6d326-0196-4f14-9ebf-ed7c86401936")
 		)
 		(pad "H1" smd circle
@@ -4068,7 +4068,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L8P_T1_AD14P_35-PadH2)")
 			(pinfunction "IO_L8P_T1_AD14P_35_H2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "85b0b19c-a208-4ab9-b5a3-18b6ccc5f542")
 		)
 		(pad "H3" smd circle
@@ -4078,7 +4078,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L11P_T1_SRCC_35-PadH3)")
 			(pinfunction "IO_L11P_T1_SRCC_35_H3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5283712b-346d-49d5-a66b-244f92de9c9d")
 		)
 		(pad "H4" smd circle
@@ -4088,7 +4088,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L12P_T1_MRCC_35-PadH4)")
 			(pinfunction "IO_L12P_T1_MRCC_35_H4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "344263c4-2e49-4c1a-b91e-e55e655b9d0e")
 		)
 		(pad "H5" smd circle
@@ -4098,7 +4098,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L10N_T1_AD15N_35-PadH5)")
 			(pinfunction "IO_L10N_T1_AD15N_35_H5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2234052a-923b-4b31-a616-a59e992dedd6")
 		)
 		(pad "H6" smd circle
@@ -4178,7 +4178,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L1P_T0_AD0P_15-PadH13)")
 			(pinfunction "IO_L1P_T0_AD0P_15_H13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "dc85f148-55bf-43e2-ba06-058c3fe76be4")
 		)
 		(pad "H14" smd circle
@@ -4188,7 +4188,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L3N_T0_DQS_AD1N_15-PadH14)")
 			(pinfunction "IO_L3N_T0_DQS_AD1N_15_H14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "38710c5c-168a-42bf-b9dc-68739d63ee94")
 		)
 		(pad "H15" smd circle
@@ -4198,7 +4198,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L5N_T0_AD9N_15-PadH15)")
 			(pinfunction "IO_L5N_T0_AD9N_15_H15")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0b5a448c-f232-4d9d-a908-7ab586290376")
 		)
 		(pad "H16" smd circle
@@ -4218,7 +4218,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L6P_T0_15-PadH17)")
 			(pinfunction "IO_L6P_T0_15_H17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "573284dd-d58f-4e24-a30b-0d18eaf52f03")
 		)
 		(pad "H18" smd circle
@@ -4228,7 +4228,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L6N_T0_VREF_15-PadH18)")
 			(pinfunction "IO_L6N_T0_VREF_15_H18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f6ccbdd1-8258-47a3-ae5d-5614fe2535d4")
 		)
 		(pad "H19" smd circle
@@ -4238,7 +4238,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L12N_T1_MRCC_15-PadH19)")
 			(pinfunction "IO_L12N_T1_MRCC_15_H19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "fd4c4c3a-6a6e-48ae-81c5-71bf47fed649")
 		)
 		(pad "H20" smd circle
@@ -4248,7 +4248,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L8P_T1_AD10P_15-PadH20)")
 			(pinfunction "IO_L8P_T1_AD10P_15_H20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3239fd28-17dc-4ed8-b4f9-fd4b5d989949")
 		)
 		(pad "H21" smd circle
@@ -4268,7 +4268,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L7N_T1_AD2N_15-PadH22)")
 			(pinfunction "IO_L7N_T1_AD2N_15_H22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b2b8e86a-d71a-4bb2-80ed-16f57488d043")
 		)
 		(pad "J1" smd circle
@@ -4278,7 +4278,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L7N_T1_AD6N_35-PadJ1)")
 			(pinfunction "IO_L7N_T1_AD6N_35_J1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "6f091671-7aab-4fc0-b4e7-e5e60911e068")
 		)
 		(pad "J2" smd circle
@@ -4288,7 +4288,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L9N_T1_DQS_AD7N_35-PadJ2)")
 			(pinfunction "IO_L9N_T1_DQS_AD7N_35_J2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2c1c0d90-33a1-4245-a961-6066121b3ca9")
 		)
 		(pad "J3" smd circle
@@ -4308,7 +4308,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L13N_T2_MRCC_35-PadJ4)")
 			(pinfunction "IO_L13N_T2_MRCC_35_J4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "8acf579a-a12b-4d4d-b836-1ab87bd82916")
 		)
 		(pad "J5" smd circle
@@ -4318,7 +4318,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L10P_T1_AD15P_35-PadJ5)")
 			(pinfunction "IO_L10P_T1_AD15P_35_J5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "15a02084-8752-462c-86ee-8cff0d8f8a1d")
 		)
 		(pad "J6" smd circle
@@ -4328,7 +4328,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L17N_T2_35-PadJ6)")
 			(pinfunction "IO_L17N_T2_35_J6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0f67659d-5e7f-4f81-949a-87d6ef0fa8af")
 		)
 		(pad "J7" smd circle
@@ -4408,7 +4408,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L3P_T0_DQS_AD1P_15-PadJ14)")
 			(pinfunction "IO_L3P_T0_DQS_AD1P_15_J14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "279214d9-4dcb-4e02-a9fc-5e36a9e24c4a")
 		)
 		(pad "J15" smd circle
@@ -4418,7 +4418,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L5P_T0_AD9P_15-PadJ15)")
 			(pinfunction "IO_L5P_T0_AD9P_15_J15")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "fee8846e-62a3-4299-805d-ca903bf5a2c1")
 		)
 		(pad "J16" smd circle
@@ -4428,7 +4428,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_0_15-PadJ16)")
 			(pinfunction "IO_0_15_J16")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "6f6f2b6c-069f-4b82-bcc1-522d4017ccf1")
 		)
 		(pad "J17" smd circle
@@ -4438,7 +4438,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L21N_T3_DQS_A18_15-PadJ17)")
 			(pinfunction "IO_L21N_T3_DQS_A18_15_J17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "af5ce707-7167-4862-a734-5693fe3e6936")
 		)
 		(pad "J18" smd circle
@@ -4458,7 +4458,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L12P_T1_MRCC_15-PadJ19)")
 			(pinfunction "IO_L12P_T1_MRCC_15_J19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b7778927-d286-44f7-84e7-71676531baee")
 		)
 		(pad "J20" smd circle
@@ -4468,7 +4468,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L11P_T1_SRCC_15-PadJ20)")
 			(pinfunction "IO_L11P_T1_SRCC_15_J20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d798b279-5adf-419b-a01f-bfbd1af0610b")
 		)
 		(pad "J21" smd circle
@@ -4478,7 +4478,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L11N_T1_SRCC_15-PadJ21)")
 			(pinfunction "IO_L11N_T1_SRCC_15_J21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "31f75413-4b41-4bb4-9e8c-26f9e2a98134")
 		)
 		(pad "J22" smd circle
@@ -4488,7 +4488,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L7P_T1_AD2P_15-PadJ22)")
 			(pinfunction "IO_L7P_T1_AD2P_15_J22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ceaa69b1-3637-4058-882e-8cd990861e97")
 		)
 		(pad "K1" smd circle
@@ -4498,7 +4498,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L7P_T1_AD6P_35-PadK1)")
 			(pinfunction "IO_L7P_T1_AD6P_35_K1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "cafa1844-ea45-4d04-8e98-59271d32e952")
 		)
 		(pad "K2" smd circle
@@ -4508,7 +4508,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L9P_T1_DQS_AD7P_35-PadK2)")
 			(pinfunction "IO_L9P_T1_DQS_AD7P_35_K2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0991f6b6-4cab-43fd-8376-14110a45a5b1")
 		)
 		(pad "K3" smd circle
@@ -4518,7 +4518,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L14N_T2_SRCC_35-PadK3)")
 			(pinfunction "IO_L14N_T2_SRCC_35_K3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2777c633-00b8-402a-89ce-a845a140fb7e")
 		)
 		(pad "K4" smd circle
@@ -4528,7 +4528,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L13P_T2_MRCC_35-PadK4)")
 			(pinfunction "IO_L13P_T2_MRCC_35_K4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "08816eb4-8578-46dd-9d59-c2df6185f575")
 		)
 		(pad "K5" smd circle
@@ -4548,7 +4548,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L17P_T2_35-PadK6)")
 			(pinfunction "IO_L17P_T2_35_K6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "dd28610d-5145-448f-a681-792991081a75")
 		)
 		(pad "K7" smd circle
@@ -4618,7 +4618,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L19P_T3_A22_15-PadK13)")
 			(pinfunction "IO_L19P_T3_A22_15_K13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "bfd750a0-0c3b-41c9-94ba-8d1557550899")
 		)
 		(pad "K14" smd circle
@@ -4628,7 +4628,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L19N_T3_A21_VREF_15-PadK14)")
 			(pinfunction "IO_L19N_T3_A21_VREF_15_K14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "73fbed98-47c0-4862-9e2a-9d1f2e78a895")
 		)
 		(pad "K15" smd circle
@@ -4658,7 +4658,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L21P_T3_DQS_15-PadK17)")
 			(pinfunction "IO_L21P_T3_DQS_15_K17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "56f0b79c-a1ec-4129-ad21-4f9c30ae1d33")
 		)
 		(pad "K18" smd circle
@@ -4668,7 +4668,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L13P_T2_MRCC_15-PadK18)")
 			(pinfunction "IO_L13P_T2_MRCC_15_K18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "8db0046b-a065-444c-9ae3-850add4eb7c2")
 		)
 		(pad "K19" smd circle
@@ -4678,7 +4678,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L13N_T2_MRCC_15-PadK19)")
 			(pinfunction "IO_L13N_T2_MRCC_15_K19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d3142efa-4a04-4c37-83c2-260097f93e05")
 		)
 		(pad "K20" smd circle
@@ -4698,7 +4698,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L9P_T1_DQS_AD3P_15-PadK21)")
 			(pinfunction "IO_L9P_T1_DQS_AD3P_15_K21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "617aa02f-f9f5-4271-9dd9-198e93c3f82e")
 		)
 		(pad "K22" smd circle
@@ -4708,7 +4708,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L9N_T1_DQS_AD3N_15-PadK22)")
 			(pinfunction "IO_L9N_T1_DQS_AD3N_15_K22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "60eb6bd2-fdf8-4ab2-94a3-a3534c40dcd1")
 		)
 		(pad "L1" smd circle
@@ -4718,7 +4718,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L15N_T2_DQS_35-PadL1)")
 			(pinfunction "IO_L15N_T2_DQS_35_L1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f04cf9ff-fb65-4628-aa2c-8efa49824f70")
 		)
 		(pad "L2" smd circle
@@ -4738,7 +4738,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L14P_T2_SRCC_35-PadL3)")
 			(pinfunction "IO_L14P_T2_SRCC_35_L3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0fd1a7e9-ccc9-4648-8148-b0fe04ca7bba")
 		)
 		(pad "L4" smd circle
@@ -4748,7 +4748,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L18N_T2_35-PadL4)")
 			(pinfunction "IO_L18N_T2_35_L4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2be32e35-04dd-4a68-a198-591b8ca50d43")
 		)
 		(pad "L5" smd circle
@@ -4758,7 +4758,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L18P_T2_35-PadL5)")
 			(pinfunction "IO_L18P_T2_35_L5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "79fc990e-0c2f-40a1-9e89-78918f837434")
 		)
 		(pad "L6" smd circle
@@ -4768,7 +4768,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_25_35-PadL6)")
 			(pinfunction "IO_25_35_L6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5a9a7b49-d7ac-495d-b0f5-15cece0f58a5")
 		)
 		(pad "L7" smd circle
@@ -4838,7 +4838,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L20N_T3_A19_15-PadL13)")
 			(pinfunction "IO_L20N_T3_A19_15_L13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "37e862dd-687d-44b0-a2d3-d0b0fe2e1345")
 		)
 		(pad "L14" smd circle
@@ -4848,7 +4848,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L22P_T3_A17_15-PadL14)")
 			(pinfunction "IO_L22P_T3_A17_15_L14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "6fa9eff6-9d54-4282-962e-37f195da810f")
 		)
 		(pad "L15" smd circle
@@ -4858,7 +4858,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L22N_T3_A16_15-PadL15)")
 			(pinfunction "IO_L22N_T3_A16_15_L15")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "861b807a-2f7e-4ef5-a7b7-01733b8b3cbd")
 		)
 		(pad "L16" smd circle
@@ -4888,7 +4888,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L16N_T2_A27_15-PadL18)")
 			(pinfunction "IO_L16N_T2_A27_15_L18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "dbf3c57f-d671-439d-97d3-cf2f5cb4e8dc")
 		)
 		(pad "L19" smd circle
@@ -4898,7 +4898,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L14P_T2_SRCC_15-PadL19)")
 			(pinfunction "IO_L14P_T2_SRCC_15_L19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "014ff9b4-0801-4552-b2f0-9f5527c9b4f2")
 		)
 		(pad "L20" smd circle
@@ -4908,7 +4908,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L14N_T2_SRCC_15-PadL20)")
 			(pinfunction "IO_L14N_T2_SRCC_15_L20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2c250228-0b8e-47d3-b8e6-6e305fcd35b2")
 		)
 		(pad "L21" smd circle
@@ -4918,7 +4918,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L10N_T1_AD11N_15-PadL21)")
 			(pinfunction "IO_L10N_T1_AD11N_15_L21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5ee54b70-a7db-4433-aaf7-f76bfa029d1b")
 		)
 		(pad "L22" smd circle
@@ -4938,7 +4938,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L15P_T2_DQS_35-PadM1)")
 			(pinfunction "IO_L15P_T2_DQS_35_M1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c5b31947-faf2-43de-8dfc-f25336fc746c")
 		)
 		(pad "M2" smd circle
@@ -4948,7 +4948,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L16N_T2_35-PadM2)")
 			(pinfunction "IO_L16N_T2_35_M2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ff38cb95-39a1-4398-88a4-ba391218cc5b")
 		)
 		(pad "M3" smd circle
@@ -4958,7 +4958,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L16P_T2_35-PadM3)")
 			(pinfunction "IO_L16P_T2_35_M3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "874f1fea-5064-423d-ae0b-0286752a16b2")
 		)
 		(pad "M4" smd circle
@@ -4978,7 +4978,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L23N_T3_35-PadM5)")
 			(pinfunction "IO_L23N_T3_35_M5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b4580c87-69ec-41f9-85bb-b6e4cd35998b")
 		)
 		(pad "M6" smd circle
@@ -4988,7 +4988,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L23P_T3_35-PadM6)")
 			(pinfunction "IO_L23P_T3_35_M6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "4e5a4fdb-f8e0-4ff8-8887-45f459949f48")
 		)
 		(pad "M7" smd circle
@@ -5058,7 +5058,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L20P_T3_A20_15-PadM13)")
 			(pinfunction "IO_L20P_T3_A20_15_M13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "fef7d104-8868-41c4-a126-4945782bdb54")
 		)
 		(pad "M14" smd circle
@@ -5098,7 +5098,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_25_15-PadM17)")
 			(pinfunction "IO_25_15_M17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "9cdb6218-4c03-4d1f-9307-eda8aa855465")
 		)
 		(pad "M18" smd circle
@@ -5108,7 +5108,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L16P_T2_A28_15-PadM18)")
 			(pinfunction "IO_L16P_T2_A28_15_M18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "9bb93d00-dcb0-45ed-8ef2-08a5fb3946c8")
 		)
 		(pad "M19" smd circle
@@ -5128,7 +5128,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L18N_T2_A23_15-PadM20)")
 			(pinfunction "IO_L18N_T2_A23_15_M20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "62ef32bf-6c95-4488-aa9d-5c187f761379")
 		)
 		(pad "M21" smd circle
@@ -5138,7 +5138,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L10P_T1_AD11P_15-PadM21)")
 			(pinfunction "IO_L10P_T1_AD11P_15_M21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "7624e8f8-c477-432a-b62c-241934976648")
 		)
 		(pad "M22" smd circle
@@ -5168,7 +5168,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L22N_T3_35-PadN2)")
 			(pinfunction "IO_L22N_T3_35_N2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5c251e20-4eb3-4bc9-ae5e-4d20a983af03")
 		)
 		(pad "N3" smd circle
@@ -5178,7 +5178,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L19N_T3_VREF_35-PadN3)")
 			(pinfunction "IO_L19N_T3_VREF_35_N3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "47743c33-af7e-4886-8156-1c24acf4ed40")
 		)
 		(pad "N4" smd circle
@@ -5188,7 +5188,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L19P_T3_35-PadN4)")
 			(pinfunction "IO_L19P_T3_35_N4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "fdaca483-0c13-48df-8f7f-1fe04d60d408")
 		)
 		(pad "N5" smd circle
@@ -5198,7 +5198,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L24N_T3_35-PadN5)")
 			(pinfunction "IO_L24N_T3_35_N5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "690ec516-04ca-4eed-a599-721f0ca82392")
 		)
 		(pad "N6" smd circle
@@ -5278,7 +5278,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L23P_T3_A03_D19_14-PadN13)")
 			(pinfunction "IO_L23P_T3_A03_D19_14_N13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f5306962-307b-4d3c-9978-7a1d93a350d6")
 		)
 		(pad "N14" smd circle
@@ -5288,7 +5288,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L23N_T3_A02_D18_14-PadN14)")
 			(pinfunction "IO_L23N_T3_A02_D18_14_N14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "fc503a45-54d8-4d36-b688-6b2516b5b7b8")
 		)
 		(pad "N15" smd circle
@@ -5298,7 +5298,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_25_14-PadN15)")
 			(pinfunction "IO_25_14_N15")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3d42a8f0-f042-4b53-9ec9-f649d5a48311")
 		)
 		(pad "N16" smd circle
@@ -5328,7 +5328,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L17P_T2_A26_15-PadN18)")
 			(pinfunction "IO_L17P_T2_A26_15_N18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "87af1aa8-8e7e-4447-a690-4a3d6934155f")
 		)
 		(pad "N19" smd circle
@@ -5338,7 +5338,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L17N_T2_A25_15-PadN19)")
 			(pinfunction "IO_L17N_T2_A25_15_N19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c78d1e81-f8c7-4aa5-aa79-7b0e6b6a89cb")
 		)
 		(pad "N20" smd circle
@@ -5348,7 +5348,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L18P_T2_A24_15-PadN20)")
 			(pinfunction "IO_L18P_T2_A24_15_N20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "87e0891c-4035-49bc-a89f-ec482b8ca7b5")
 		)
 		(pad "N21" smd circle
@@ -5368,7 +5368,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1B-IO_L15P_T2_DQS_15-PadN22)")
 			(pinfunction "IO_L15P_T2_DQS_15_N22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "58bf29b4-c893-438b-b165-9171f8f56967")
 		)
 		(pad "P1" smd circle
@@ -5378,7 +5378,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L20N_T3_35-PadP1)")
 			(pinfunction "IO_L20N_T3_35_P1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b25b7dc0-31b3-490d-bc02-5421ca5648f2")
 		)
 		(pad "P2" smd circle
@@ -5388,7 +5388,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L22P_T3_35-PadP2)")
 			(pinfunction "IO_L22P_T3_35_P2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "bd9b6cd2-3027-4fd6-8d02-b82d1ed17bd5")
 		)
 		(pad "P3" smd circle
@@ -5408,7 +5408,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L21N_T3_DQS_35-PadP4)")
 			(pinfunction "IO_L21N_T3_DQS_35_P4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "8b83d920-519d-4a2b-9f17-3a6beaf3607c")
 		)
 		(pad "P5" smd circle
@@ -5418,7 +5418,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L21P_T3_DQS_35-PadP5)")
 			(pinfunction "IO_L21P_T3_DQS_35_P5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "178b3e4c-f651-4522-8f7c-7c600e4102e5")
 		)
 		(pad "P6" smd circle
@@ -5428,7 +5428,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L24P_T3_35-PadP6)")
 			(pinfunction "IO_L24P_T3_35_P6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "27e3cbbd-c76d-49fa-b1d5-410783a800b5")
 		)
 		(pad "P7" smd circle
@@ -5508,7 +5508,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L19P_T3_A10_D26_14-PadP14)")
 			(pinfunction "IO_L19P_T3_A10_D26_14_P14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "4f548760-46d3-42d6-99b1-faabe803bddf")
 		)
 		(pad "P15" smd circle
@@ -5518,7 +5518,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L22P_T3_A05_D21_14-PadP15)")
 			(pinfunction "IO_L22P_T3_A05_D21_14_P15")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "8de3517a-79d0-4291-a963-e5b572435925")
 		)
 		(pad "P16" smd circle
@@ -5568,7 +5568,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_0_14-PadP20)")
 			(pinfunction "IO_0_14_P20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "fb9a2155-1e75-452d-8874-1a90e30ff830")
 		)
 		(pad "P21" smd circle
@@ -5598,7 +5598,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1C-IO_L20P_T3_35-PadR1)")
 			(pinfunction "IO_L20P_T3_35_R1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "73fde512-cbd9-4200-bda7-82729a951310")
 		)
 		(pad "R2" smd circle
@@ -5728,7 +5728,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L19N_T3_A09_D25_VREF_14-PadR14)")
 			(pinfunction "IO_L19N_T3_A09_D25_VREF_14_R14")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "cc2d6918-ad8a-4d26-a4c2-6b92b6a476e8")
 		)
 		(pad "R15" smd circle
@@ -5748,7 +5748,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L22N_T3_A04_D20_14-PadR16)")
 			(pinfunction "IO_L22N_T3_A04_D20_14_R16")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3da97b10-2730-409d-98c8-739b2dded0a8")
 		)
 		(pad "R17" smd circle
@@ -5758,7 +5758,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L24N_T3_A00_D16_14-PadR17)")
 			(pinfunction "IO_L24N_T3_A00_D16_14_R17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "bed21be7-ece7-48aa-bee6-147d385f624b")
 		)
 		(pad "R18" smd circle
@@ -5768,7 +5768,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L20P_T3_A08_D24_14-PadR18)")
 			(pinfunction "IO_L20P_T3_A08_D24_14_R18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "153b6330-34b7-4948-89c1-fda63fe6e5ad")
 		)
 		(pad "R19" smd circle
@@ -5979,7 +5979,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L20N_T3_A07_D23_14-PadT18)")
 			(pinfunction "IO_L20N_T3_A07_D23_14_T18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "53e15b1b-5d25-47b0-95c3-2d5dc713e792")
 		)
 		(pad "T19" smd circle
@@ -5999,7 +5999,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L6N_T0_D08_VREF_14-PadT20)")
 			(pinfunction "IO_L6N_T0_D08_VREF_14_T20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "7a1ec307-e9c8-4bea-988c-9e2f42cb9e04")
 		)
 		(pad "T21" smd circle
@@ -6183,7 +6183,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L18P_T2_A12_D28_14-PadU17)")
 			(pinfunction "IO_L18P_T2_A12_D28_14_U17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "656c4600-bbfc-4645-b058-c81a7b9b1c94")
 		)
 		(pad "U18" smd circle
@@ -6193,7 +6193,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L18N_T2_A11_D27_14-PadU18)")
 			(pinfunction "IO_L18N_T2_A11_D27_14_U18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "9e88404e-3cbb-4462-8a42-4f7d24cbe810")
 		)
 		(pad "U19" smd circle
@@ -6213,7 +6213,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L11P_T1_SRCC_14-PadU20)")
 			(pinfunction "IO_L11P_T1_SRCC_14_U20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "87280b90-ae69-45bf-ae6f-d79123d88e88")
 		)
 		(pad "U21" smd circle
@@ -6391,7 +6391,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L16P_T2_CSI_B_14-PadV17)")
 			(pinfunction "IO_L16P_T2_CSI_B_14_V17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3ed2c096-feb3-47c4-af03-7bbc849f83cd")
 		)
 		(pad "V18" smd circle
@@ -6401,7 +6401,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L14P_T2_SRCC_14-PadV18)")
 			(pinfunction "IO_L14P_T2_SRCC_14_V18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "240fc25a-131f-4396-91d9-43882218384d")
 		)
 		(pad "V19" smd circle
@@ -6411,7 +6411,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L14N_T2_SRCC_14-PadV19)")
 			(pinfunction "IO_L14N_T2_SRCC_14_V19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "1f76b801-3866-4b36-8ca7-fb180daef2ec")
 		)
 		(pad "V20" smd circle
@@ -6593,7 +6593,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L16N_T2_A15_D31_14-PadW17)")
 			(pinfunction "IO_L16N_T2_A15_D31_14_W17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2e3e26b5-4a34-433c-8332-d21e0d0ca655")
 		)
 		(pad "W18" smd circle
@@ -6613,7 +6613,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L12P_T1_MRCC_14-PadW19)")
 			(pinfunction "IO_L12P_T1_MRCC_14_W19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b53af7f3-e29b-47cd-bae4-a41ae72cc3c9")
 		)
 		(pad "W20" smd circle
@@ -6633,7 +6633,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L7P_T1_D09_14-PadW21)")
 			(pinfunction "IO_L7P_T1_D09_14_W21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2a1d9ca3-39c0-4892-a25d-ef87a5ecf753")
 		)
 		(pad "W22" smd circle
@@ -6643,7 +6643,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L7N_T1_D10_14-PadW22)")
 			(pinfunction "IO_L7N_T1_D10_14_W22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3e8a4abd-fff3-4e44-8166-d9ff3de70e3c")
 		)
 		(pad "Y1" smd circle
@@ -6805,7 +6805,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L13P_T2_MRCC_14-PadY18)")
 			(pinfunction "IO_L13P_T2_MRCC_14_Y18")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c1f7cc92-9a87-41f8-a77e-6f4f78a90de9")
 		)
 		(pad "Y19" smd circle
@@ -6815,7 +6815,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L13N_T2_MRCC_14-PadY19)")
 			(pinfunction "IO_L13N_T2_MRCC_14_Y19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "7637cff6-853d-4d37-a28a-06d8404e8d00")
 		)
 		(pad "Y20" smd circle
@@ -6835,7 +6835,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L9P_T1_DQS_14-PadY21)")
 			(pinfunction "IO_L9P_T1_DQS_14_Y21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "a3b4f2e3-22dc-405a-8ac0-f294d968d775")
 		)
 		(pad "Y22" smd circle
@@ -6845,7 +6845,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1A-IO_L9N_T1_DQS_D13_14-PadY22)")
 			(pinfunction "IO_L9N_T1_DQS_D13_14_Y22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0355349e-175f-404a-9de8-7e7a4e462c0d")
 		)
 		(embedded_fonts no)

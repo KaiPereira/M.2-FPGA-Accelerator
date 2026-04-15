@@ -3452,10 +3452,6 @@
 					(reference "#PWR02")
 					(unit 1)
 				)
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/cfb4b539-ed39-4f7b-9936-258f867c86b5"
-					(reference "#PWR07")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3611,10 +3607,6 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/abfa3eef-7060-47ce-b174-8a558214cf5b"
 					(reference "#PWR01")
-					(unit 1)
-				)
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/cfb4b539-ed39-4f7b-9936-258f867c86b5"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
