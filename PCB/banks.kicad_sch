@@ -15687,6 +15687,16 @@
 		)
 		(uuid "1197266c-a61a-4a2b-9a87-f314fd85ee99")
 	)
+	(label "HDMI_HPD"
+		(at 377.19 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11d11008-b692-46d5-a7c4-82c6d3acc799")
+	)
 	(label "DDR_CKE"
 		(at 552.45 120.65 180)
 		(effects
@@ -15836,16 +15846,6 @@
 			(justify right bottom)
 		)
 		(uuid "4ab58c9f-7cf2-4dfc-9ece-8c3c93a01a67")
-	)
-	(label "HDMI_HPD"
-		(at 377.19 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4b244863-9fc9-4d6d-ab6c-fd7a2fdb076f")
 	)
 	(label "HDMI_D0+"
 		(at 377.19 133.35 180)
@@ -16076,6 +16076,16 @@
 			(justify right bottom)
 		)
 		(uuid "a70c0059-c2cc-4f34-befa-1d4f59d8f790")
+	)
+	(label "HDMI_CEC"
+		(at 377.19 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9c8982c-3e78-4ffd-9c0c-dc17c928f503")
 	)
 	(label "~{PCIe_PERST}"
 		(at 184.15 209.55 180)
@@ -16316,16 +16326,6 @@
 			(justify right bottom)
 		)
 		(uuid "fcd9bbd1-5019-483e-a8ef-d49a7f5f54a2")
-	)
-	(label "HDMI_CEC"
-		(at 377.19 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fd4b033b-0569-44e3-b2f5-359fff29f60e")
 	)
 	(hierarchical_label "{DDR_CLK}"
 		(shape output)
