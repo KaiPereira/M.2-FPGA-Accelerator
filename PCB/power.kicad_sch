@@ -8299,7 +8299,7 @@
 				)
 			)
 		)
-		(property "Value" "KT-0805G"
+		(property "Value" "KT-0603G"
 			(at 215.9 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8309,7 +8309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 215.9 72.39 0)
 			(hide yes)
 			(show_name no)
