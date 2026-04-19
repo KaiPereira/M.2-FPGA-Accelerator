@@ -958,7 +958,7 @@
         "uuid": "ed0095eb-57a0-4856-9ac4-7b40bd214a3a"
       }
     ],
-    "used_designators": "R44",
+    "used_designators": "J5,#PWR76,#PWR85,#PWR139,R44",
     "variants": []
   },
   "sheets": [
