@@ -10412,10 +10412,6 @@
 		(uuid "080c9235-0962-4233-8ead-a2e91303152e")
 	)
 	(no_connect
-		(at 363.22 90.17)
-		(uuid "0c6f6bbc-6b6a-4118-aa70-91db8639f34c")
-	)
-	(no_connect
 		(at 654.05 107.95)
 		(uuid "12618025-f252-4e64-a6f4-1f25729c37ef")
 	)
@@ -10790,10 +10786,6 @@
 	(no_connect
 		(at 363.22 204.47)
 		(uuid "87d9cd0a-4ca6-4bba-8a77-9d828912933e")
-	)
-	(no_connect
-		(at 363.22 97.79)
-		(uuid "8c08d5cd-ade1-4dcf-b303-2d0b3bdb586b")
 	)
 	(no_connect
 		(at 363.22 153.67)
@@ -14688,6 +14680,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 90.17) (xy 363.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab125374-7205-407f-bc88-87111eb38d1f")
+	)
+	(wire
+		(pts
 			(xy 384.81 49.53) (xy 392.43 49.53)
 		)
 		(stroke
@@ -14966,6 +14968,16 @@
 		)
 		(uuid "b64fc665-bb9d-4c01-a2f6-bc1af8d7b0d6")
 	)
+	(wire
+		(pts
+			(xy 193.04 259.08) (xy 208.28 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e65aa2-2b4d-423d-af66-be290acbac36")
+	)
 	(bus
 		(pts
 			(xy 463.55 88.9) (xy 472.44 88.9)
@@ -15035,6 +15047,16 @@
 			(type default)
 		)
 		(uuid "ba537da0-c7c2-4bbb-8006-34e505f258de")
+	)
+	(wire
+		(pts
+			(xy 377.19 97.79) (xy 363.22 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafc6983-14e1-4883-bd79-6528ba3d4438")
 	)
 	(wire
 		(pts
@@ -16188,6 +16210,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 261.62) (xy 208.28 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddaf476-4c27-4ba0-8e7a-f88048b5862c")
+	)
+	(wire
+		(pts
 			(xy 474.98 204.47) (xy 552.45 204.47)
 		)
 		(stroke
@@ -16416,6 +16448,16 @@
 		)
 		(uuid "30da1d34-b9ca-474b-867f-0cad7e3666ad")
 	)
+	(label "GPIO_6"
+		(at 377.19 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3691ceeb-3b0b-4aa1-8c3d-d8ff5996520c")
+	)
 	(label "DDR_A1"
 		(at 552.45 115.57 180)
 		(effects
@@ -16635,6 +16677,16 @@
 			(justify right bottom)
 		)
 		(uuid "6425fe9d-a724-48cf-86c6-538049df963d")
+	)
+	(label "GPIO_5"
+		(at 377.19 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64aa84b2-80fd-4d8e-8933-0cc2f0d46859")
 	)
 	(label "HDMI_D2+"
 		(at 377.19 138.43 180)
@@ -16866,6 +16918,16 @@
 		)
 		(uuid "b2964c7a-dd80-4196-9ba5-fc9c9a798155")
 	)
+	(label "GPIO_6"
+		(at 193.04 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4d65451-8fb2-4afe-87a8-2c11634276f6")
+	)
 	(label "HDMI_D1+"
 		(at 377.19 123.19 180)
 		(effects
@@ -16925,6 +16987,16 @@
 			(justify right bottom)
 		)
 		(uuid "c3fcaf36-7419-4ebd-940f-d105bfb1610b")
+	)
+	(label "GPIO_5"
+		(at 193.04 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5de4af0-7ece-4c79-b035-861437414ae1")
 	)
 	(label "DDR_A7"
 		(at 552.45 107.95 180)
