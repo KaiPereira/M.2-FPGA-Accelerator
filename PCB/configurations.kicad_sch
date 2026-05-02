@@ -9424,16 +9424,6 @@
 		)
 		(uuid "3a4a3671-35b7-4f83-bb14-f8fcebd59d14")
 	)
-	(text "MAYBE ADD ADC??"
-		(exclude_from_sim no)
-		(at 169.672 206.502 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "723ed6fc-63ad-43cc-8ba2-842dd1a10062")
-	)
 	(text "Bank 14/15 need to be 3V3 because of CFGBVS"
 		(exclude_from_sim no)
 		(at 103.886 129.54 0)
@@ -9518,6 +9508,12 @@
 		(uuid "5e911e7a-09f1-4638-9369-67a83b67b30e")
 	)
 	(junction
+		(at 167.64 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6185ee9b-0722-41f5-bb21-1b6acc8de4c1")
+	)
+	(junction
 		(at 146.05 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9566,16 +9562,16 @@
 		(uuid "c29f3645-f207-4b77-8324-c899aaf9abba")
 	)
 	(junction
+		(at 167.64 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3d45b14-485c-4c58-bd00-28f4b4f35ddd")
+	)
+	(junction
 		(at 167.64 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c87d31a9-e8ec-47db-8d7e-3a8616cf472e")
-	)
-	(junction
-		(at 167.64 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da58472a-cb1f-48d7-a3c1-085edc6b0aa9")
 	)
 	(junction
 		(at 292.1 168.91)
@@ -9722,7 +9718,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 172.72) (xy 156.21 172.72)
+			(xy 144.78 172.72) (xy 157.48 172.72)
 		)
 		(stroke
 			(width 0)
@@ -10112,6 +10108,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 171.45) (xy 167.64 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82fd3168-def5-401b-92df-92800a49585b")
+	)
+	(wire
+		(pts
 			(xy 146.05 187.96) (xy 146.05 190.5)
 		)
 		(stroke
@@ -10129,6 +10135,16 @@
 			(type default)
 		)
 		(uuid "86904e29-fda9-4f9b-bb31-db68df2285e8")
+	)
+	(wire
+		(pts
+			(xy 162.56 172.72) (xy 167.64 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879a90b2-7b4b-4309-863c-c2b7a1714139")
 	)
 	(wire
 		(pts
@@ -10442,7 +10458,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 173.99) (xy 167.64 175.26)
+			(xy 167.64 172.72) (xy 167.64 175.26)
 		)
 		(stroke
 			(width 0)
@@ -10611,7 +10627,7 @@
 		(uuid "6137138c-4d3f-4a8b-8258-b90804b4907c")
 	)
 	(label "DONE"
-		(at 156.21 172.72 180)
+		(at 152.4 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11482,7 +11498,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 167.64 173.99 0)
+		(at 167.64 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11492,7 +11508,7 @@
 		(dnp no)
 		(uuid "40d1dfe4-41d4-464b-aaf2-4e0424470835")
 		(property "Reference" "#PWR055"
-			(at 167.64 177.8 0)
+			(at 167.64 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11503,7 +11519,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 167.132 169.926 0)
+			(at 171.45 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11513,7 +11529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 173.99 0)
+			(at 167.64 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11524,7 +11540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 173.99 0)
+			(at 167.64 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11535,7 +11551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 167.64 173.99 0)
+			(at 167.64 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14217,6 +14233,85 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 160.02 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1468591-8c04-4b9f-93b5-980fa93f2f64")
+		(property "Reference" "R63"
+			(at 163.83 171.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 156.21 171.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 160.02 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 160.02 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ae81e0b-9d7b-4841-8e07-dc2ead04d325")
+		)
+		(pin "1"
+			(uuid "4c4fb149-20f5-4ef1-91c2-682c2969378a")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/eed1a5c9-5dce-4964-b7ee-57ee65be1a9d"
+					(reference "R63")
 					(unit 1)
 				)
 			)
