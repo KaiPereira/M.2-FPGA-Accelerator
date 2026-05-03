@@ -963,7 +963,7 @@
         "uuid": "ed0095eb-57a0-4856-9ac4-7b40bd214a3a"
       }
     ],
-    "used_designators": "R63",
+    "used_designators": "#PWR5,D5-8,R63,R78-81",
     "variants": []
   },
   "sheets": [
