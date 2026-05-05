@@ -2460,6 +2460,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 134.62 134.62)
+		(end 163.83 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0ea278e2-03a1-4911-b57f-d18267995917")
+	)
+	(rectangle
+		(start 134.62 113.03)
+		(end 163.83 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ccf833c7-d1a5-46e9-934f-a8de627fb518")
+	)
 	(text "MT41J128M16JT-125:K\n16 Bit data width\n8 Bank machines\nNormal ordering"
 		(exclude_from_sim no)
 		(at 19.304 28.702 0)
@@ -2481,6 +2505,17 @@
 		)
 		(uuid "6ba36367-9c16-4d28-a4ff-49cfc2426ec2")
 	)
+	(text "33mm, \nbyte lane 1\n"
+		(exclude_from_sim no)
+		(at 151.13 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "867d0512-2395-4fe9-b9d4-c59d8c4e59bc")
+	)
 	(text "Shunt termination because\nCLK doesn't have ODT :("
 		(exclude_from_sim no)
 		(at 43.434 211.074 0)
@@ -2490,6 +2525,17 @@
 			)
 		)
 		(uuid "deaece7b-0c72-4aa1-b07f-4f91b53e4787")
+	)
+	(text "30mm, \nbyte lane 2\n"
+		(exclude_from_sim no)
+		(at 150.876 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f156d7a3-63e1-4825-841c-da0d786d2d97")
 	)
 	(text_box "100nF per pin and then a 47u and 4u7 cap for bulk and to minimize space!\n\nIt's honestly a bad layout on the board because the caps are only on one side, but it's fine :/"
 		(exclude_from_sim no)
