@@ -576,22 +576,22 @@ I went into a crazy focus mode in order to finish up this project, so I'm constr
 
 So the first thing I did was finish routing everything onto the board:
 
-![[Pasted image 20260727194611.png]]
+![Pasted image 20260727194611.png](images/Pasted%20image%2020260727194611.png)
 
 But I really wanted to add more LED's and also some header pins so that I could debug stuff, so with a lot of finesse, I added those in too:
 
-![[Pasted image 20260727194649.png]]
-![[Pasted image 20260727194707.png]]
+![Pasted image 20260727194649.png](images/Pasted%20image%2020260727194649.png)
+![Pasted image 20260727194707.png](images/Pasted%20image%2020260727194707.png)
 
 And after fixing all of the DRC errors which were mostly just problems with the fills not getting to some components, which required tuning up the settings for the fills, the board design is done :D
 
-![[Pasted image 20260727194737.png]]![[Pasted image 20260727194744.png]]
+![Pasted image 20260727194737.png](images/Pasted%20image%2020260727194737.png)![Pasted image 20260727194744.png](images/Pasted%20image%2020260727194744.png)
 
 *I also added in some 3D models of the missing components so the board would look more complete*
 
 Now I just had to create the BOM which was pretty simple because all of the complicated parts already had their part or manufacturing #'s because I was putting them in, while designing the board instead of after:
 
-![[Pasted image 20260727194846.png]]
+![Pasted image 20260727194846.png](images/Pasted%20image%2020260727194846.png)
 
 *Beautiful :D*
 
@@ -599,7 +599,7 @@ Then, I produced all of my fab files, double checked everything and now we can m
 
 I'm a big perfectionist when it comes to my README's, so this one was no different. I simply did an introduction + custom features + PCB Design + firmware + production notes in my README and just like that, it's complete.
 
-![[Pasted image 20260727195011.png]]
+![Pasted image 20260727195011.png](images/Pasted%20image%2020260727195011.png)
 
 My entire project is finally complete, the culmination of many months and nearly 200 hours of work, and it's beautiful.
 

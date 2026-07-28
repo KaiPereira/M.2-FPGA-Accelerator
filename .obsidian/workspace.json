@@ -256,6 +256,7 @@
   },
   "active": "3b195673c95d5dfc",
   "lastOpenFiles": [
+    "JOURNAL.md~",
     "firmware/M.2 FPGA Hardware Accelerator.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0.xci",
     "firmware/M.2 FPGA Hardware Accelerator.gen/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0.xml",
     "firmware/M.2 FPGA Hardware Accelerator.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui",
@@ -266,7 +267,6 @@
     "firmware/M.2 FPGA Hardware Accelerator.srcs/sources_1/bd/design_1/ip",
     "firmware/M.2 FPGA Hardware Accelerator.srcs/sources_1/bd/design_1/design_1.bda",
     "firmware/M.2 FPGA Hardware Accelerator.srcs/sources_1/bd/design_1/design_1.bd",
-    "firmware/M.2 FPGA Hardware Accelerator.gen/sources_1/bd/design_1/ip",
     "images/Pasted image 20260727195011.png",
     "images/Pasted image 20260727194846.png",
     "images/Pasted image 20260727194744.png",
