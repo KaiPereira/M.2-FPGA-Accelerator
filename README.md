@@ -34,7 +34,7 @@ Firmware is unwritten because I haven't produced the boards, and it requires sig
 
 ## Production
 
-I've based the board around JLCPCB production and I've included an LCSC/JLCPCB BOM inside of the /production folder.
+I've based the board around JLCPCB production and I've included an LCSC/JLCPCB BOM inside of the [/PCB/production](/PCB/production/) folder.
 
 It uses the JLC06081H-2116 stackup which you can find details about on the JLC site if you want to produce the board from a different fabricator.
 
@@ -45,3 +45,7 @@ You'll want some specific settings too like:
 - X-Ray to confirm all the BGA placement
 
 Produce this board at your own cost, it's an untested board and I haven't manufactured it myself yet, because I want to create a V2 with a different stackup, and it's an extremely constrained design so many problems can arise!  
+
+## Credits
+
+Thanks so much to the KiCad discord for the PCB reviews, and to everyone in Hack Club for the support and to Renran and Samliu for running [Fallout](https://fallout.hackclub.com/) which is the program that's sponsoring this project!
