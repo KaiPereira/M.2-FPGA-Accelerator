@@ -30,7 +30,7 @@ A V2 is likely going to use a custom or different stackup to reduce the trace wi
 
 ## Firmware
 
-Firmware is unwritten because I haven't produced the boards, and it requires significant prototyping in Vivado but there is some basic skeleton software inside of the [/software](/software) folder.
+Firmware is unwritten because I haven't produced the boards, and it requires significant prototyping in Vivado but there is some basic skeleton software inside of the [/firmware](/firmware) folder.
 
 ## Production
 
