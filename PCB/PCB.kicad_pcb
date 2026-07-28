@@ -6849,7 +6849,7 @@
 			(uuid "0355349e-175f-404a-9de8-7e7a4e462c0d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Xilinx_FGG484.step"
+		(model "${KICAD9_MODELS}/Artix 7 3D model.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10132,7 +10132,7 @@
 			(uuid "2bdea7a2-7f43-4947-b4ef-81005aee3c54")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SiT_PQFN-4Pin_5.0x3.2mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_EuroQuartz_XO53-4Pin_5.0x3.2mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10140,7 +10140,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -21806,7 +21806,7 @@
 			(uuid "84272dee-f2bd-4a32-be4f-2db74c148d94")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-64-1EP_9x9mm_P0.5mm_EP4.35x4.35mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGC0064B_VQFN-64-1EP_9x9mm_P0.5mm_EP4.25x4.25mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24474,15 +24474,15 @@
 			(uuid "f8b7b5e3-fe8d-40b5-8d4a-946f01b37232")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA-96_8x14mm_Layout9x16_P0.8mm.step"
+		(model "${KICAD9_MODELS}/MT41J128M16JT-125_K TR.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -0.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -26955,7 +26955,7 @@
 			(uuid "5414d261-5fc7-4508-bd13-f920a11bcc5d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
