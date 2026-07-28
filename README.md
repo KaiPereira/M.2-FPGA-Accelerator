@@ -14,7 +14,13 @@ This is an M.2 2280 M-Key card I've designed that plugs into the SSD slot in you
 - 6 LED's for debugging and programming
 - TC2030 breakout under USB-C if you DNP USB-to-JTAG
 
+## PCB Design
 
+The M.2 FPGA Hardware Accelerator is an extremely high density 0.8mm, 6 layer board using the JLC06081H-2116 stackup and has a stackup of SIGNAL/GND/SIGNAL/PWR/GND/SIGNAL.
+
+A V2 is likely going to use a custom or different stackup to reduce the trace width for the DDR3 traces so I can minimize the cross-talk further, which will bring problems in the current design.
+
+<img width="2560" height="1404" alt="image" src="https://github.com/user-attachments/assets/ffda3a18-c65f-4f23-8eaf-7b9813e9cbef" />
 <img max-width="2560" max-height="1404" alt="image" src="https://github.com/user-attachments/assets/3c27cdb4-98ad-46a0-a430-d6244a5cbe2a" />
 <img max-width="2560" max-height="1402" alt="image" src="https://github.com/user-attachments/assets/b163a9d5-e2fd-44cb-b5fc-3f52513e9f48" />
 <img max-width="2560" max-height="1405" alt="image" src="https://github.com/user-attachments/assets/66b56f1a-82a5-42f6-895b-27b8eeeb1387" />
