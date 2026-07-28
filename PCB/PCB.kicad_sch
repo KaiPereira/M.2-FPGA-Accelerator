@@ -11,16 +11,6 @@
 		(comment 1 "https://github.com/KaiPereira/M.2-FPGA-Accelerator")
 	)
 	(lib_symbols)
-	(text "STATUS LED'S"
-		(exclude_from_sim no)
-		(at 203.708 -11.938 0)
-		(effects
-			(font
-				(size 12.7 12.7)
-			)
-		)
-		(uuid "5dd6d10d-76ae-47f1-ae53-980d96a5f237")
-	)
 	(text_box "For a production board: \n- make R8, R6, R35 and R33, 0402 and exact!\n- make 47nF caps 0402"
 		(exclude_from_sim no)
 		(at 25.4 27.94 0)
