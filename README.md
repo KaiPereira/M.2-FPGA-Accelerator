@@ -5,6 +5,14 @@ This is an M.2 2280 M-Key card I've designed that plugs into the SSD slot in you
 <img width="2560" height="1407" alt="image" src="https://github.com/user-attachments/assets/77cba1c9-4b35-45fb-a068-d3ae5028eb26" />
 <img width="2560" height="1404" alt="image" src="https://github.com/user-attachments/assets/676cc1cd-6085-4a40-867c-d37594a27ac8" />
 
+## Custom Features
+- M.2 M-Key 2280 SSD Form Factor for PCIe programming and interfacing
+- Artix 7 with 50K LUTS and 256MB RAM
+- USB-to-JTAG for programming and interfacing with peripherals
+- HDMI and 10 pins broken out for extra functionality
+- Functions as a standlone devboard or can interface with your computer
+- 6 LED's for debugging and programming
+- TC2030 breakout under USB-C if you DNP USB-to-JTAG
 
 
 <img max-width="2560" max-height="1404" alt="image" src="https://github.com/user-attachments/assets/3c27cdb4-98ad-46a0-a430-d6244a5cbe2a" />
