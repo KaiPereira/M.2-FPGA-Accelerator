@@ -27,3 +27,21 @@ A V2 is likely going to use a custom or different stackup to reduce the trace wi
 <img max-width="2560" max-height="1403" alt="image" src="https://github.com/user-attachments/assets/d4cad3cf-e495-428b-bb94-e0beff3f1256" />
 <img max-width="2560" max-height="1399" alt="image" src="https://github.com/user-attachments/assets/7c44b159-f7a5-4b2a-a407-1c3497a4e905" />
 <img max-width="2560" max-height="1403" alt="image" src="https://github.com/user-attachments/assets/6df61845-10e0-4c02-b489-567c03f4d54b" />
+
+## Firmware
+
+Firmware is unwritten because I haven't produced the boards, and it requires significant prototyping in Vivado.
+
+## Production
+
+I've based the board around JLCPCB production and I've included an LCSC/JLCPCB BOM inside of the /production folder.
+
+It uses the JLC06081H-2116 stackup which you can find details about on the JLC site if you want to produce the board from a different fabricator.
+
+You'll want some specific settings too like:
+- Impedance controlled traces
+- ENIG and select gold fingers to add hard gold onto the M.2 M-Key edge connector
+- 0.8mm thick board
+- X-Ray to confirm all the BGA placement
+
+Produce this board at your own cost, it's an untested board and I haven't manufactured it myself yet, because I want to create a V2 with a different stackup, and it's an extremely constrained design so many problems can arise!  
