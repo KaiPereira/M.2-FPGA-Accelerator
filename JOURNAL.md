@@ -569,3 +569,40 @@ There's honestly not too many changes in the photo's, but here's the new power f
 ![Pasted image 20260331072333.png](images/Pasted%20image%2020260331072333.png)
 
 18 unrouted now, way less DRC errors, we're getting really close!
+
+## Finishing up the project- 20 Hours
+
+I went into a crazy focus mode in order to finish up this project, so I'm constraining it into one log.
+
+So the first thing I did was finish routing everything onto the board:
+
+![[Pasted image 20260727194611.png]]
+
+But I really wanted to add more LED's and also some header pins so that I could debug stuff, so with a lot of finesse, I added those in too:
+
+![[Pasted image 20260727194649.png]]
+![[Pasted image 20260727194707.png]]
+
+And after fixing all of the DRC errors which were mostly just problems with the fills not getting to some components, which required tuning up the settings for the fills, the board design is done :D
+
+![[Pasted image 20260727194737.png]]![[Pasted image 20260727194744.png]]
+
+*I also added in some 3D models of the missing components so the board would look more complete*
+
+Now I just had to create the BOM which was pretty simple because all of the complicated parts already had their part or manufacturing #'s because I was putting them in, while designing the board instead of after:
+
+![[Pasted image 20260727194846.png]]
+
+*Beautiful :D*
+
+Then, I produced all of my fab files, double checked everything and now we can move onto the README!
+
+I'm a big perfectionist when it comes to my README's, so this one was no different. I simply did an introduction + custom features + PCB Design + firmware + production notes in my README and just like that, it's complete.
+
+![[Pasted image 20260727195011.png]]
+
+My entire project is finally complete, the culmination of many months and nearly 200 hours of work, and it's beautiful.
+
+I'm probably not going to get the board manufactured until I re-do the board with a better stackup so I can reduce the trace width, and reduce the cross-talk for the DDR3.
+
+Extremely constrained boards like this are really tricky, but I think I did a great job and in the future, I'll probably work on boards with larger footprints so I'm not as constrained... lots of cool stuff to come :D 
