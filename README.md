@@ -2,8 +2,8 @@
 
 This is an M.2 2280 M-Key card I've designed that plugs into the SSD slot in your computer and provides an FPGA fabric you can interact with over PCIe. It also has a couple pins broken out and a couple connectors like HDMI and USB-C so you can create custom pipelines that go from peripherals, into the FPGA, directly into your computer through the high-speed PCIe. 
 
-<img max-width="2560" max-height="1406" alt="image" src="https://github.com/user-attachments/assets/06e0be6c-a6f9-4cff-b848-062d8ed4bddc" />
-<img max-width="2560" max-height="1404" alt="image" src="https://github.com/user-attachments/assets/5fd1d2f5-0621-4ca4-bce3-5af6de99a81a" />
+<img width="2294" height="1170" alt="image" src="https://github.com/user-attachments/assets/c2eb29f3-d6a1-4af3-851d-247a00442ee1" />
+<img width="2294" height="1170" alt="image" src="https://github.com/user-attachments/assets/9fa2184d-1399-4084-b12b-cc439b1a9534" />
 
 
 ## Custom Features
