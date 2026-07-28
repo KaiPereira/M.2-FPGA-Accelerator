@@ -2,25 +2,25 @@
 
 This is an M.2 2280 M-Key card I've designed that plugs into the SSD slot in your computer and provides an FPGA fabric you can interact with over PCIe. It also has a couple pins broken out and a couple connectors like HDMI and USB-C so you can create custom pipelines that go from peripherals, into the FPGA, directly into your computer through the high speed PCIe. 
 
-<img width="2560" height="1407" alt="image" src="https://github.com/user-attachments/assets/77cba1c9-4b35-45fb-a068-d3ae5028eb26" />
-<img width="2560" height="1404" alt="image" src="https://github.com/user-attachments/assets/676cc1cd-6085-4a40-867c-d37594a27ac8" />
+<img max-width="2560" max-height="1407" alt="image" src="https://github.com/user-attachments/assets/77cba1c9-4b35-45fb-a068-d3ae5028eb26" />
+<img max-width="2560" max-height="1404" alt="image" src="https://github.com/user-attachments/assets/676cc1cd-6085-4a40-867c-d37594a27ac8" />
 
 ## Custom Features
 - M.2 M-Key 2280 SSD Form Factor for PCIe programming and interfacing
-- Artix 7 with 50K LUTS and 256MB RAM
+- Artix 7 with 50K LUTs and 256MB RAM
 - USB-to-JTAG for programming and interfacing with peripherals
 - HDMI and 10 pins broken out for extra functionality
-- Functions as a standlone devboard or can interface with your computer
-- 6 LED's for debugging and programming
+- Functions as a standalone devboard or can interface with your computer
+- 6 LEDs for debugging and programming
 - TC2030 breakout under USB-C if you DNP USB-to-JTAG
 
 ## PCB Design
 
 The M.2 FPGA Hardware Accelerator is an extremely high density 0.8mm, 6 layer board using the JLC06081H-2116 stackup and has a stackup of SIGNAL/GND/SIGNAL/PWR/GND/SIGNAL.
 
-A V2 is likely going to use a custom or different stackup to reduce the trace width for the DDR3 traces so I can minimize the cross-talk further, which will bring problems in the current design.
+A V2 is likely going to use a custom or different stackup to reduce the trace width for the DDR3 traces so I can minimize the cross-talk further, which is an issue with the current board.
 
-<img width="2560" height="1404" alt="image" src="https://github.com/user-attachments/assets/ffda3a18-c65f-4f23-8eaf-7b9813e9cbef" />
+<img max-width="2560" max-height="1404" alt="image" src="https://github.com/user-attachments/assets/47e564b3-1be6-4827-a081-26e20712cb27" />
 <img max-width="2560" max-height="1404" alt="image" src="https://github.com/user-attachments/assets/3c27cdb4-98ad-46a0-a430-d6244a5cbe2a" />
 <img max-width="2560" max-height="1402" alt="image" src="https://github.com/user-attachments/assets/b163a9d5-e2fd-44cb-b5fc-3f52513e9f48" />
 <img max-width="2560" max-height="1405" alt="image" src="https://github.com/user-attachments/assets/66b56f1a-82a5-42f6-895b-27b8eeeb1387" />
@@ -30,7 +30,7 @@ A V2 is likely going to use a custom or different stackup to reduce the trace wi
 
 ## Firmware
 
-Firmware is unwritten because I haven't produced the boards, and it requires significant prototyping in Vivado.
+Firmware is unwritten because I haven't produced the boards, and it requires significant prototyping in Vivado but there is some basic skeleton software inside of the [/software](/software) folder.
 
 ## Production
 
