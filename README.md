@@ -1,6 +1,6 @@
 # M.2 FPGA Hardware Accelerator Devboard
 
-This is an M.2 2280 M-Key card I've designed that plugs into the SSD slot in your computer and provides an FPGA fabric you can interact with over PCIe. It also has a couple pins broken out and a couple connectors like HDMI and USB-C so you can create custom pipelines that go from peripherals, into the FPGA, directly into your computer through the high-speed PCIe. 
+This is an M.2 2280 M-Key card I've designed that plugs into the SSD slot in your computer and provides an FPGA fabric you can interact with over PCIe. It also has a couple pins broken out and a couple connectors like micro HDMI and USB-C so you can create custom pipelines that go from peripherals, into the FPGA, directly into your computer through the high-speed PCIe. 
 
 <img width="2294" height="1170" alt="image" src="https://github.com/user-attachments/assets/c2eb29f3-d6a1-4af3-851d-247a00442ee1" />
 <img width="2294" height="1170" alt="image" src="https://github.com/user-attachments/assets/9fa2184d-1399-4084-b12b-cc439b1a9534" />
@@ -10,7 +10,7 @@ This is an M.2 2280 M-Key card I've designed that plugs into the SSD slot in you
 - M.2 M-Key 2280 SSD Form Factor for PCIe programming and interfacing
 - Artix 7 with 50K LUTs and 256MB RAM
 - USB-to-JTAG for programming and interfacing with peripherals
-- HDMI and 10 pins broken out for extra functionality
+- Micro HDMI and 10 pins broken out for extra functionality
 - Functions as a standalone devboard or can interface with your computer
 - 6 LEDs for debugging and programming
 - TC2030 breakout under USB-C if you DNP USB-to-JTAG
