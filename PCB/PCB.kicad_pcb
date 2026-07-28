@@ -8201,7 +8201,7 @@
 			(uuid "27331631-8137-402c-a104-f45aee52b135")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_UDFN-10_1.0x2.5mm_P0.5mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_UDFN-10_1x2.5mm_P0.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12895,7 +12895,7 @@
 		(descr "QFN, 28 Pin (https://www.silabs.com/documents/public/data-sheets/C8051F32x.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U2"
-			(at 0 -3.8 270)
+			(at 0 -3.8 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "35533fcb-c577-4f3f-b621-6e6aae268845")
@@ -12907,7 +12907,7 @@
 			)
 		)
 		(property "Value" "MAX20029ATIA/V+"
-			(at 0 3.8 270)
+			(at 0 3.8 90)
 			(layer "F.Fab")
 			(uuid "e7fb59ba-c9e0-4080-9f63-d05350233ec8")
 			(effects
@@ -12918,7 +12918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "40ed080a-9e3f-4e38-b0df-7c7b5d0b8a90")
@@ -12929,7 +12929,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e363cb7d-fa86-4dec-aa19-823c66ac3484")
@@ -13271,7 +13271,7 @@
 			(uuid "420e6f6e-3015-4517-8776-5e7b02858864")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "cf4845e1-a44a-4e79-b57b-6e98a6768740")
 			(effects
@@ -13729,7 +13729,7 @@
 			(uuid "f66b5deb-d82e-43b9-a224-00d3c94511ac")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-28-1EP_5x5mm_P0.5mm_EP3.25x3.25mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17687,7 +17687,7 @@
 			(uuid "625a17aa-ea52-4c7e-8f51-04487d792a64")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_UDFN-10_1.0x2.5mm_P0.5mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_UDFN-10_1x2.5mm_P0.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28393,7 +28393,7 @@
 			(uuid "d2b0e6b1-6857-403a-887d-299a83557789")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_VQFN-HR-12_2x2.5mm_P0.5mm.step"
+		(model "${KICAD9_MODELS}/TPS2121RUXR.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28401,7 +28401,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -44452,7 +44452,7 @@
 			(uuid "a6448337-a829-44ae-ba51-13ad1f436b1d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -71513,7 +71513,7 @@
 			(uuid "cef0882a-a980-4917-b6d8-0ae0b33c6384")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_UDFN-10_1.0x2.5mm_P0.5mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_UDFN-10_1x2.5mm_P0.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
